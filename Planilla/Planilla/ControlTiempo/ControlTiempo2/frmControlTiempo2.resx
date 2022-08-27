@@ -1,0 +1,882 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="ContextMenuPlanilla.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="DsPlanilla1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>169, 17</value>
+  </metadata>
+  <metadata name="DsProyecto.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>274, 17</value>
+  </metadata>
+  <metadata name="SqlConnection2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>381, 17</value>
+  </metadata>
+  <metadata name="SqlConnection1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>509, 17</value>
+  </metadata>
+  <metadata name="adPlanillaDeducciones.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>637, 17</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand2.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand2.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="SqlDeleteCommand2.CommandText" xml:space="preserve">
+    <value>DELETE FROM Planilla_Deducciones WHERE (Id = @Original_Id) AND (Cod_Deduccion = @Original_Cod_Deduccion) AND (Cod_Moneda = @Original_Cod_Moneda) AND (Id_PlanillaDetalle = @Original_Id_PlanillaDetalle) AND (Monto = @Original_Monto) AND (Nombre = @Original_Nombre)</value>
+  </data>
+  <metadata name="SqlInsertCommand2.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlInsertCommand2.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="SqlInsertCommand2.CommandText" xml:space="preserve">
+    <value>INSERT INTO Planilla_Deducciones(Id_PlanillaDetalle, Cod_Deduccion, Nombre, Monto, Cod_Moneda) VALUES (@Id_PlanillaDetalle, @Cod_Deduccion, @Nombre, @Monto, @Cod_Moneda); SELECT Id, Id_PlanillaDetalle, Cod_Deduccion, Nombre, Monto, Cod_Moneda FROM Planilla_Deducciones WHERE (Id = @@IDENTITY)</value>
+  </data>
+  <metadata name="SqlSelectCommand2.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlSelectCommand2.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand2.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand2.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="SqlUpdateCommand2.CommandText" xml:space="preserve">
+    <value>UPDATE Planilla_Deducciones SET Id_PlanillaDetalle = @Id_PlanillaDetalle, Cod_Deduccion = @Cod_Deduccion, Nombre = @Nombre, Monto = @Monto, Cod_Moneda = @Cod_Moneda WHERE (Id = @Original_Id) AND (Cod_Deduccion = @Original_Cod_Deduccion) AND (Cod_Moneda = @Original_Cod_Moneda) AND (Id_PlanillaDetalle = @Original_Id_PlanillaDetalle) AND (Monto = @Original_Monto) AND (Nombre = @Original_Nombre); SELECT Id, Id_PlanillaDetalle, Cod_Deduccion, Nombre, Monto, Cod_Moneda FROM Planilla_Deducciones WHERE (Id = @Id)</value>
+  </data>
+  <metadata name="adPlanillaDetalle.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>798, 17</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand3.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand3.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand3.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlInsertCommand3.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="SqlInsertCommand3.CommandText" xml:space="preserve">
+    <value>INSERT INTO [Planilla_Detalle] ([Id_Planilla], [Cedula], [Nombre], [Puesto], [Salario], [FormaPago], [Ordinaria], [Extra], [Doble], [SalarioBruto], [Adelantos], [Prestamos], [Renta], [TotalDeducciones], [SalarioNeto], [Cod_Moneda], [Feriada], [Prestamos_Int], [Otros_Ingresos], [CuentasxCobrar], [Ord_Nocturna], [Ext_Nocturna], [DiasLibre], [DiasDescontar], [Vacaciones], [INS], [CCSS], [Embarazo]) VALUES (@Id_Planilla, @Cedula, @Nombre, @Puesto, @Salario, @FormaPago, @Ordinaria, @Extra, @Doble, @SalarioBruto, @Adelantos, @Prestamos, @Renta, @TotalDeducciones, @SalarioNeto, @Cod_Moneda, @Feriada, @Prestamos_Int, @Otros_Ingresos, @CuentasxCobrar, @Ord_Nocturna, @Ext_Nocturna, @DiasLibre, @DiasDescontar, @Vacaciones, @INS, @CCSS, @Embarazo);
+SELECT Id, Id_Planilla, Cedula, Nombre, Puesto, Salario, FormaPago, Ordinaria, Extra, Doble, SalarioBruto, Adelantos, Prestamos, Renta, TotalDeducciones, SalarioNeto, Cod_Moneda, Feriada, Prestamos_Int, Otros_Ingresos, CuentasxCobrar, Ord_Nocturna, Ext_Nocturna, DiasLibre, DiasDescontar, Vacaciones, INS, CCSS, Embarazo FROM Planilla_Detalle WHERE (Id = SCOPE_IDENTITY())</value>
+  </data>
+  <metadata name="SqlSelectCommand3.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlSelectCommand3.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="SqlSelectCommand3.CommandText" xml:space="preserve">
+    <value>SELECT        Id, Id_Planilla, Cedula, Nombre, Puesto, Salario, FormaPago, Ordinaria, Extra, Doble, SalarioBruto, Adelantos, Prestamos, Renta, TotalDeducciones, SalarioNeto, Cod_Moneda, Feriada, Prestamos_Int, Otros_Ingresos, 
+                         CuentasxCobrar, Ord_Nocturna, Ext_Nocturna, DiasLibre, DiasDescontar, Vacaciones, INS, CCSS, Embarazo
+FROM            Planilla_Detalle</value>
+  </data>
+  <metadata name="SqlUpdateCommand3.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand3.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="SqlUpdateCommand3.CommandText" xml:space="preserve">
+    <value>UPDATE [Planilla_Detalle] SET [Id_Planilla] = @Id_Planilla, [Cedula] = @Cedula, [Nombre] = @Nombre, [Puesto] = @Puesto, [Salario] = @Salario, [FormaPago] = @FormaPago, [Ordinaria] = @Ordinaria, [Extra] = @Extra, [Doble] = @Doble, [SalarioBruto] = @SalarioBruto, [Adelantos] = @Adelantos, [Prestamos] = @Prestamos, [Renta] = @Renta, [TotalDeducciones] = @TotalDeducciones, [SalarioNeto] = @SalarioNeto, [Cod_Moneda] = @Cod_Moneda, [Feriada] = @Feriada, [Prestamos_Int] = @Prestamos_Int, [Otros_Ingresos] = @Otros_Ingresos, [CuentasxCobrar] = @CuentasxCobrar, [Ord_Nocturna] = @Ord_Nocturna, [Ext_Nocturna] = @Ext_Nocturna, [DiasLibre] = @DiasLibre, [DiasDescontar] = @DiasDescontar, [Vacaciones] = @Vacaciones, [INS] = @INS, [CCSS] = @CCSS, [Embarazo] = @Embarazo WHERE (([Id] = @Original_Id));
+SELECT Id, Id_Planilla, Cedula, Nombre, Puesto, Salario, FormaPago, Ordinaria, Extra, Doble, SalarioBruto, Adelantos, Prestamos, Renta, TotalDeducciones, SalarioNeto, Cod_Moneda, Feriada, Prestamos_Int, Otros_Ingresos, CuentasxCobrar, Ord_Nocturna, Ext_Nocturna, DiasLibre, DiasDescontar, Vacaciones, INS, CCSS, Embarazo FROM Planilla_Detalle WHERE (Id = @Id)</value>
+  </data>
+  <metadata name="adEmpleados.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>931, 17</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand4.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand4.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand4.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="SqlDeleteCommand4.CommandText" xml:space="preserve">
+    <value>DELETE FROM Empleado WHERE (Identificacion = @Original_Identificacion) AND (CambioCedula = @Original_CambioCedula) AND (Cod_Departamento = @Original_Cod_Departamento) AND (Cod_Estado = @Original_Cod_Estado) AND (Cod_Moneda = @Original_Cod_Moneda) AND (Cod_Nacionalidad = @Original_Cod_Nacionalidad) AND (Diario = @Original_Diario) AND (Direccion = @Original_Direccion) AND (Edad = @Original_Edad) AND (Email = @Original_Email) AND (Estado_Civil = @Original_Estado_Civil) AND (Fecha_Ingreso = @Original_Fecha_Ingreso) AND (Fecha_Nacimiento = @Original_Fecha_Nacimiento) AND (Fecha_Salida = @Original_Fecha_Salida) AND (Femenino = @Original_Femenino) AND (Hijos = @Original_Hijos) AND (Hora = @Original_Hora) AND (HorasOrdinarias = @Original_HorasOrdinarias) AND (Masculino = @Original_Masculino) AND (Mensual = @Original_Mensual) AND (Nombre = @Original_Nombre) AND (NuevaCedula = @Original_NuevaCedula) AND (Puesto = @Original_Puesto) AND (Quincena = @Original_Quincena) AND (Salario = @Original_Salario) AND (Semana = @Original_Semana) AND (ServiciosProf = @Original_ServiciosProf) AND (Telefono1 = @Original_Telefono1) AND (Telefono2 = @Original_Telefono2)</value>
+  </data>
+  <metadata name="SqlInsertCommand4.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand4.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlInsertCommand4.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="SqlInsertCommand4.CommandText" xml:space="preserve">
+    <value>INSERT INTO Empleado(Identificacion, Nombre, Estado_Civil, Hijos, Cod_Nacionalidad, Fecha_Nacimiento, Edad, Telefono1, Telefono2, Email, Direccion, Puesto, Fecha_Ingreso, Fecha_Salida, Salario, Cod_Departamento, Masculino, Femenino, Cod_Moneda, Hora, Diario, Semana, Quincena, Mensual, Cod_Estado, Foto, HorasOrdinarias, ServiciosProf, CambioCedula, NuevaCedula) VALUES (@Identificacion, @Nombre, @Estado_Civil, @Hijos, @Cod_Nacionalidad, @Fecha_Nacimiento, @Edad, @Telefono1, @Telefono2, @Email, @Direccion, @Puesto, @Fecha_Ingreso, @Fecha_Salida, @Salario, @Cod_Departamento, @Masculino, @Femenino, @Cod_Moneda, @Hora, @Diario, @Semana, @Quincena, @Mensual, @Cod_Estado, @Foto, @HorasOrdinarias, @ServiciosProf, @CambioCedula, @NuevaCedula); SELECT Identificacion, Nombre, Estado_Civil, Hijos, Cod_Nacionalidad, Fecha_Nacimiento, Edad, Telefono1, Telefono2, Email, Direccion, Puesto, Fecha_Ingreso, Fecha_Salida, Salario, Cod_Departamento, Masculino, Femenino, Cod_Moneda, Hora, Diario, Semana, Quincena, Mensual, Cod_Estado, Foto, HorasOrdinarias, ServiciosProf, CambioCedula, NuevaCedula FROM Empleado WHERE (Identificacion = @Identificacion) ORDER BY Nombre</value>
+  </data>
+  <metadata name="SqlSelectCommand4.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand4.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlSelectCommand4.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="SqlSelectCommand4.CommandText" xml:space="preserve">
+    <value>SELECT Identificacion, Nombre, Estado_Civil, Hijos, Cod_Nacionalidad, Fecha_Nacimiento, Edad, Telefono1, Telefono2, Email, Direccion, Puesto, Fecha_Ingreso, Fecha_Salida, Salario, Cod_Departamento, Masculino, Femenino, Cod_Moneda, Hora, Diario, Semana, Quincena, Mensual, Cod_Estado, Foto, HorasOrdinarias, ServiciosProf, CambioCedula, NuevaCedula FROM Empleado ORDER BY Nombre</value>
+  </data>
+  <metadata name="SqlUpdateCommand4.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand4.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand4.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="SqlUpdateCommand4.CommandText" xml:space="preserve">
+    <value>UPDATE Empleado SET Identificacion = @Identificacion, Nombre = @Nombre, Estado_Civil = @Estado_Civil, Hijos = @Hijos, Cod_Nacionalidad = @Cod_Nacionalidad, Fecha_Nacimiento = @Fecha_Nacimiento, Edad = @Edad, Telefono1 = @Telefono1, Telefono2 = @Telefono2, Email = @Email, Direccion = @Direccion, Puesto = @Puesto, Fecha_Ingreso = @Fecha_Ingreso, Fecha_Salida = @Fecha_Salida, Salario = @Salario, Cod_Departamento = @Cod_Departamento, Masculino = @Masculino, Femenino = @Femenino, Cod_Moneda = @Cod_Moneda, Hora = @Hora, Diario = @Diario, Semana = @Semana, Quincena = @Quincena, Mensual = @Mensual, Cod_Estado = @Cod_Estado, Foto = @Foto, HorasOrdinarias = @HorasOrdinarias, ServiciosProf = @ServiciosProf, CambioCedula = @CambioCedula, NuevaCedula = @NuevaCedula WHERE (Identificacion = @Original_Identificacion) AND (CambioCedula = @Original_CambioCedula) AND (Cod_Departamento = @Original_Cod_Departamento) AND (Cod_Estado = @Original_Cod_Estado) AND (Cod_Moneda = @Original_Cod_Moneda) AND (Cod_Nacionalidad = @Original_Cod_Nacionalidad) AND (Diario = @Original_Diario) AND (Direccion = @Original_Direccion) AND (Edad = @Original_Edad) AND (Email = @Original_Email) AND (Estado_Civil = @Original_Estado_Civil) AND (Fecha_Ingreso = @Original_Fecha_Ingreso) AND (Fecha_Nacimiento = @Original_Fecha_Nacimiento) AND (Fecha_Salida = @Original_Fecha_Salida) AND (Femenino = @Original_Femenino) AND (Hijos = @Original_Hijos) AND (Hora = @Original_Hora) AND (HorasOrdinarias = @Original_HorasOrdinarias) AND (Masculino = @Original_Masculino) AND (Mensual = @Original_Mensual) AND (Nombre = @Original_Nombre) AND (NuevaCedula = @Original_NuevaCedula) AND (Puesto = @Original_Puesto) AND (Quincena = @Original_Quincena) AND (Salario = @Original_Salario) AND (Semana = @Original_Semana) AND (ServiciosProf = @Original_ServiciosProf) AND (Telefono1 = @Original_Telefono1) AND (Telefono2 = @Original_Telefono2); SELECT Identificacion, Nombre, Estado_Civil, Hijos, Cod_Nacionalidad, Fecha_Nacimiento, Edad, Telefono1, Telefono2, Email, Direccion, Puesto, Fecha_Ingreso, Fecha_Salida, Salario, Cod_Departamento, Masculino, Femenino, Cod_Moneda, Hora, Diario, Semana, Quincena, Mensual, Cod_Estado, Foto, HorasOrdinarias, ServiciosProf, CambioCedula, NuevaCedula FROM Empleado WHERE (Identificacion = @Identificacion) ORDER BY Nombre</value>
+  </data>
+  <metadata name="adDeducciones.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1048, 17</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand5.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand5.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand5.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="SqlDeleteCommand5.CommandText" xml:space="preserve">
+    <value>DELETE FROM Deducciones WHERE (Codigo = @Original_Codigo) AND (Aplica = @Original_Aplica) AND (Cod_Moneda = @Original_Cod_Moneda) AND (Descripcion = @Original_Descripcion) AND (Monto = @Original_Monto) AND (Tipo = @Original_Tipo)</value>
+  </data>
+  <metadata name="SqlInsertCommand5.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand5.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlInsertCommand5.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="SqlInsertCommand5.CommandText" xml:space="preserve">
+    <value>INSERT INTO Deducciones(Descripcion, Monto, Tipo, Aplica, Cod_Moneda) VALUES (@Descripcion, @Monto, @Tipo, @Aplica, @Cod_Moneda); SELECT Codigo, Descripcion, Monto, Tipo, Aplica, Cod_Moneda FROM Deducciones WHERE (Codigo = @@IDENTITY)</value>
+  </data>
+  <metadata name="SqlSelectCommand5.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand5.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlSelectCommand5.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand5.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand5.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand5.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="SqlUpdateCommand5.CommandText" xml:space="preserve">
+    <value>UPDATE Deducciones SET Descripcion = @Descripcion, Monto = @Monto, Tipo = @Tipo, Aplica = @Aplica, Cod_Moneda = @Cod_Moneda WHERE (Codigo = @Original_Codigo) AND (Aplica = @Original_Aplica) AND (Cod_Moneda = @Original_Cod_Moneda) AND (Descripcion = @Original_Descripcion) AND (Monto = @Original_Monto) AND (Tipo = @Original_Tipo); SELECT Codigo, Descripcion, Monto, Tipo, Aplica, Cod_Moneda FROM Deducciones WHERE (Codigo = @Codigo)</value>
+  </data>
+  <metadata name="adAdelantos.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 54</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand6.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand6.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand6.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="SqlDeleteCommand6.CommandText" xml:space="preserve">
+    <value>DELETE FROM Adelantos WHERE (Numero = @Original_Numero) AND (Adelanto = @Original_Adelanto) AND (Anulado = @Original_Anulado) AND (Cod_Moneda = @Original_Cod_Moneda) AND (DeducirxPago = @Original_DeducirxPago) AND (FechaCobro = @Original_FechaCobro) AND (FechaComprobante = @Original_FechaComprobante) AND (Identificacion = @Original_Identificacion) AND (InteresPrestamo = @Original_InteresPrestamo) AND (Monto = @Original_Monto) AND (MontoEnLetras = @Original_MontoEnLetras) AND (Nombre = @Original_Nombre) AND (NombreUsuario = @Original_NombreUsuario) AND (Num_Pago = @Original_Num_Pago) AND (Observaciones = @Original_Observaciones) AND (Prestamo = @Original_Prestamo) AND (Puesto = @Original_Puesto) AND (Salario = @Original_Salario) AND (Saldo = @Original_Saldo OR @Original_Saldo IS NULL AND Saldo IS NULL) AND (Usuario = @Original_Usuario)</value>
+  </data>
+  <metadata name="SqlInsertCommand6.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand6.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlInsertCommand6.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="SqlInsertCommand6.CommandText" xml:space="preserve">
+    <value>INSERT INTO Adelantos(Identificacion, Nombre, Adelanto, Prestamo, Puesto, Salario, FechaComprobante, Num_Pago, Monto, MontoEnLetras, FechaCobro, Observaciones, DeducirxPago, Usuario, NombreUsuario, Cod_Moneda, Anulado, Saldo, InteresPrestamo) VALUES (@Identificacion, @Nombre, @Adelanto, @Prestamo, @Puesto, @Salario, @FechaComprobante, @Num_Pago, @Monto, @MontoEnLetras, @FechaCobro, @Observaciones, @DeducirxPago, @Usuario, @NombreUsuario, @Cod_Moneda, @Anulado, @Saldo, @InteresPrestamo); SELECT Numero, Identificacion, Nombre, Adelanto, Prestamo, Puesto, Salario, FechaComprobante, Num_Pago, Monto, MontoEnLetras, FechaCobro, Observaciones, DeducirxPago, Usuario, NombreUsuario, Cod_Moneda, Anulado, Saldo, InteresPrestamo FROM Adelantos WHERE (Numero = @@IDENTITY)</value>
+  </data>
+  <metadata name="SqlSelectCommand6.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand6.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlSelectCommand6.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="SqlSelectCommand6.CommandText" xml:space="preserve">
+    <value>SELECT Numero, Identificacion, Nombre, Adelanto, Prestamo, Puesto, Salario, FechaComprobante, Num_Pago, Monto, MontoEnLetras, FechaCobro, Observaciones, DeducirxPago, Usuario, NombreUsuario, Cod_Moneda, Anulado, Saldo, InteresPrestamo FROM Adelantos WHERE (Anulado = 0)</value>
+  </data>
+  <metadata name="SqlUpdateCommand6.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand6.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand6.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="SqlUpdateCommand6.CommandText" xml:space="preserve">
+    <value>UPDATE Adelantos SET Identificacion = @Identificacion, Nombre = @Nombre, Adelanto = @Adelanto, Prestamo = @Prestamo, Puesto = @Puesto, Salario = @Salario, FechaComprobante = @FechaComprobante, Num_Pago = @Num_Pago, Monto = @Monto, MontoEnLetras = @MontoEnLetras, FechaCobro = @FechaCobro, Observaciones = @Observaciones, DeducirxPago = @DeducirxPago, Usuario = @Usuario, NombreUsuario = @NombreUsuario, Cod_Moneda = @Cod_Moneda, Anulado = @Anulado, Saldo = @Saldo, InteresPrestamo = @InteresPrestamo WHERE (Numero = @Original_Numero) AND (Adelanto = @Original_Adelanto) AND (Anulado = @Original_Anulado) AND (Cod_Moneda = @Original_Cod_Moneda) AND (DeducirxPago = @Original_DeducirxPago) AND (FechaCobro = @Original_FechaCobro) AND (FechaComprobante = @Original_FechaComprobante) AND (Identificacion = @Original_Identificacion) AND (InteresPrestamo = @Original_InteresPrestamo) AND (Monto = @Original_Monto) AND (MontoEnLetras = @Original_MontoEnLetras) AND (Nombre = @Original_Nombre) AND (NombreUsuario = @Original_NombreUsuario) AND (Num_Pago = @Original_Num_Pago) AND (Observaciones = @Original_Observaciones) AND (Prestamo = @Original_Prestamo) AND (Puesto = @Original_Puesto) AND (Salario = @Original_Salario) AND (Saldo = @Original_Saldo OR @Original_Saldo IS NULL AND Saldo IS NULL) AND (Usuario = @Original_Usuario); SELECT Numero, Identificacion, Nombre, Adelanto, Prestamo, Puesto, Salario, FechaComprobante, Num_Pago, Monto, MontoEnLetras, FechaCobro, Observaciones, DeducirxPago, Usuario, NombreUsuario, Cod_Moneda, Anulado, Saldo, InteresPrestamo FROM Adelantos WHERE (Numero = @Numero)</value>
+  </data>
+  <metadata name="adRenta.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>129, 54</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand7.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand7.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand7.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="SqlDeleteCommand7.CommandText" xml:space="preserve">
+    <value>DELETE FROM ParametroRenta WHERE (Id = @Original_Id) AND (Esposa = @Original_Esposa) AND (Hijo = @Original_Hijo) AND (MontoDe = @Original_MontoDe) AND (MontoEnAdelante = @Original_MontoEnAdelante) AND (MontoExento = @Original_MontoExento) AND (MontoHasta = @Original_MontoHasta) AND (Porcentaje1 = @Original_Porcentaje1) AND (Porcentaje2 = @Original_Porcentaje2)</value>
+  </data>
+  <metadata name="SqlInsertCommand7.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand7.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlInsertCommand7.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="SqlInsertCommand7.CommandText" xml:space="preserve">
+    <value>INSERT INTO ParametroRenta(MontoExento, MontoDe, MontoHasta, Porcentaje1, MontoEnAdelante, Porcentaje2, Esposa, Hijo) VALUES (@MontoExento, @MontoDe, @MontoHasta, @Porcentaje1, @MontoEnAdelante, @Porcentaje2, @Esposa, @Hijo); SELECT Id, MontoExento, MontoDe, MontoHasta, Porcentaje1, MontoEnAdelante, Porcentaje2, Esposa, Hijo FROM ParametroRenta WHERE (Id = @@IDENTITY)</value>
+  </data>
+  <metadata name="SqlSelectCommand7.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand7.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlSelectCommand7.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand7.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand7.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand7.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="SqlUpdateCommand7.CommandText" xml:space="preserve">
+    <value>UPDATE ParametroRenta SET MontoExento = @MontoExento, MontoDe = @MontoDe, MontoHasta = @MontoHasta, Porcentaje1 = @Porcentaje1, MontoEnAdelante = @MontoEnAdelante, Porcentaje2 = @Porcentaje2, Esposa = @Esposa, Hijo = @Hijo WHERE (Id = @Original_Id) AND (Esposa = @Original_Esposa) AND (Hijo = @Original_Hijo) AND (MontoDe = @Original_MontoDe) AND (MontoEnAdelante = @Original_MontoEnAdelante) AND (MontoExento = @Original_MontoExento) AND (MontoHasta = @Original_MontoHasta) AND (Porcentaje1 = @Original_Porcentaje1) AND (Porcentaje2 = @Original_Porcentaje2); SELECT Id, MontoExento, MontoDe, MontoHasta, Porcentaje1, MontoEnAdelante, Porcentaje2, Esposa, Hijo FROM ParametroRenta WHERE (Id = @Id)</value>
+  </data>
+  <metadata name="adEmpleadoDeducciones.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>221, 54</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand10.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand10.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand10.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="SqlDeleteCommand10.CommandText" xml:space="preserve">
+    <value>DELETE FROM Empleado_Deducciones WHERE (Id = @Original_Id) AND (Cod_Moneda = @Original_Cod_Moneda) AND (Codigo = @Original_Codigo) AND (Descripcion = @Original_Descripcion) AND (Identificacion = @Original_Identificacion) AND (Monto = @Original_Monto) AND (Tipo = @Original_Tipo)</value>
+  </data>
+  <metadata name="SqlInsertCommand10.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand10.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlInsertCommand10.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="SqlInsertCommand10.CommandText" xml:space="preserve">
+    <value>INSERT INTO Empleado_Deducciones(Identificacion, Codigo, Descripcion, Monto, Tipo, Cod_Moneda) VALUES (@Identificacion, @Codigo, @Descripcion, @Monto, @Tipo, @Cod_Moneda); SELECT Id, Identificacion, Codigo, Descripcion, Monto, Tipo, Cod_Moneda FROM Empleado_Deducciones WHERE (Id = @@IDENTITY)</value>
+  </data>
+  <metadata name="SqlSelectCommand10.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand10.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlSelectCommand10.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand10.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand10.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand10.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="SqlUpdateCommand10.CommandText" xml:space="preserve">
+    <value>UPDATE Empleado_Deducciones SET Identificacion = @Identificacion, Codigo = @Codigo, Descripcion = @Descripcion, Monto = @Monto, Tipo = @Tipo, Cod_Moneda = @Cod_Moneda WHERE (Id = @Original_Id) AND (Cod_Moneda = @Original_Cod_Moneda) AND (Codigo = @Original_Codigo) AND (Descripcion = @Original_Descripcion) AND (Identificacion = @Original_Identificacion) AND (Monto = @Original_Monto) AND (Tipo = @Original_Tipo); SELECT Id, Identificacion, Codigo, Descripcion, Monto, Tipo, Cod_Moneda FROM Empleado_Deducciones WHERE (Id = @Id)</value>
+  </data>
+  <metadata name="HorasTrabajadas.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>396, 54</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand11.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand11.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand11.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="SqlDeleteCommand11.CommandText" xml:space="preserve">
+    <value>DELETE FROM HorasTrabajadas WHERE (Id = @Original_Id) AND (Fecha = @Original_Fecha) AND (HoraDoble = @Original_HoraDoble) AND (HoraExtra = @Original_HoraExtra) AND (HoraOrdinaria = @Original_HoraOrdinaria) AND (Identificacion = @Original_Identificacion)</value>
+  </data>
+  <metadata name="SqlInsertCommand11.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand11.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlInsertCommand11.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="SqlInsertCommand11.CommandText" xml:space="preserve">
+    <value>INSERT INTO HorasTrabajadas(Identificacion, Fecha, HoraOrdinaria, HoraExtra, HoraDoble, Id_Proyecto) VALUES (@Identificacion, @Fecha, @HoraOrdinaria, @HoraExtra, @HoraDoble, @Id_Proyecto); SELECT Id, Identificacion, Fecha, HoraOrdinaria, HoraExtra, HoraDoble, Id_Proyecto FROM HorasTrabajadas WHERE (Id = @@IDENTITY)</value>
+  </data>
+  <metadata name="SqlSelectCommand11.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand11.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlSelectCommand11.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand11.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand11.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand11.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="SqlUpdateCommand11.CommandText" xml:space="preserve">
+    <value>UPDATE HorasTrabajadas SET Identificacion = @Identificacion, Fecha = @Fecha, HoraOrdinaria = @HoraOrdinaria, HoraExtra = @HoraExtra, HoraDoble = @HoraDoble, Id_Proyecto = @Id_Proyecto WHERE (Id = @Original_Id) AND (Fecha = @Original_Fecha) AND (HoraDoble = @Original_HoraDoble) AND (HoraExtra = @Original_HoraExtra) AND (HoraOrdinaria = @Original_HoraOrdinaria) AND (Identificacion = @Original_Identificacion); SELECT Id, Identificacion, Fecha, HoraOrdinaria, HoraExtra, HoraDoble, Id_Proyecto FROM HorasTrabajadas WHERE (Id = @Id)</value>
+  </data>
+  <metadata name="adPlanilla.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>531, 54</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="SqlDeleteCommand1.CommandText" xml:space="preserve">
+    <value>DELETE FROM Planilla WHERE (Id_Planilla = @Original_Id_Planilla) AND (Anulado = @Original_Anulado) AND (Ced_Usuario = @Original_Ced_Usuario) AND (CierreMes = @Original_CierreMes) AND (Fecha = @Original_Fecha) AND (FechaFinal = @Original_FechaFinal) AND (FechaInicial = @Original_FechaInicial) AND (Nombre_Usuario = @Original_Nombre_Usuario) AND (NumeroPlanilla = @Original_NumeroPlanilla) AND (Serv_Prof = @Original_Serv_Prof)</value>
+  </data>
+  <metadata name="SqlInsertCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlInsertCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="SqlInsertCommand1.CommandText" xml:space="preserve">
+    <value>INSERT INTO Planilla(Fecha, FechaInicial, FechaFinal, CierreMes, Ced_Usuario, Nombre_Usuario, Anulado, Serv_Prof, NumeroPlanilla) VALUES (@Fecha, @FechaInicial, @FechaFinal, @CierreMes, @Ced_Usuario, @Nombre_Usuario, @Anulado, @Serv_Prof, @NumeroPlanilla); SELECT Id_Planilla, Fecha, FechaInicial, FechaFinal, CierreMes, Ced_Usuario, Nombre_Usuario, Anulado, Serv_Prof, NumeroPlanilla FROM Planilla WHERE (Id_Planilla = @@IDENTITY)</value>
+  </data>
+  <metadata name="SqlSelectCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlSelectCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="SqlUpdateCommand1.CommandText" xml:space="preserve">
+    <value>UPDATE Planilla SET Fecha = @Fecha, FechaInicial = @FechaInicial, FechaFinal = @FechaFinal, CierreMes = @CierreMes, Ced_Usuario = @Ced_Usuario, Nombre_Usuario = @Nombre_Usuario, Anulado = @Anulado, Serv_Prof = @Serv_Prof, NumeroPlanilla = @NumeroPlanilla WHERE (Id_Planilla = @Original_Id_Planilla) AND (Anulado = @Original_Anulado) AND (Ced_Usuario = @Original_Ced_Usuario) AND (CierreMes = @Original_CierreMes) AND (Fecha = @Original_Fecha) AND (FechaFinal = @Original_FechaFinal) AND (FechaInicial = @Original_FechaInicial) AND (Nombre_Usuario = @Original_Nombre_Usuario) AND (NumeroPlanilla = @Original_NumeroPlanilla) AND (Serv_Prof = @Original_Serv_Prof); SELECT Id_Planilla, Fecha, FechaInicial, FechaFinal, CierreMes, Ced_Usuario, Nombre_Usuario, Anulado, Serv_Prof, NumeroPlanilla FROM Planilla WHERE (Id_Planilla = @Id_Planilla)</value>
+  </data>
+  <metadata name="adAccion.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>629, 54</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand8.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand8.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand8.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="SqlDeleteCommand8.CommandText" xml:space="preserve">
+    <value>DELETE FROM AccionPersonal WHERE (Num_Accion = @Original_Num_Accion) AND (Anula = @Original_Anula) AND (DiasaDescontar = @Original_DiasaDescontar) AND (Fecha = @Original_Fecha) AND (HechoPor = @Original_HechoPor) AND (Id_Accion = @Original_Id_Accion) AND (Id_Empleado = @Original_Id_Empleado) AND (NombreUsuario = @Original_NombreUsuario) AND (Nombre_Empleado = @Original_Nombre_Empleado) AND (Observaciones = @Original_Observaciones) AND (Puesto = @Original_Puesto) AND (RigeDesde = @Original_RigeDesde) AND (RigeHasta = @Original_RigeHasta)</value>
+  </data>
+  <metadata name="SqlInsertCommand8.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand8.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlInsertCommand8.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="SqlInsertCommand8.CommandText" xml:space="preserve">
+    <value>INSERT INTO AccionPersonal(Id_Empleado, Nombre_Empleado, Puesto, Id_Accion, Fecha, Observaciones, RigeDesde, RigeHasta, DiasaDescontar, HechoPor, NombreUsuario, Anula) VALUES (@Id_Empleado, @Nombre_Empleado, @Puesto, @Id_Accion, @Fecha, @Observaciones, @RigeDesde, @RigeHasta, @DiasaDescontar, @HechoPor, @NombreUsuario, @Anula); SELECT Num_Accion, Id_Empleado, Nombre_Empleado, Puesto, Id_Accion, Fecha, Observaciones, RigeDesde, RigeHasta, DiasaDescontar, HechoPor, NombreUsuario, Anula FROM AccionPersonal WHERE (Num_Accion = @@IDENTITY)</value>
+  </data>
+  <metadata name="SqlSelectCommand8.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand8.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlSelectCommand8.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand8.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand8.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand8.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="SqlUpdateCommand8.CommandText" xml:space="preserve">
+    <value>UPDATE AccionPersonal SET Id_Empleado = @Id_Empleado, Nombre_Empleado = @Nombre_Empleado, Puesto = @Puesto, Id_Accion = @Id_Accion, Fecha = @Fecha, Observaciones = @Observaciones, RigeDesde = @RigeDesde, RigeHasta = @RigeHasta, DiasaDescontar = @DiasaDescontar, HechoPor = @HechoPor, NombreUsuario = @NombreUsuario, Anula = @Anula WHERE (Num_Accion = @Original_Num_Accion) AND (Anula = @Original_Anula) AND (DiasaDescontar = @Original_DiasaDescontar) AND (Fecha = @Original_Fecha) AND (HechoPor = @Original_HechoPor) AND (Id_Accion = @Original_Id_Accion) AND (Id_Empleado = @Original_Id_Empleado) AND (NombreUsuario = @Original_NombreUsuario) AND (Nombre_Empleado = @Original_Nombre_Empleado) AND (Observaciones = @Original_Observaciones) AND (Puesto = @Original_Puesto) AND (RigeDesde = @Original_RigeDesde) AND (RigeHasta = @Original_RigeHasta); SELECT Num_Accion, Id_Empleado, Nombre_Empleado, Puesto, Id_Accion, Fecha, Observaciones, RigeDesde, RigeHasta, DiasaDescontar, HechoPor, NombreUsuario, Anula FROM AccionPersonal WHERE (Num_Accion = @Num_Accion)</value>
+  </data>
+  <metadata name="adMoneda.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>725, 54</value>
+  </metadata>
+  <metadata name="SqlSelectCommand13.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand13.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlSelectCommand13.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand12.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand12.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlInsertCommand12.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="SqlInsertCommand12.CommandText" xml:space="preserve">
+    <value>INSERT INTO Moneda(CodMoneda, MonedaNombre, ValorCompra, ValorVenta, Simbolo) VALUES (@CodMoneda, @MonedaNombre, @ValorCompra, @ValorVenta, @Simbolo); SELECT CodMoneda, MonedaNombre, ValorCompra, ValorVenta, Simbolo FROM Moneda WHERE (CodMoneda = @CodMoneda)</value>
+  </data>
+  <metadata name="SqlSelectCommand12.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand12.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlSelectCommand12.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand12.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand12.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand12.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="SqlUpdateCommand12.CommandText" xml:space="preserve">
+    <value>UPDATE Moneda SET CodMoneda = @CodMoneda, MonedaNombre = @MonedaNombre, ValorCompra = @ValorCompra, ValorVenta = @ValorVenta, Simbolo = @Simbolo WHERE (CodMoneda = @Original_CodMoneda) AND (MonedaNombre = @Original_MonedaNombre) AND (Simbolo = @Original_Simbolo) AND (ValorCompra = @Original_ValorCompra) AND (ValorVenta = @Original_ValorVenta); SELECT CodMoneda, MonedaNombre, ValorCompra, ValorVenta, Simbolo FROM Moneda WHERE (CodMoneda = @CodMoneda)</value>
+  </data>
+  <metadata name="AdAdelanto_Detalle.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>828, 54</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand9.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand9.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand9.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="SqlDeleteCommand9.CommandText" xml:space="preserve">
+    <value>DELETE FROM Adelantos_Detalle WHERE (Id_Detalle_AP = @Original_Id_Detalle_AP) AND (Id_Empleado = @Original_Id_Empleado) AND (Id_Planilla = @Original_Id_Planilla) AND (Interes_Prestamo = @Original_Interes_Prestamo) AND (Monto = @Original_Monto) AND (Numero = @Original_Numero) AND (Saldo = @Original_Saldo) AND (Tipo_Pago = @Original_Tipo_Pago)</value>
+  </data>
+  <metadata name="SqlInsertCommand9.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand9.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlInsertCommand9.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="SqlInsertCommand9.CommandText" xml:space="preserve">
+    <value>INSERT INTO Adelantos_Detalle(Id_Empleado, Numero, Monto, Tipo_Pago, Id_Planilla, Interes_Prestamo, Saldo) VALUES (@Id_Empleado, @Numero, @Monto, @Tipo_Pago, @Id_Planilla, @Interes_Prestamo, @Saldo); SELECT Id_Detalle_AP, Id_Empleado, Numero, Monto, Tipo_Pago, Id_Planilla, Interes_Prestamo, Saldo FROM Adelantos_Detalle WHERE (Id_Detalle_AP = @@IDENTITY)</value>
+  </data>
+  <metadata name="SqlSelectCommand9.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand9.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlSelectCommand9.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand9.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand9.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand9.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="SqlUpdateCommand9.CommandText" xml:space="preserve">
+    <value>UPDATE Adelantos_Detalle SET Id_Empleado = @Id_Empleado, Numero = @Numero, Monto = @Monto, Tipo_Pago = @Tipo_Pago, Id_Planilla = @Id_Planilla, Interes_Prestamo = @Interes_Prestamo, Saldo = @Saldo WHERE (Id_Detalle_AP = @Original_Id_Detalle_AP) AND (Id_Empleado = @Original_Id_Empleado) AND (Id_Planilla = @Original_Id_Planilla) AND (Interes_Prestamo = @Original_Interes_Prestamo) AND (Monto = @Original_Monto) AND (Numero = @Original_Numero) AND (Saldo = @Original_Saldo) AND (Tipo_Pago = @Original_Tipo_Pago); SELECT Id_Detalle_AP, Id_Empleado, Numero, Monto, Tipo_Pago, Id_Planilla, Interes_Prestamo, Saldo FROM Adelantos_Detalle WHERE (Id_Detalle_AP = @Id_Detalle_AP)</value>
+  </data>
+  <metadata name="AdOrdinarias.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>977, 54</value>
+  </metadata>
+  <metadata name="SqlSelectCommand14.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand14.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlSelectCommand14.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlDataAdapterAbonocCobrar.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 91</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand13.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand13.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand13.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlConnectionHotel.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>216, 91</value>
+  </metadata>
+  <metadata name="SqlInsertCommand14.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand14.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlInsertCommand14.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="SqlInsertCommand14.CommandText" xml:space="preserve">
+    <value>INSERT INTO [abonoccobrar] ([Num_Recibo], [Cod_Cliente], [Nombre_Cliente], [Saldo_Cuenta], [Monto], [Saldo_Actual], [Fecha], [Observaciones], [Anula], [Ced_Usuario], [Contabilizado], [Asiento], [Cod_Moneda], [Id_Planilla]) VALUES (@Num_Recibo, @Cod_Cliente, @Nombre_Cliente, @Saldo_Cuenta, @Monto, @Saldo_Actual, @Fecha, @Observaciones, @Anula, @Ced_Usuario, @Contabilizado, @Asiento, @Cod_Moneda, @Id_Planilla);
+SELECT Id_Recibo, Num_Recibo, Cod_Cliente, Nombre_Cliente, Saldo_Cuenta, Monto, Saldo_Actual, Fecha, Observaciones, Anula, Ced_Usuario, Contabilizado, Asiento, Cod_Moneda, Id_Planilla FROM abonoccobrar WHERE (Id_Recibo = SCOPE_IDENTITY())</value>
+  </data>
+  <metadata name="SqlSelectCommand16.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand16.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlSelectCommand16.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="SqlSelectCommand16.CommandText" xml:space="preserve">
+    <value>SELECT        Id_Recibo, Num_Recibo, Cod_Cliente, Nombre_Cliente, Saldo_Cuenta, Monto, Saldo_Actual, Fecha, Observaciones, Anula, Ced_Usuario, Contabilizado, Asiento, Cod_Moneda, Id_Planilla
+FROM            abonoccobrar</value>
+  </data>
+  <metadata name="SqlUpdateCommand14.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand14.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand14.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="SqlUpdateCommand14.CommandText" xml:space="preserve">
+    <value>UPDATE [abonoccobrar] SET [Num_Recibo] = @Num_Recibo, [Cod_Cliente] = @Cod_Cliente, [Nombre_Cliente] = @Nombre_Cliente, [Saldo_Cuenta] = @Saldo_Cuenta, [Monto] = @Monto, [Saldo_Actual] = @Saldo_Actual, [Fecha] = @Fecha, [Observaciones] = @Observaciones, [Anula] = @Anula, [Ced_Usuario] = @Ced_Usuario, [Contabilizado] = @Contabilizado, [Asiento] = @Asiento, [Cod_Moneda] = @Cod_Moneda, [Id_Planilla] = @Id_Planilla WHERE (([Id_Recibo] = @Original_Id_Recibo));
+SELECT Id_Recibo, Num_Recibo, Cod_Cliente, Nombre_Cliente, Saldo_Cuenta, Monto, Saldo_Actual, Fecha, Observaciones, Anula, Ced_Usuario, Contabilizado, Asiento, Cod_Moneda, Id_Planilla FROM abonoccobrar WHERE (Id_Recibo = @Id_Recibo)</value>
+  </data>
+  <metadata name="SqlDataAdapterDetalleAbono_cCobrar.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>364, 91</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand12.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand12.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand12.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand13.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand13.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlInsertCommand13.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="SqlInsertCommand13.CommandText" xml:space="preserve">
+    <value>INSERT INTO [detalle_abonoccobrar] ([Id_Recibo], [Factura], [Fecha], [Tipo], [Monto], [Saldo_Ant], [Intereses], [Abono], [Abono_SuMoneda], [Saldo]) VALUES (@Id_Recibo, @Factura, @Fecha, @Tipo, @Monto, @Saldo_Ant, @Intereses, @Abono, @Abono_SuMoneda, @Saldo);
+SELECT Consecutivo, Id_Recibo, Factura, Fecha, Tipo, Monto, Saldo_Ant, Intereses, Abono, Abono_SuMoneda, Saldo FROM detalle_abonoccobrar WHERE (Consecutivo = SCOPE_IDENTITY())</value>
+  </data>
+  <metadata name="SqlSelectCommand15.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand15.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlSelectCommand15.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand13.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand13.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand13.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="SqlUpdateCommand13.CommandText" xml:space="preserve">
+    <value>UPDATE [detalle_abonoccobrar] SET [Id_Recibo] = @Id_Recibo, [Factura] = @Factura, [Fecha] = @Fecha, [Tipo] = @Tipo, [Monto] = @Monto, [Saldo_Ant] = @Saldo_Ant, [Intereses] = @Intereses, [Abono] = @Abono, [Abono_SuMoneda] = @Abono_SuMoneda, [Saldo] = @Saldo WHERE (([Consecutivo] = @Original_Consecutivo));
+SELECT Consecutivo, Id_Recibo, Factura, Fecha, Tipo, Monto, Saldo_Ant, Intereses, Abono, Abono_SuMoneda, Saldo FROM detalle_abonoccobrar WHERE (Consecutivo = @Consecutivo)</value>
+  </data>
+  <metadata name="AdapterDed.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>604, 91</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand14.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand14.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand14.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="SqlDeleteCommand14.CommandText" xml:space="preserve">
+    <value>DELETE FROM Deduccion_Empleado WHERE (Id_Deduccion = @Original_Id_Deduccion) AND (ALIMENTACION = @Original_ALIMENTACION) AND (CAMISETAS = @Original_CAMISETAS) AND (CCSS = @Original_CCSS) AND (CodMoneda = @Original_CodMoneda) AND (Id_Detalle = @Original_Id_Detalle) AND (PENSION = @Original_PENSION)</value>
+  </data>
+  <metadata name="SqlInsertCommand15.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand15.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlInsertCommand15.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="SqlInsertCommand15.CommandText" xml:space="preserve">
+    <value>INSERT INTO Deduccion_Empleado(Id_Detalle, CCSS, ALIMENTACION, CAMISETAS, PENSION, CodMoneda) VALUES (@Id_Detalle, @CCSS, @ALIMENTACION, @CAMISETAS, @PENSION, @CodMoneda); SELECT Id_Deduccion, Id_Detalle, CCSS, ALIMENTACION, CAMISETAS, PENSION, CodMoneda FROM Deduccion_Empleado WHERE (Id_Deduccion = @@IDENTITY)</value>
+  </data>
+  <metadata name="SqlSelectCommand17.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand17.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlSelectCommand17.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand15.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand15.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand15.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="SqlUpdateCommand15.CommandText" xml:space="preserve">
+    <value>UPDATE Deduccion_Empleado SET Id_Detalle = @Id_Detalle, CCSS = @CCSS, ALIMENTACION = @ALIMENTACION, CAMISETAS = @CAMISETAS, PENSION = @PENSION, CodMoneda = @CodMoneda WHERE (Id_Deduccion = @Original_Id_Deduccion) AND (ALIMENTACION = @Original_ALIMENTACION) AND (CAMISETAS = @Original_CAMISETAS) AND (CCSS = @Original_CCSS) AND (CodMoneda = @Original_CodMoneda) AND (Id_Detalle = @Original_Id_Detalle) AND (PENSION = @Original_PENSION); SELECT Id_Deduccion, Id_Detalle, CCSS, ALIMENTACION, CAMISETAS, PENSION, CodMoneda FROM Deduccion_Empleado WHERE (Id_Deduccion = @Id_Deduccion)</value>
+  </data>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>149</value>
+  </metadata>
+</root>

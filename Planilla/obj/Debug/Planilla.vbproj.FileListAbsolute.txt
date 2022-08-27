@@ -1,0 +1,199 @@
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.exe
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.pdb
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\bin\Planilla.exe
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\bin\Planilla.pdb
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\bin\Planilla.xml
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\bin\Utilidades.dll
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\bin\Utilidades.pdb
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.FrmConfiguración.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.Buscar.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.FrmBuscador.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.FrmPlantilla.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.FrmReportes.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.frmVisorReportes.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.Reportes.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.ReportesAccion.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.ReportesVacaciones1.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.AccionPersonal.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.BuscaAccionPersonal.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.Accion.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.BuscaAccion.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.frmAdelantos.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.frmAumentos.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.ConfiguracionHorasOrdinarias.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.Comprobante.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.frmBuscaModificaPlanilla.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.frmControlTiempo2.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.frmFormaPago.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.frmModificaPlanilla.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.frmPagoAutomaticoBN.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.PagoAguinaldos.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.Fmarcas.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.FrmMarcas1.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.FrmPin.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.frmControl3.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.frmControlTiempo.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.frmReportePlanilla2.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.HorasTrabajadas.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.ReportePlanilla.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.Deducciones.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.Departamento.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.Departamento1.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.fmrBuscarMayorizacionAsiento.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.frmBuscaEmpleado.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.FrmEmpleado.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.FrmVisorpago.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.Visor_Reportes.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.frmEstadoEmpleado.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.ImpuestoRenta.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.LiquidacionLaboral.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.MenuPlanilla.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.FrmNacionalidad.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.AccionPorFecha.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.FrmIngresosEmpleados.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.FrmCertificacion.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.FrmHistoricoPrestamo.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.FrmReporteEmpleado.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.frmReporte_Horas.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.Plantilla.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.Frmusuario.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.Frm_login.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.vbproj.GenerateResource.Cache
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.exe.licenses
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.xml
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.Resources.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\bin\Utilidades.xml
+E:\sistema de planilla\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.exe
+E:\sistema de planilla\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.xml
+E:\sistema de planilla\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.pdb
+E:\sistema de planilla\RRHH - ULTIMO\Planilla\bin\Planilla.exe
+E:\sistema de planilla\RRHH - ULTIMO\Planilla\bin\Planilla.pdb
+E:\sistema de planilla\RRHH - ULTIMO\Planilla\bin\Planilla.xml
+E:\sistema de planilla\RRHH - ULTIMO\Planilla\bin\Utilidades.dll
+E:\sistema de planilla\RRHH - ULTIMO\Planilla\bin\Utilidades.pdb
+E:\sistema de planilla\RRHH - ULTIMO\Planilla\bin\Utilidades.xml
+E:\sistema de planilla\RRHH - ULTIMO\Planilla\obj\Debug\ResolveAssemblyReference.cache
+E:\sistema de planilla\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.FrmConfiguración.resources
+E:\sistema de planilla\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.Buscar.resources
+E:\sistema de planilla\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.FrmBuscador.resources
+E:\sistema de planilla\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.FrmPlantilla.resources
+E:\sistema de planilla\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.FrmReportes.resources
+E:\sistema de planilla\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.frmVisorReportes.resources
+E:\sistema de planilla\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.Reportes.resources
+E:\sistema de planilla\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.ReportesAccion.resources
+E:\sistema de planilla\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.ReportesVacaciones1.resources
+E:\sistema de planilla\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.Resources.resources
+E:\sistema de planilla\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.AccionPersonal.resources
+E:\sistema de planilla\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.BuscaAccionPersonal.resources
+E:\sistema de planilla\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.Accion.resources
+E:\sistema de planilla\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.BuscaAccion.resources
+E:\sistema de planilla\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.frmAdelantos.resources
+E:\sistema de planilla\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.frmAumentos.resources
+E:\sistema de planilla\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.ConfiguracionHorasOrdinarias.resources
+E:\sistema de planilla\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.Comprobante.resources
+E:\sistema de planilla\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.frmBuscaModificaPlanilla.resources
+E:\sistema de planilla\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.frmControlTiempo2.resources
+E:\sistema de planilla\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.frmFormaPago.resources
+E:\sistema de planilla\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.frmModificaPlanilla.resources
+E:\sistema de planilla\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.frmPagoAutomaticoBN.resources
+E:\sistema de planilla\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.PagoAguinaldos.resources
+E:\sistema de planilla\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.Fmarcas.resources
+E:\sistema de planilla\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.FrmMarcas1.resources
+E:\sistema de planilla\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.FrmPin.resources
+E:\sistema de planilla\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.frmControl3.resources
+E:\sistema de planilla\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.frmControlTiempo.resources
+E:\sistema de planilla\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.frmReportePlanilla2.resources
+E:\sistema de planilla\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.HorasTrabajadas.resources
+E:\sistema de planilla\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.ReportePlanilla.resources
+E:\sistema de planilla\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.Deducciones.resources
+E:\sistema de planilla\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.Departamento.resources
+E:\sistema de planilla\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.Departamento1.resources
+E:\sistema de planilla\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.fmrBuscarMayorizacionAsiento.resources
+E:\sistema de planilla\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.frmBuscaEmpleado.resources
+E:\sistema de planilla\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.FrmEmpleado.resources
+E:\sistema de planilla\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.FrmVisorpago.resources
+E:\sistema de planilla\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.Visor_Reportes.resources
+E:\sistema de planilla\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.frmEstadoEmpleado.resources
+E:\sistema de planilla\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.ImpuestoRenta.resources
+E:\sistema de planilla\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.LiquidacionLaboral.resources
+E:\sistema de planilla\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.MenuPlanilla.resources
+E:\sistema de planilla\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.FrmNacionalidad.resources
+E:\sistema de planilla\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.AccionPorFecha.resources
+E:\sistema de planilla\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.FrmIngresosEmpleados.resources
+E:\sistema de planilla\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.FrmCertificacion.resources
+E:\sistema de planilla\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.FrmHistoricoPrestamo.resources
+E:\sistema de planilla\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.FrmReporteEmpleado.resources
+E:\sistema de planilla\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.frmReporte_Horas.resources
+E:\sistema de planilla\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.Plantilla.resources
+E:\sistema de planilla\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.Frmusuario.resources
+E:\sistema de planilla\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.Frm_login.resources
+E:\sistema de planilla\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.vbproj.GenerateResource.Cache
+E:\sistema de planilla\RRHH - ULTIMO\Planilla\obj\Debug\Planilla.exe.licenses
+C:\Users\TIOBSoluciones\Desktop\Planilla SUVESA\RRHH - ULTIMO - 2015\Planilla\bin\Planilla.exe
+C:\Users\TIOBSoluciones\Desktop\Planilla SUVESA\RRHH - ULTIMO - 2015\Planilla\bin\Planilla.pdb
+C:\Users\TIOBSoluciones\Desktop\Planilla SUVESA\RRHH - ULTIMO - 2015\Planilla\bin\Planilla.xml
+C:\Users\TIOBSoluciones\Desktop\Planilla SUVESA\RRHH - ULTIMO - 2015\Planilla\bin\Utilidades.dll
+C:\Users\TIOBSoluciones\Desktop\Planilla SUVESA\RRHH - ULTIMO - 2015\Planilla\bin\Utilidades.pdb
+C:\Users\TIOBSoluciones\Desktop\Planilla SUVESA\RRHH - ULTIMO - 2015\Planilla\bin\Utilidades.xml
+C:\Users\TIOBSoluciones\Desktop\Planilla SUVESA\RRHH - ULTIMO - 2015\Planilla\obj\Debug\Planilla.vbprojResolveAssemblyReference.cache
+C:\Users\TIOBSoluciones\Desktop\Planilla SUVESA\RRHH - ULTIMO - 2015\Planilla\obj\Debug\Planilla.FrmConfiguración.resources
+C:\Users\TIOBSoluciones\Desktop\Planilla SUVESA\RRHH - ULTIMO - 2015\Planilla\obj\Debug\Planilla.Buscar.resources
+C:\Users\TIOBSoluciones\Desktop\Planilla SUVESA\RRHH - ULTIMO - 2015\Planilla\obj\Debug\Planilla.FrmBuscador.resources
+C:\Users\TIOBSoluciones\Desktop\Planilla SUVESA\RRHH - ULTIMO - 2015\Planilla\obj\Debug\Planilla.FrmPlantilla.resources
+C:\Users\TIOBSoluciones\Desktop\Planilla SUVESA\RRHH - ULTIMO - 2015\Planilla\obj\Debug\Planilla.FrmReportes.resources
+C:\Users\TIOBSoluciones\Desktop\Planilla SUVESA\RRHH - ULTIMO - 2015\Planilla\obj\Debug\Planilla.frmVisorReportes.resources
+C:\Users\TIOBSoluciones\Desktop\Planilla SUVESA\RRHH - ULTIMO - 2015\Planilla\obj\Debug\Planilla.Reportes.resources
+C:\Users\TIOBSoluciones\Desktop\Planilla SUVESA\RRHH - ULTIMO - 2015\Planilla\obj\Debug\Planilla.ReportesAccion.resources
+C:\Users\TIOBSoluciones\Desktop\Planilla SUVESA\RRHH - ULTIMO - 2015\Planilla\obj\Debug\Planilla.ReportesVacaciones1.resources
+C:\Users\TIOBSoluciones\Desktop\Planilla SUVESA\RRHH - ULTIMO - 2015\Planilla\obj\Debug\Planilla.Resources.resources
+C:\Users\TIOBSoluciones\Desktop\Planilla SUVESA\RRHH - ULTIMO - 2015\Planilla\obj\Debug\Planilla.AccionPersonal.resources
+C:\Users\TIOBSoluciones\Desktop\Planilla SUVESA\RRHH - ULTIMO - 2015\Planilla\obj\Debug\Planilla.BuscaAccionPersonal.resources
+C:\Users\TIOBSoluciones\Desktop\Planilla SUVESA\RRHH - ULTIMO - 2015\Planilla\obj\Debug\Planilla.Accion.resources
+C:\Users\TIOBSoluciones\Desktop\Planilla SUVESA\RRHH - ULTIMO - 2015\Planilla\obj\Debug\Planilla.BuscaAccion.resources
+C:\Users\TIOBSoluciones\Desktop\Planilla SUVESA\RRHH - ULTIMO - 2015\Planilla\obj\Debug\Planilla.frmAdelantos.resources
+C:\Users\TIOBSoluciones\Desktop\Planilla SUVESA\RRHH - ULTIMO - 2015\Planilla\obj\Debug\Planilla.frmAguinaldo.resources
+C:\Users\TIOBSoluciones\Desktop\Planilla SUVESA\RRHH - ULTIMO - 2015\Planilla\obj\Debug\Planilla.frmAumentos.resources
+C:\Users\TIOBSoluciones\Desktop\Planilla SUVESA\RRHH - ULTIMO - 2015\Planilla\obj\Debug\Planilla.ConfiguracionHorasOrdinarias.resources
+C:\Users\TIOBSoluciones\Desktop\Planilla SUVESA\RRHH - ULTIMO - 2015\Planilla\obj\Debug\Planilla.Comprobante.resources
+C:\Users\TIOBSoluciones\Desktop\Planilla SUVESA\RRHH - ULTIMO - 2015\Planilla\obj\Debug\Planilla.frmBuscaModificaPlanilla.resources
+C:\Users\TIOBSoluciones\Desktop\Planilla SUVESA\RRHH - ULTIMO - 2015\Planilla\obj\Debug\Planilla.frmControlTiempo2.resources
+C:\Users\TIOBSoluciones\Desktop\Planilla SUVESA\RRHH - ULTIMO - 2015\Planilla\obj\Debug\Planilla.frmFormaPago.resources
+C:\Users\TIOBSoluciones\Desktop\Planilla SUVESA\RRHH - ULTIMO - 2015\Planilla\obj\Debug\Planilla.frmModificaPlanilla.resources
+C:\Users\TIOBSoluciones\Desktop\Planilla SUVESA\RRHH - ULTIMO - 2015\Planilla\obj\Debug\Planilla.frmPagoAutomaticoBN.resources
+C:\Users\TIOBSoluciones\Desktop\Planilla SUVESA\RRHH - ULTIMO - 2015\Planilla\obj\Debug\Planilla.PagoAguinaldos.resources
+C:\Users\TIOBSoluciones\Desktop\Planilla SUVESA\RRHH - ULTIMO - 2015\Planilla\obj\Debug\Planilla.Fmarcas.resources
+C:\Users\TIOBSoluciones\Desktop\Planilla SUVESA\RRHH - ULTIMO - 2015\Planilla\obj\Debug\Planilla.FrmMarcas1.resources
+C:\Users\TIOBSoluciones\Desktop\Planilla SUVESA\RRHH - ULTIMO - 2015\Planilla\obj\Debug\Planilla.FrmPin.resources
+C:\Users\TIOBSoluciones\Desktop\Planilla SUVESA\RRHH - ULTIMO - 2015\Planilla\obj\Debug\Planilla.frmControl3.resources
+C:\Users\TIOBSoluciones\Desktop\Planilla SUVESA\RRHH - ULTIMO - 2015\Planilla\obj\Debug\Planilla.frmControlTiempo.resources
+C:\Users\TIOBSoluciones\Desktop\Planilla SUVESA\RRHH - ULTIMO - 2015\Planilla\obj\Debug\Planilla.frmReportePlanilla2.resources
+C:\Users\TIOBSoluciones\Desktop\Planilla SUVESA\RRHH - ULTIMO - 2015\Planilla\obj\Debug\Planilla.HorasTrabajadas.resources
+C:\Users\TIOBSoluciones\Desktop\Planilla SUVESA\RRHH - ULTIMO - 2015\Planilla\obj\Debug\Planilla.ReportePlanilla.resources
+C:\Users\TIOBSoluciones\Desktop\Planilla SUVESA\RRHH - ULTIMO - 2015\Planilla\obj\Debug\Planilla.Deducciones.resources
+C:\Users\TIOBSoluciones\Desktop\Planilla SUVESA\RRHH - ULTIMO - 2015\Planilla\obj\Debug\Planilla.Departamento.resources
+C:\Users\TIOBSoluciones\Desktop\Planilla SUVESA\RRHH - ULTIMO - 2015\Planilla\obj\Debug\Planilla.Departamento1.resources
+C:\Users\TIOBSoluciones\Desktop\Planilla SUVESA\RRHH - ULTIMO - 2015\Planilla\obj\Debug\Planilla.fmrBuscarMayorizacionAsiento.resources
+C:\Users\TIOBSoluciones\Desktop\Planilla SUVESA\RRHH - ULTIMO - 2015\Planilla\obj\Debug\Planilla.frmBuscaEmpleado.resources
+C:\Users\TIOBSoluciones\Desktop\Planilla SUVESA\RRHH - ULTIMO - 2015\Planilla\obj\Debug\Planilla.FrmEmpleado.resources
+C:\Users\TIOBSoluciones\Desktop\Planilla SUVESA\RRHH - ULTIMO - 2015\Planilla\obj\Debug\Planilla.FrmVisorpago.resources
+C:\Users\TIOBSoluciones\Desktop\Planilla SUVESA\RRHH - ULTIMO - 2015\Planilla\obj\Debug\Planilla.Visor_Reportes.resources
+C:\Users\TIOBSoluciones\Desktop\Planilla SUVESA\RRHH - ULTIMO - 2015\Planilla\obj\Debug\Planilla.frmEstadoEmpleado.resources
+C:\Users\TIOBSoluciones\Desktop\Planilla SUVESA\RRHH - ULTIMO - 2015\Planilla\obj\Debug\Planilla.ImpuestoRenta.resources
+C:\Users\TIOBSoluciones\Desktop\Planilla SUVESA\RRHH - ULTIMO - 2015\Planilla\obj\Debug\Planilla.LiquidacionLaboral.resources
+C:\Users\TIOBSoluciones\Desktop\Planilla SUVESA\RRHH - ULTIMO - 2015\Planilla\obj\Debug\Planilla.MenuPlanilla.resources
+C:\Users\TIOBSoluciones\Desktop\Planilla SUVESA\RRHH - ULTIMO - 2015\Planilla\obj\Debug\Planilla.FrmNacionalidad.resources
+C:\Users\TIOBSoluciones\Desktop\Planilla SUVESA\RRHH - ULTIMO - 2015\Planilla\obj\Debug\Planilla.AccionPorFecha.resources
+C:\Users\TIOBSoluciones\Desktop\Planilla SUVESA\RRHH - ULTIMO - 2015\Planilla\obj\Debug\Planilla.FrmIngresosEmpleados.resources
+C:\Users\TIOBSoluciones\Desktop\Planilla SUVESA\RRHH - ULTIMO - 2015\Planilla\obj\Debug\Planilla.FrmCertificacion.resources
+C:\Users\TIOBSoluciones\Desktop\Planilla SUVESA\RRHH - ULTIMO - 2015\Planilla\obj\Debug\Planilla.FrmHistoricoPrestamo.resources
+C:\Users\TIOBSoluciones\Desktop\Planilla SUVESA\RRHH - ULTIMO - 2015\Planilla\obj\Debug\Planilla.FrmReporteEmpleado.resources
+C:\Users\TIOBSoluciones\Desktop\Planilla SUVESA\RRHH - ULTIMO - 2015\Planilla\obj\Debug\Planilla.frmReporte_Horas.resources
+C:\Users\TIOBSoluciones\Desktop\Planilla SUVESA\RRHH - ULTIMO - 2015\Planilla\obj\Debug\Planilla.Plantilla.resources
+C:\Users\TIOBSoluciones\Desktop\Planilla SUVESA\RRHH - ULTIMO - 2015\Planilla\obj\Debug\Planilla.Frmusuario.resources
+C:\Users\TIOBSoluciones\Desktop\Planilla SUVESA\RRHH - ULTIMO - 2015\Planilla\obj\Debug\Planilla.Frm_login.resources
+C:\Users\TIOBSoluciones\Desktop\Planilla SUVESA\RRHH - ULTIMO - 2015\Planilla\obj\Debug\Planilla.vbproj.GenerateResource.Cache
+C:\Users\TIOBSoluciones\Desktop\Planilla SUVESA\RRHH - ULTIMO - 2015\Planilla\obj\Debug\Planilla.exe.licenses
+C:\Users\TIOBSoluciones\Desktop\Planilla SUVESA\RRHH - ULTIMO - 2015\Planilla\obj\Debug\Planilla.exe
+C:\Users\TIOBSoluciones\Desktop\Planilla SUVESA\RRHH - ULTIMO - 2015\Planilla\obj\Debug\Planilla.xml
+C:\Users\TIOBSoluciones\Desktop\Planilla SUVESA\RRHH - ULTIMO - 2015\Planilla\obj\Debug\Planilla.pdb

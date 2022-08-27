@@ -1,0 +1,353 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E8E9E5F1-0B91-40BE-923B-909405EA40BE}</ProjectGuid>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>Utilidades</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyMode>None</AssemblyOriginatorKeyMode>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionStrict>Off</OptionStrict>
+    <RootNamespace>Utilidades</RootNamespace>
+    <StartupObject>Utilidades.%28Ninguno%29</StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <MyType>Windows</MyType>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>Utilidades.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>Utilidades.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Design, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.VSDesigner, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Web, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data">
+      <Name>DevExpress.Data</Name>
+      <HintPath>C:\Archivos de programa\Archivos comunes\DevExpress\.NET\DevExpress.Data.dll</HintPath>
+      <AssemblyFolderKey>hklm\devexpress.net</AssemblyFolderKey>
+    </Reference>
+    <Reference Include="DevExpress.Utils">
+      <Name>DevExpress.Utils</Name>
+      <HintPath>C:\Archivos de programa\Archivos comunes\DevExpress\.NET\DevExpress.Utils.dll</HintPath>
+      <AssemblyFolderKey>hklm\devexpress.net</AssemblyFolderKey>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars">
+      <Name>DevExpress.XtraBars</Name>
+      <HintPath>C:\Archivos de programa\Archivos comunes\DevExpress\.NET\DevExpress.XtraBars.dll</HintPath>
+      <AssemblyFolderKey>hklm\devexpress.net</AssemblyFolderKey>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.Design">
+      <Name>DevExpress.XtraBars.Design</Name>
+      <HintPath>C:\Archivos de programa\Archivos comunes\DevExpress\.NET\DevExpress.XtraBars.Design.dll</HintPath>
+      <AssemblyFolderKey>hklm\devexpress.net</AssemblyFolderKey>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors">
+      <Name>DevExpress.XtraEditors</Name>
+      <HintPath>C:\Archivos de programa\Archivos comunes\DevExpress\.NET\DevExpress.XtraEditors.dll</HintPath>
+      <AssemblyFolderKey>hklm\devexpress.net</AssemblyFolderKey>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.Design">
+      <Name>DevExpress.XtraEditors.Design</Name>
+      <HintPath>C:\Archivos de programa\Archivos comunes\DevExpress\.NET\DevExpress.XtraEditors.Design.dll</HintPath>
+      <AssemblyFolderKey>hklm\devexpress.net</AssemblyFolderKey>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid">
+      <Name>DevExpress.XtraGrid</Name>
+      <HintPath>C:\Archivos de programa\Archivos comunes\DevExpress\.NET\DevExpress.XtraGrid.dll</HintPath>
+      <AssemblyFolderKey>hklm\devexpress.net</AssemblyFolderKey>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.Design">
+      <Name>DevExpress.XtraGrid.Design</Name>
+      <HintPath>C:\Archivos de programa\Archivos comunes\DevExpress\.NET\DevExpress.XtraGrid.Design.dll</HintPath>
+      <AssemblyFolderKey>hklm\devexpress.net</AssemblyFolderKey>
+    </Reference>
+    <Reference Include="DevExpress.XtraGridMenus">
+      <Name>DevExpress.XtraGridMenus</Name>
+      <HintPath>C:\Archivos de programa\Archivos comunes\DevExpress\.NET\DevExpress.XtraGridMenus.dll</HintPath>
+      <AssemblyFolderKey>hklm\devexpress.net</AssemblyFolderKey>
+    </Reference>
+    <Reference Include="DevExpress.XtraNavBar">
+      <Name>DevExpress.XtraNavBar</Name>
+      <HintPath>..\..\Archivos de programa\Archivos comunes\DevExpress\.NET\DevExpress.XtraNavBar.dll</HintPath>
+      <AssemblyFolderKey>hklm\devexpress.net</AssemblyFolderKey>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic">
+      <Name>Microsoft.VisualBasic</Name>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic.Compatibility">
+      <Name>Microsoft.VisualBasic.Compatibility</Name>
+    </Reference>
+    <Reference Include="stdole">
+      <Name>stdole</Name>
+      <HintPath>..\..\Archivos de programa\Microsoft.NET\Primary Interop Assemblies\stdole.dll</HintPath>
+      <AssemblyFolderKey>hklm\primary interop assemblies</AssemblyFolderKey>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Design">
+      <Name>System.Design</Name>
+    </Reference>
+    <Reference Include="System.DirectoryServices">
+      <Name>System.DirectoryServices</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.EnterpriseServices">
+      <Name>System.EnterpriseServices</Name>
+    </Reference>
+    <Reference Include="System.Web">
+      <Name>System.Web</Name>
+    </Reference>
+    <Reference Include="System.Web.Services">
+      <Name>System.Web.Services</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <Reference Include="ValidText">
+      <Name>ValidText</Name>
+      <HintPath>..\Bin\ValidText.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="General\Buscador\frmBuscar.resx">
+      <DependentUpon>frmBuscar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="General\Buscar Articulo\FrmBuscarArticulo.resx">
+      <DependentUpon>FrmBuscarArticulo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="General\FrmBuscador.resx">
+      <DependentUpon>FrmBuscador.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="General\FrmBuscador5C.resx">
+      <DependentUpon>FrmBuscador5C.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="General\FrmBuscadorN.resx">
+      <DependentUpon>FrmBuscadorN.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="General\FrmPlantilla.resx">
+      <DependentUpon>FrmPlantilla.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="General\Respaldar\Respaldo.resx">
+      <DependentUpon>Respaldo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="General\Usuarios\frmCambioContrasena.resx">
+      <DependentUpon>frmCambioContrasena.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="General\Usuarios\Frm_login.resx">
+      <DependentUpon>Frm_login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="General\Visor Reporte\frmVisorReportes.resx">
+      <DependentUpon>frmVisorReportes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="licenses.licx" />
+    <Content Include="bin\ValidText.dll" />
+    <Content Include="General\283.ico" />
+    <Content Include="General\Buscar Articulo\DataSetCatalogoInventario.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetCatalogoInventario.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="General\Usuarios\DataSetUsuario_logging.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetUsuario_logging.Designer.vb</LastGenOutput>
+    </Content>
+    <Compile Include="General\Buscador\frmBuscar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="General\Buscar Articulo\DataSetCatalogoInventario.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetCatalogoInventario.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="General\Buscar Articulo\FrmBuscarArticulo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="General\FrmBuscador.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="General\FrmBuscador5C.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="General\FrmBuscadorN.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="General\FrmPlantilla.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="General\Respaldar\Respaldo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="General\Usuarios\DataSetUsuario_logging.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetUsuario_logging.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="General\Usuarios\frmCambioContrasena.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="General\Usuarios\Frm_login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="General\Visor Reporte\frmVisorReportes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulos\cFunciones.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Modulos\cNum2Text.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Modulos\Conexion.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Modulos\CrystalReports.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Modulos\Seguridad.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Modulos\Usuario_Logeado.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <None Include="General\Buscar Articulo\DataSetCatalogoInventario.xsx">
+      <DependentUpon>DataSetCatalogoInventario.xsd</DependentUpon>
+    </None>
+    <None Include="General\Usuarios\DataSetUsuario_logging.xsx">
+      <DependentUpon>DataSetUsuario_logging.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="My Project\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

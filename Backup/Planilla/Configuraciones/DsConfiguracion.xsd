@@ -1,0 +1,96 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="DsConfiguracion" targetNamespace="http://www.tempuri.org/DsConfiguracion.xsd" xmlns:mstns="http://www.tempuri.org/DsConfiguracion.xsd" xmlns="http://www.tempuri.org/DsConfiguracion.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:element name="DsConfiguracion" msdata:IsDataSet="true" msdata:Locale="es-CR">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element name="configuraciones">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Cedula" type="xs:string" />
+              <xs:element name="Empresa" type="xs:string" />
+              <xs:element name="Tel_01" type="xs:string" />
+              <xs:element name="Tel_02" type="xs:string" minOccurs="0" />
+              <xs:element name="Fax_01" type="xs:string" minOccurs="0" />
+              <xs:element name="Fax_02" type="xs:string" minOccurs="0" />
+              <xs:element name="Direccion" type="xs:string" />
+              <xs:element name="Imp_Venta" type="xs:double" />
+              <xs:element name="Frase" type="xs:string" minOccurs="0" />
+              <xs:element name="Imp_Servicio" type="xs:double" />
+              <xs:element name="Logo" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="Intereses" type="xs:int" />
+              <xs:element name="Imp_ICT" type="xs:double" minOccurs="0" />
+              <xs:element name="Total_Dias_Cancelar" type="xs:int" />
+              <xs:element name="Email" type="xs:string" minOccurs="0" />
+              <xs:element name="Dirrecion_Web" type="xs:string" minOccurs="0" />
+              <xs:element name="Comision_Habitaciones" type="xs:boolean" />
+              <xs:element name="Comision_Servicio" type="xs:boolean" />
+              <xs:element name="Comision_Restaurant" type="xs:boolean" />
+              <xs:element name="Cuenta_Bancaria1" type="xs:string" minOccurs="0" />
+              <xs:element name="Cuenta_Bancaria2" type="xs:string" minOccurs="0" />
+              <xs:element name="Impresora_Facturacion" type="xs:string" minOccurs="0" />
+              <xs:element name="Maximo_Descuento" type="xs:double" minOccurs="0" />
+              <xs:element name="PersonaJuridica" type="xs:string" minOccurs="0" />
+              <xs:element name="CantidadHabitaciones" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Departamento">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Id" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:int" />
+              <xs:element name="Departamento" type="xs:string" />
+              <xs:element name="CuentaContableSalario" type="xs:string" minOccurs="0" />
+              <xs:element name="CuentaContableCCSS" type="xs:string" minOccurs="0" />
+              <xs:element name="CuentaContableAguinaldo" type="xs:string" minOccurs="0" />
+              <xs:element name="CuentaContableVacaciones" type="xs:string" minOccurs="0" />
+              <xs:element name="CuentaContableProvAguinaldo" type="xs:string" minOccurs="0" />
+              <xs:element name="CuentaContableProvVacaciones" type="xs:string" minOccurs="0" />
+              <xs:element name="CuentaContableRetencionesCCSS" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Planilla_Detalle">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Id" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:long" />
+              <xs:element name="Id_Planilla" type="xs:long" />
+              <xs:element name="Cedula" type="xs:string" />
+              <xs:element name="Nombre" type="xs:string" />
+              <xs:element name="Puesto" type="xs:string" />
+              <xs:element name="Salario" type="xs:double" />
+              <xs:element name="FormaPago" type="xs:string" />
+              <xs:element name="Ordinaria" type="xs:double" />
+              <xs:element name="Extra" type="xs:double" />
+              <xs:element name="Doble" type="xs:double" />
+              <xs:element name="SalarioBruto" type="xs:double" />
+              <xs:element name="Adelantos" type="xs:double" />
+              <xs:element name="Prestamos" type="xs:double" />
+              <xs:element name="Renta" type="xs:double" />
+              <xs:element name="TotalDeducciones" type="xs:double" />
+              <xs:element name="SalarioNeto" type="xs:double" />
+              <xs:element name="Cod_Moneda" type="xs:int" />
+              <xs:element name="Feriada" type="xs:double" />
+              <xs:element name="Prestamos_Int" type="xs:double" />
+              <xs:element name="Otros_Ingresos" type="xs:double" />
+              <xs:element name="CuentasxCobrar" type="xs:double" />
+              <xs:element name="Ord_Nocturna" type="xs:double" />
+              <xs:element name="Ext_Nocturna" type="xs:double" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:configuraciones" />
+      <xs:field xpath="mstns:Cedula" />
+    </xs:unique>
+    <xs:unique name="Departamento_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Departamento" />
+      <xs:field xpath="mstns:Id" />
+    </xs:unique>
+    <xs:unique name="Planilla_Detalle_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Planilla_Detalle" />
+      <xs:field xpath="mstns:Id" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

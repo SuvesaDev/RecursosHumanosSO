@@ -1,0 +1,25 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Planilla", "Planilla\Planilla.vbproj", "{826DDD51-D74C-401D-B970-11637EFB7942}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Utilidades", "utilidades\Utilidades.vbproj", "{E8E9E5F1-0B91-40BE-923B-909405EA40BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{826DDD51-D74C-401D-B970-11637EFB7942}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{826DDD51-D74C-401D-B970-11637EFB7942}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{826DDD51-D74C-401D-B970-11637EFB7942}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{826DDD51-D74C-401D-B970-11637EFB7942}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8E9E5F1-0B91-40BE-923B-909405EA40BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8E9E5F1-0B91-40BE-923B-909405EA40BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8E9E5F1-0B91-40BE-923B-909405EA40BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8E9E5F1-0B91-40BE-923B-909405EA40BE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

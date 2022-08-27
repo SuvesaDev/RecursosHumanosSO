@@ -1,0 +1,57 @@
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\utilidades\bin\Utilidades.dll
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\utilidades\bin\Utilidades.pdb
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\utilidades\bin\Utilidades.xml
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\utilidades\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\utilidades\obj\Debug\Utilidades.Buscar.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\utilidades\obj\Debug\Utilidades.FrmBuscarArticulo.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\utilidades\obj\Debug\Utilidades.FrmBuscador.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\utilidades\obj\Debug\Utilidades.FrmBuscador5C.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\utilidades\obj\Debug\Utilidades.FrmBuscadorN.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\utilidades\obj\Debug\Utilidades.FrmPlantilla.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\utilidades\obj\Debug\Utilidades.FrmRespaldo.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\utilidades\obj\Debug\Utilidades.frmCambioContrasena.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\utilidades\obj\Debug\Utilidades.Frm_login.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\utilidades\obj\Debug\Utilidades.frmVisorReportes.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\utilidades\obj\Debug\Utilidades.vbproj.GenerateResource.Cache
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\utilidades\obj\Debug\Utilidades.dll.licenses
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\utilidades\obj\Debug\Utilidades.dll
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\utilidades\obj\Debug\Utilidades.xml
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\utilidades\obj\Debug\Utilidades.pdb
+E:\sistema de planilla\RRHH - ULTIMO\utilidades\bin\Utilidades.dll
+E:\sistema de planilla\RRHH - ULTIMO\utilidades\bin\Utilidades.pdb
+E:\sistema de planilla\RRHH - ULTIMO\utilidades\bin\Utilidades.xml
+E:\sistema de planilla\RRHH - ULTIMO\utilidades\obj\Debug\ResolveAssemblyReference.cache
+E:\sistema de planilla\RRHH - ULTIMO\utilidades\obj\Debug\Utilidades.Buscar.resources
+E:\sistema de planilla\RRHH - ULTIMO\utilidades\obj\Debug\Utilidades.FrmBuscarArticulo.resources
+E:\sistema de planilla\RRHH - ULTIMO\utilidades\obj\Debug\Utilidades.FrmBuscador.resources
+E:\sistema de planilla\RRHH - ULTIMO\utilidades\obj\Debug\Utilidades.FrmBuscador5C.resources
+E:\sistema de planilla\RRHH - ULTIMO\utilidades\obj\Debug\Utilidades.FrmBuscadorN.resources
+E:\sistema de planilla\RRHH - ULTIMO\utilidades\obj\Debug\Utilidades.FrmPlantilla.resources
+E:\sistema de planilla\RRHH - ULTIMO\utilidades\obj\Debug\Utilidades.FrmRespaldo.resources
+E:\sistema de planilla\RRHH - ULTIMO\utilidades\obj\Debug\Utilidades.frmCambioContrasena.resources
+E:\sistema de planilla\RRHH - ULTIMO\utilidades\obj\Debug\Utilidades.Frm_login.resources
+E:\sistema de planilla\RRHH - ULTIMO\utilidades\obj\Debug\Utilidades.frmVisorReportes.resources
+E:\sistema de planilla\RRHH - ULTIMO\utilidades\obj\Debug\Utilidades.vbproj.GenerateResource.Cache
+E:\sistema de planilla\RRHH - ULTIMO\utilidades\obj\Debug\Utilidades.dll.licenses
+E:\sistema de planilla\RRHH - ULTIMO\utilidades\obj\Debug\Utilidades.dll
+E:\sistema de planilla\RRHH - ULTIMO\utilidades\obj\Debug\Utilidades.xml
+E:\sistema de planilla\RRHH - ULTIMO\utilidades\obj\Debug\Utilidades.pdb
+C:\Users\TIOBSoluciones\Desktop\Planilla SUVESA\RRHH - ULTIMO - 2015\utilidades\bin\Utilidades.dll
+C:\Users\TIOBSoluciones\Desktop\Planilla SUVESA\RRHH - ULTIMO - 2015\utilidades\bin\Utilidades.pdb
+C:\Users\TIOBSoluciones\Desktop\Planilla SUVESA\RRHH - ULTIMO - 2015\utilidades\bin\Utilidades.xml
+C:\Users\TIOBSoluciones\Desktop\Planilla SUVESA\RRHH - ULTIMO - 2015\utilidades\obj\Debug\Utilidades.Buscar.resources
+C:\Users\TIOBSoluciones\Desktop\Planilla SUVESA\RRHH - ULTIMO - 2015\utilidades\obj\Debug\Utilidades.FrmBuscarArticulo.resources
+C:\Users\TIOBSoluciones\Desktop\Planilla SUVESA\RRHH - ULTIMO - 2015\utilidades\obj\Debug\Utilidades.FrmBuscador.resources
+C:\Users\TIOBSoluciones\Desktop\Planilla SUVESA\RRHH - ULTIMO - 2015\utilidades\obj\Debug\Utilidades.FrmBuscador5C.resources
+C:\Users\TIOBSoluciones\Desktop\Planilla SUVESA\RRHH - ULTIMO - 2015\utilidades\obj\Debug\Utilidades.FrmBuscadorN.resources
+C:\Users\TIOBSoluciones\Desktop\Planilla SUVESA\RRHH - ULTIMO - 2015\utilidades\obj\Debug\Utilidades.FrmPlantilla.resources
+C:\Users\TIOBSoluciones\Desktop\Planilla SUVESA\RRHH - ULTIMO - 2015\utilidades\obj\Debug\Utilidades.FrmRespaldo.resources
+C:\Users\TIOBSoluciones\Desktop\Planilla SUVESA\RRHH - ULTIMO - 2015\utilidades\obj\Debug\Utilidades.frmCambioContrasena.resources
+C:\Users\TIOBSoluciones\Desktop\Planilla SUVESA\RRHH - ULTIMO - 2015\utilidades\obj\Debug\Utilidades.Frm_login.resources
+C:\Users\TIOBSoluciones\Desktop\Planilla SUVESA\RRHH - ULTIMO - 2015\utilidades\obj\Debug\Utilidades.frmVisorReportes.resources
+C:\Users\TIOBSoluciones\Desktop\Planilla SUVESA\RRHH - ULTIMO - 2015\utilidades\obj\Debug\Utilidades.vbproj.GenerateResource.Cache
+C:\Users\TIOBSoluciones\Desktop\Planilla SUVESA\RRHH - ULTIMO - 2015\utilidades\obj\Debug\Utilidades.dll.licenses
+C:\Users\TIOBSoluciones\Desktop\Planilla SUVESA\RRHH - ULTIMO - 2015\utilidades\obj\Debug\Utilidades.dll
+C:\Users\TIOBSoluciones\Desktop\Planilla SUVESA\RRHH - ULTIMO - 2015\utilidades\obj\Debug\Utilidades.xml
+C:\Users\TIOBSoluciones\Desktop\Planilla SUVESA\RRHH - ULTIMO - 2015\utilidades\obj\Debug\Utilidades.pdb
+C:\Users\TIOBSoluciones\Desktop\Planilla SUVESA\RRHH - ULTIMO - 2015\utilidades\obj\Debug\Utilidades.vbprojResolveAssemblyReference.cache

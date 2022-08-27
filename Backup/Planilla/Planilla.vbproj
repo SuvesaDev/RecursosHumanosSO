@@ -1,0 +1,1571 @@
+﻿<Project DefaultTargets="Build" ToolsVersion="3.5" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{826DDD51-D74C-401D-B970-11637EFB7942}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>SeeSoftPlanilla.ico</ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>Planilla</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyMode>None</AssemblyOriginatorKeyMode>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>WinExe</OutputType>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionStrict>Off</OptionStrict>
+    <RootNamespace>Planilla</RootNamespace>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <MyType>WindowsFormsWithCustomSubMain</MyType>
+    <OldToolsVersion>0.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>Planilla.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032</NoWarn>
+    <DebugType>full</DebugType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>Planilla.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032</NoWarn>
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Enterprise.Framework, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.InfoStore, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Web, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data">
+      <Name>DevExpress.Data</Name>
+      <HintPath>..\..\..\..\..\..\Archivos de programa\Archivos comunes\DevExpress\.NET\DevExpress.Data.dll</HintPath>
+      <AssemblyFolderKey>hklm\devexpress.net</AssemblyFolderKey>
+    </Reference>
+    <Reference Include="DevExpress.Utils">
+      <Name>DevExpress.Utils</Name>
+      <HintPath>..\..\..\..\..\..\Archivos de programa\Archivos comunes\DevExpress\.NET\DevExpress.Utils.dll</HintPath>
+      <AssemblyFolderKey>hklm\devexpress.net</AssemblyFolderKey>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars">
+      <Name>DevExpress.XtraBars</Name>
+      <HintPath>..\..\..\..\..\..\Archivos de programa\Archivos comunes\DevExpress\.NET\DevExpress.XtraBars.dll</HintPath>
+      <AssemblyFolderKey>hklm\devexpress.net</AssemblyFolderKey>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors">
+      <Name>DevExpress.XtraEditors</Name>
+      <HintPath>..\..\..\..\..\..\Archivos de programa\Archivos comunes\DevExpress\.NET\DevExpress.XtraEditors.dll</HintPath>
+      <AssemblyFolderKey>hklm\devexpress.net</AssemblyFolderKey>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid">
+      <Name>devexpress.xtragrid</Name>
+      <HintPath>..\..\..\..\..\..\archivos de programa\archivos comunes\devexpress\.net\devexpress.xtragrid.dll</HintPath>
+      <AssemblyFolderKey>hklm\devexpress.net</AssemblyFolderKey>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.Design">
+      <Name>DevExpress.XtraGrid.Design</Name>
+      <HintPath>C:\Program Files\Common Files\DevExpress\.NET\DevExpress.XtraGrid.Design.dll</HintPath>
+      <AssemblyFolderKey>hklm\devexpress.net</AssemblyFolderKey>
+    </Reference>
+    <Reference Include="EnlaceServidor">
+      <Name>EnlaceServidor</Name>
+      <HintPath>..\..\Construccion\Proyecto\Proyecto\bin\EnlaceServidor.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic">
+      <Name>Microsoft.VisualBasic</Name>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic.Compatibility">
+      <Name>Microsoft.VisualBasic.Compatibility</Name>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Design">
+      <Name>System.Design</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Web">
+      <Name>System.Web</Name>
+    </Reference>
+    <Reference Include="System.Web.Services">
+      <Name>System.Web.Services</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <Reference Include="ValidText">
+      <Name>validtext</Name>
+      <HintPath>f:\bancos y sucursales\bancosysucursales\bin\validtext.dll</HintPath>
+    </Reference>
+    <ProjectReference Include="..\utilidades\Utilidades.vbproj">
+      <Name>Utilidades</Name>
+      <Project>{E8E9E5F1-0B91-40BE-923B-909405EA40BE}</Project>
+      <Package>{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</Package>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Configuraciones\FrmConfiguración.resx">
+      <DependentUpon>FrmConfiguración.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="General\Buscar.resx">
+      <DependentUpon>Buscar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="General\FrmBuscador.resx">
+      <DependentUpon>FrmBuscador.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="General\FrmPlantilla.resx">
+      <DependentUpon>FrmPlantilla.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="General\FrmReportes.resx">
+      <DependentUpon>FrmReportes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="General\frmVisorReportes.resx">
+      <DependentUpon>frmVisorReportes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="General\Reportes.resx">
+      <DependentUpon>Reportes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="General\ReportesAccion.resx">
+      <DependentUpon>ReportesAccion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="General\ReportesVacaciones1.resx">
+      <DependentUpon>ReportesVacaciones1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="licenses.licx" />
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planilla\AccionPersonal\AccionPersona.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>AccionPersona.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planilla\AccionPersonal\AccionPersonal.resx">
+      <DependentUpon>AccionPersonal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planilla\AccionPersonal\BuscaAccionPersonal.resx">
+      <DependentUpon>BuscaAccionPersonal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planilla\Accion\Accion.resx">
+      <DependentUpon>Accion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planilla\Accion\Acciones.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Acciones.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planilla\Accion\BuscaAccion.resx">
+      <DependentUpon>BuscaAccion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planilla\AdelantosPrestamos\frmAdelantos.resx">
+      <DependentUpon>frmAdelantos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planilla\AdelantosPrestamos\ReporteAdelantos.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ReporteAdelantos.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planilla\Aumento\frmAumentos.resx">
+      <DependentUpon>frmAumentos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planilla\Configuarcion Horas_Ordinarias\ConfiguracionHorasOrdinarias.resx">
+      <DependentUpon>ConfiguracionHorasOrdinarias.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planilla\ControlTiempo\Comprobante.resx">
+      <DependentUpon>Comprobante.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planilla\ControlTiempo\Comprobante.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Comprobante.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planilla\ControlTiempo\Comprobante2.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Comprobante2.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planilla\ControlTiempo\Comprobante_ECOLE.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Comprobante_ECOLE.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planilla\ControlTiempo\Comprobante_Economico.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Comprobante_Economico1.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planilla\ControlTiempo\Comprobante_Economico_ECOLE.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Comprobante_Economico_ECOLE.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planilla\ControlTiempo\ControlTiempo2\frmBuscaModificaPlanilla.resx">
+      <DependentUpon>frmBuscaModificaPlanilla.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planilla\ControlTiempo\ControlTiempo2\frmControlTiempo2.resx">
+      <DependentUpon>frmControlTiempo2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planilla\ControlTiempo\ControlTiempo2\frmFormaPago.resx">
+      <DependentUpon>frmFormaPago.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planilla\ControlTiempo\ControlTiempo2\frmModificaPlanilla.resx">
+      <DependentUpon>frmModificaPlanilla.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planilla\ControlTiempo\ControlTiempo2\frmPagoAutomaticoBN.resx">
+      <DependentUpon>frmPagoAutomaticoBN.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planilla\ControlTiempo\ControlTiempo2\PagoAguinaldos.resx">
+      <DependentUpon>PagoAguinaldos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planilla\ControlTiempo\ControlTiempo2\ReciboDinero.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ReciboDinero1.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planilla\ControlTiempo\ControlTiempo2\ReportePlanilla3.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ReportePlanilla3.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planilla\ControlTiempo\ControlTiempo2\ReportePlanillaBorin.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ReportePlanillaBorin.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planilla\ControlTiempo\ControlTiempo2\RMARCAS\Fmarcas.resx">
+      <DependentUpon>Fmarcas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planilla\ControlTiempo\ControlTiempo2\RMARCAS\FrmMarcas1.resx">
+      <DependentUpon>FrmMarcas1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planilla\ControlTiempo\ControlTiempo2\RMARCAS\FrmPin.resx">
+      <DependentUpon>FrmPin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planilla\ControlTiempo\ControlTiempo2\RMARCAS\Rmarcas.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rmarcas.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planilla\ControlTiempo\ControlTiempo2\RMARCAS\RPinEmpleado.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RPinEmpleado.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planilla\ControlTiempo\ControlTiempo2\rptFormaPago.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptFormaPago.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planilla\ControlTiempo\frmControl3.resx">
+      <DependentUpon>frmControl3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planilla\ControlTiempo\frmControlTiempo.resx">
+      <DependentUpon>frmControlTiempo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planilla\ControlTiempo\frmReportePlanilla2.resx">
+      <DependentUpon>frmReportePlanilla2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planilla\ControlTiempo\HorasTrabajadas.resx">
+      <DependentUpon>HorasTrabajadas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planilla\ControlTiempo\ReportePlanilla.resx">
+      <DependentUpon>ReportePlanilla.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planilla\ControlTiempo\ReportePlanilla.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ReportePlanilla.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planilla\ControlTiempo\ReportePlanilla2.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ReportePlanilla2.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planilla\ControlTiempo\ReportePlanilla_ECOLE.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ReportePlanilla_ECOLE.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planilla\ControlTiempo\ReportePlanilla_Economico.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ReportePlanilla_Economico1.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planilla\ControlTiempo\ReportePlanilla_Economico_ECOLE.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ReportePlanilla_Economico_ECOLE.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planilla\Deducciones\Deducciones.resx">
+      <DependentUpon>Deducciones.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planilla\Deducciones\ListDeducciones.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ListDeducciones.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planilla\Departamento\Departamento.resx">
+      <DependentUpon>Departamento.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planilla\Departamento\Departamento1.resx">
+      <DependentUpon>Departamento1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planilla\Departamento\ListadoDepartamento.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ListadoDepartamento.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planilla\Empleado\EmpleadoGeneral.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>EmpleadoGeneral.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planilla\Empleado\EmpleadoXProyecto.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>EmpleadoXProyecto.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planilla\Empleado\fmrBuscarMayorizacionAsiento.resx">
+      <DependentUpon>fmrBuscarMayorizacionAsiento.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planilla\Empleado\frmBuscaEmpleado.resx">
+      <DependentUpon>frmBuscaEmpleado.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planilla\Empleado\FrmEmpleado.resx">
+      <DependentUpon>FrmEmpleado.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planilla\Empleado\FrmVisorpago.resx">
+      <DependentUpon>FrmVisorpago.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planilla\Empleado\ReporteBancario.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ReporteBancario.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planilla\Empleado\ReporteChecke.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ReporteChecke.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planilla\Empleado\ReporteEmpleado.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ReporteEmpleado.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planilla\Empleado\Visor Reportes.resx">
+      <DependentUpon>Visor Reportes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planilla\EstadoEmpleado\frmEstadoEmpleado.resx">
+      <DependentUpon>frmEstadoEmpleado.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planilla\EstadoEmpleado\RepEstadoEmpleado.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RepEstadoEmpleado.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planilla\ImpuestoRenta\ImpuestoRenta.resx">
+      <DependentUpon>ImpuestoRenta.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planilla\LiquidaciónLaboral\Liquidacion.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Liquidacion.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planilla\LiquidaciónLaboral\LiquidacionLaboral.resx">
+      <DependentUpon>LiquidacionLaboral.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planilla\LiquidaciónLaboral\ReporteChequesEstructura.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ReporteChequesEstructura.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planilla\Menu.resx">
+      <DependentUpon>Menu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planilla\Nacionalidad\FrmNacionalidad.resx">
+      <DependentUpon>FrmNacionalidad.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planilla\ReportesGenerales\AccionPersonales.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>AccionPersonales.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planilla\ReportesGenerales\AccionPorFecha.resx">
+      <DependentUpon>AccionPorFecha.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planilla\ReportesGenerales\AccionPorFecha.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>AccionPorFecha.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planilla\ReportesGenerales\Adelantos.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Adelantos.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planilla\ReportesGenerales\Aguinaldos.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Aguinaldos1.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planilla\ReportesGenerales\C.C.S.S.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>C.C.S.S.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planilla\ReportesGenerales\Centro Gastos x emp\FrmCentroGastos.resx">
+      <DependentUpon>FrmCentroGastos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planilla\ReportesGenerales\Centro Gastos x emp\rptCentroGastos.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptCentroGastos1.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planilla\ReportesGenerales\Certificacion\FrmCertificacion.resx">
+      <DependentUpon>FrmCertificacion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planilla\ReportesGenerales\Certificacion\rptCertificacion.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptCertificacion.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planilla\ReportesGenerales\ControlFonda.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ControlFonda.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planilla\ReportesGenerales\Historico Prestamos\FrmReportePrestamo.resx">
+      <DependentUpon>FrmReportePrestamo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planilla\ReportesGenerales\Historico Prestamos\rptPrestamo.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptPrestamo.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planilla\ReportesGenerales\I.N.S.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>I.N.S.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planilla\ReportesGenerales\Reporte Empleados\EmpleadosporDepartamento.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>EmpleadosporDepartamento1.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planilla\ReportesGenerales\Reporte Empleados\FrmReporteEmpleado.resx">
+      <DependentUpon>FrmReporteEmpleado.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planilla\ReportesGenerales\Reporte Empleados\TodosEmpleados.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>TodosEmpleados1.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planilla\ReportesGenerales\ReporteporAccion.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ReporteporAccion.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planilla\ReportesGenerales\ReporteVacaciones.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ReporteVacaciones.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planilla\ReportesGenerales\ReporteVacacionesPorEmpleado.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ReporteVacacionesPorEmpleado.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planilla\ReportesGenerales\ReporteVacacionesPorFecha.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ReporteVacacionesPorFecha.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planilla\ReportesGenerales\ReporteVacacionesSt.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ReporteVacacionesSt.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planilla\ReportesGenerales\RepSaldosAdelantos.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RepSaldosAdelantos.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planilla\ReportesGenerales\VacacionesGeneral.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>VacacionesGeneral.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planilla\Reporte_Horas\frmReporte_Horas.resx">
+      <DependentUpon>frmReporte_Horas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planilla\Reporte_Horas\GeneralXFechas.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>GeneralXFechas.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planilla\Reporte_Horas\HorasXEmpleado.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>HorasXEmpleado.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Plantilla\Plantilla.resx">
+      <DependentUpon>Plantilla.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Usuarios\FrmUsuarios.resx">
+      <DependentUpon>FrmUsuarios.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Usuarios\Frm_login.resx">
+      <DependentUpon>Frm_login.vb</DependentUpon>
+    </EmbeddedResource>
+    <Content Include="bin\EnlaceServidor.dll" />
+    <Content Include="bin\ValidText.dll" />
+    <Content Include="Configuraciones\DsConfiguracion.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DsConfiguracion.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="General\DsReportes.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DsReportes.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="Planilla\AccionPersonal\DataSetAccionPersonal.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetAccionPersonal.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="Planilla\AccionPersonal\DataSetBuscaAccionPersonal.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetBuscaAccionPersonal.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="Planilla\AccionPersonal\DSEstado.xsd" />
+    <Content Include="Planilla\AccionPersonal\DsUsuario.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DsUsuario.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="Planilla\Accion\DataSetAccion.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetAccion.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="Planilla\Accion\DataSetBuscaAccion.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetBuscaAccion.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="Planilla\AdelantosPrestamos\dsAdelantos.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsAdelantos.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="Planilla\Aumento\dsAumentos.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsAumentos.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="Planilla\Configuarcion Horas_Ordinarias\DataSet_HorasOrdinarias.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet_HorasOrdinarias.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="Planilla\ControlTiempo\ControlTiempo2\DatasetFormaPago.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DatasetFormaPago.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="Planilla\ControlTiempo\ControlTiempo2\DsModificaPlanilla.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DsModificaPlanilla.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="Planilla\ControlTiempo\ControlTiempo2\DsPagoAutomatico.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DsPagoAutomatico.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="Planilla\ControlTiempo\ControlTiempo2\RMARCAS\DsEmplead.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DsEmplead.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="Planilla\ControlTiempo\ControlTiempo2\RMARCAS\DsMarcas.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DsMarcas.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="Planilla\ControlTiempo\DsControl.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DsControl.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="Planilla\ControlTiempo\DsEmpleadoHoras.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DsEmpleadoHoras.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="Planilla\ControlTiempo\dsPlanilla.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsPlanilla.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="Planilla\ControlTiempo\dsPlanilla2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsPlanilla2.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="Planilla\ControlTiempo\DsProyecto.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DsProyecto.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="Planilla\ControlTiempo\DsProyectoHoras.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DsProyectoHoras.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="Planilla\ControlTiempo\DsReporte.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DsReporte.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="Planilla\ControlTiempo\DsReportePlanilla.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DsReportePlanilla.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="Planilla\Deducciones\Deduccion.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Deduccion.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="Planilla\Departamento\dsDepartamento.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsDepartamento.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="Planilla\Empleado\DsEmpleado.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DsEmpleado.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="Planilla\Empleado\DSReporEmpleado.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSReporEmpleado.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="Planilla\EstadoEmpleado\dsEstadoEmpleado.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsEstadoEmpleado.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="Planilla\ImpuestoRenta\DataSetParametro.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetParametro.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="Planilla\LiquidaciónLaboral\DsBancos.xsd" />
+    <Content Include="Planilla\LiquidaciónLaboral\DsLiquidacion.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DsLiquidacion.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="Planilla\Nacionalidad\DsNacionalidad1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DsNacionalidad1.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="Planilla\Reporte_Horas\dsReporteProyecto.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsReporteProyecto.Designer.vb</LastGenOutput>
+    </Content>
+    <None Include="Planilla\AdelantosPrestamos\dsAdelantos.xss">
+      <DependentUpon>dsAdelantos.xsd</DependentUpon>
+    </None>
+    <None Include="Planilla\ControlTiempo\dsPlanilla.xss">
+      <DependentUpon>dsPlanilla.xsd</DependentUpon>
+    </None>
+    <None Include="Planilla\Empleado\DsEmpleado.xss">
+      <DependentUpon>DsEmpleado.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\wallpaper2you_290966.jpg" />
+    <None Include="Resources\suvesa-logo.png" />
+    <None Include="Resources\login.png" />
+    <Content Include="SeeSoftPlanilla.ico" />
+    <Content Include="Usuarios\DataSetUsuario.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetUsuario.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="Usuarios\DataSetUsuario_logging.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetUsuario_logging.Designer.vb</LastGenOutput>
+    </Content>
+    <Compile Include="Configuraciones\DsConfiguracion.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DsConfiguracion.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Configuraciones\FrmConfiguración.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="General\Buscar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="General\DsReportes.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DsReportes.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="General\FrmBuscador.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="General\FrmPlantilla.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="General\FrmReportes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="General\frmVisorReportes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="General\Reportes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="General\ReportesAccion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="General\ReportesVacaciones1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Planilla\AccionPersonal\AccionPersona.vb">
+      <DependentUpon>AccionPersona.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Planilla\AccionPersonal\AccionPersonal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Planilla\AccionPersonal\BuscaAccionPersonal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Planilla\AccionPersonal\DataSetAccionPersonal.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetAccionPersonal.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Planilla\AccionPersonal\DataSetBuscaAccionPersonal.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetBuscaAccionPersonal.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Planilla\AccionPersonal\DSEstado.vb">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="Planilla\AccionPersonal\DsUsuario.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DsUsuario.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Planilla\Accion\Accion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Planilla\Accion\Acciones.vb">
+      <DependentUpon>Acciones.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Planilla\Accion\BuscaAccion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Planilla\Accion\DataSetAccion.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetAccion.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Planilla\Accion\DataSetBuscaAccion.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetBuscaAccion.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Planilla\AdelantosPrestamos\dsAdelantos.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsAdelantos.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Planilla\AdelantosPrestamos\frmAdelantos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Planilla\AdelantosPrestamos\ReporteAdelantos.vb">
+      <DependentUpon>ReporteAdelantos.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Planilla\Aumento\dsAumentos.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsAumentos.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Planilla\Aumento\frmAumentos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Planilla\Configuarcion Horas_Ordinarias\ConfiguracionHorasOrdinarias.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Planilla\Configuarcion Horas_Ordinarias\DataSet_HorasOrdinarias.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet_HorasOrdinarias.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Planilla\ControlTiempo\Comprobante.vb">
+      <DependentUpon>Comprobante.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Planilla\ControlTiempo\Comprobante2.vb">
+      <DependentUpon>Comprobante2.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Planilla\ControlTiempo\Comprobante_ECOLE.vb">
+      <DependentUpon>Comprobante_ECOLE.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Planilla\ControlTiempo\Comprobante_Economico1.vb">
+      <DependentUpon>Comprobante_Economico.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Planilla\ControlTiempo\Comprobante_Economico_ECOLE.vb">
+      <DependentUpon>Comprobante_Economico_ECOLE.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Planilla\ControlTiempo\ControlTiempo2\DatasetFormaPago.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DatasetFormaPago.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Planilla\ControlTiempo\ControlTiempo2\DsModificaPlanilla.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DsModificaPlanilla.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Planilla\ControlTiempo\ControlTiempo2\DsPagoAutomatico.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DsPagoAutomatico.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Planilla\ControlTiempo\ControlTiempo2\frmBuscaModificaPlanilla.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Planilla\ControlTiempo\ControlTiempo2\frmControlTiempo2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Planilla\ControlTiempo\ControlTiempo2\frmFormaPago.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Planilla\ControlTiempo\ControlTiempo2\frmModificaPlanilla.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Planilla\ControlTiempo\ControlTiempo2\frmPagoAutomaticoBN.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Planilla\ControlTiempo\ControlTiempo2\PagoAguinaldos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Planilla\ControlTiempo\ControlTiempo2\ReciboDinero1.vb">
+      <DependentUpon>ReciboDinero.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Planilla\ControlTiempo\ControlTiempo2\ReportePlanilla3.vb">
+      <DependentUpon>ReportePlanilla3.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Planilla\ControlTiempo\ControlTiempo2\ReportePlanillaBorin.vb">
+      <DependentUpon>ReportePlanillaBorin.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Planilla\ControlTiempo\ControlTiempo2\RMARCAS\DsEmplead.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DsEmplead.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Planilla\ControlTiempo\ControlTiempo2\RMARCAS\DsMarcas.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DsMarcas.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Planilla\ControlTiempo\ControlTiempo2\RMARCAS\Fmarcas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Planilla\ControlTiempo\ControlTiempo2\RMARCAS\FrmMarcas1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Planilla\ControlTiempo\ControlTiempo2\RMARCAS\FrmPin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Planilla\ControlTiempo\ControlTiempo2\RMARCAS\Rmarcas.vb">
+      <DependentUpon>Rmarcas.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Planilla\ControlTiempo\ControlTiempo2\RMARCAS\RPinEmpleado.vb">
+      <DependentUpon>RPinEmpleado.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Planilla\ControlTiempo\ControlTiempo2\rptFormaPago.vb">
+      <DependentUpon>rptFormaPago.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Planilla\ControlTiempo\DsControl.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DsControl.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Planilla\ControlTiempo\DsEmpleadoHoras.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DsEmpleadoHoras.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Planilla\ControlTiempo\dsPlanilla.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsPlanilla.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Planilla\ControlTiempo\dsPlanilla.vb">
+      <DependentUpon>dsPlanilla.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Planilla\ControlTiempo\dsPlanilla2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsPlanilla2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Planilla\ControlTiempo\DsProyecto.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DsProyecto.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Planilla\ControlTiempo\DsProyectoHoras.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DsProyectoHoras.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Planilla\ControlTiempo\DsReporte.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DsReporte.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Planilla\ControlTiempo\DsReportePlanilla.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DsReportePlanilla.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Planilla\ControlTiempo\frmControl3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Planilla\ControlTiempo\frmControlTiempo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Planilla\ControlTiempo\frmReportePlanilla2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Planilla\ControlTiempo\HorasTrabajadas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Planilla\ControlTiempo\ReportePlanilla.vb">
+      <DependentUpon>ReportePlanilla.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Planilla\ControlTiempo\ReportePlanilla2.vb">
+      <DependentUpon>ReportePlanilla2.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Planilla\ControlTiempo\ReportePlanilla_ECOLE.vb">
+      <DependentUpon>ReportePlanilla_ECOLE.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Planilla\ControlTiempo\ReportePlanilla_Economico1.vb">
+      <DependentUpon>ReportePlanilla_Economico.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Planilla\ControlTiempo\ReportePlanilla_Economico_ECOLE.vb">
+      <DependentUpon>ReportePlanilla_Economico_ECOLE.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Planilla\Deducciones\Deduccion.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Deduccion.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Planilla\Deducciones\Deducciones.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Planilla\Deducciones\ListDeducciones.vb">
+      <DependentUpon>ListDeducciones.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Planilla\Departamento\Departamento.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Planilla\Departamento\Departamento1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Planilla\Departamento\dsDepartamento.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsDepartamento.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Planilla\Departamento\ListadoDepartamento.vb">
+      <DependentUpon>ListadoDepartamento.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Planilla\Empleado\DsEmpleado.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DsEmpleado.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Planilla\Empleado\DSReporEmpleado.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSReporEmpleado.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Planilla\Empleado\EmpleadoGeneral.vb">
+      <DependentUpon>EmpleadoGeneral.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Planilla\Empleado\EmpleadoXProyecto.vb">
+      <DependentUpon>EmpleadoXProyecto.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Planilla\Empleado\fmrBuscarMayorizacionAsiento.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Planilla\Empleado\frmBuscaEmpleado.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Planilla\Empleado\FrmEmpleado.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Planilla\Empleado\FrmVisorpago.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Planilla\Empleado\ReporteBancario.vb">
+      <DependentUpon>ReporteBancario.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Planilla\Empleado\ReporteChecke.vb">
+      <DependentUpon>ReporteChecke.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Planilla\Empleado\ReporteEmpleado.vb">
+      <DependentUpon>ReporteEmpleado.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Planilla\Empleado\Visor Reportes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Planilla\EstadoEmpleado\dsEstadoEmpleado.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsEstadoEmpleado.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Planilla\EstadoEmpleado\frmEstadoEmpleado.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Planilla\EstadoEmpleado\RepEstadoEmpleado.vb">
+      <DependentUpon>RepEstadoEmpleado.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Planilla\ImpuestoRenta\DataSetParametro.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetParametro.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Planilla\ImpuestoRenta\ImpuestoRenta.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Planilla\LiquidaciónLaboral\DsBancos.vb">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="Planilla\LiquidaciónLaboral\DsLiquidacion.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DsLiquidacion.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Planilla\LiquidaciónLaboral\Liquidacion.vb">
+      <DependentUpon>Liquidacion.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Planilla\LiquidaciónLaboral\LiquidacionLaboral.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Planilla\LiquidaciónLaboral\ReporteChequesEstructura.vb">
+      <DependentUpon>ReporteChequesEstructura.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Planilla\Menu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Planilla\Módulos\cFunciones.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Planilla\Módulos\cNum2Text.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Planilla\Módulos\Conexion.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Planilla\Módulos\CrystalReports.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Planilla\Nacionalidad\DsNacionalidad1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DsNacionalidad1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Planilla\Nacionalidad\FrmNacionalidad.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Planilla\Principal.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Planilla\ReportesGenerales\AccionPersonales.vb">
+      <DependentUpon>AccionPersonales.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Planilla\ReportesGenerales\AccionPorFecha.vb">
+      <DependentUpon>AccionPorFecha.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Planilla\ReportesGenerales\Adelantos.vb">
+      <DependentUpon>Adelantos.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Planilla\ReportesGenerales\Aguinaldos1.vb">
+      <DependentUpon>Aguinaldos.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Planilla\ReportesGenerales\AssemblyInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Planilla\ReportesGenerales\C.C.S.S.vb">
+      <DependentUpon>C.C.S.S.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Planilla\ReportesGenerales\Centro Gastos x emp\FrmCentroGastos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Planilla\ReportesGenerales\Centro Gastos x emp\rptCentroGastos1.vb">
+      <DependentUpon>rptCentroGastos.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Planilla\ReportesGenerales\Certificacion\FrmCertificacion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Planilla\ReportesGenerales\Certificacion\rptCertificacion.vb">
+      <DependentUpon>rptCertificacion.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Planilla\ReportesGenerales\ControlFonda.vb">
+      <DependentUpon>ControlFonda.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Planilla\ReportesGenerales\Historico Prestamos\FrmReportePrestamo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Planilla\ReportesGenerales\Historico Prestamos\rptPrestamo.vb">
+      <DependentUpon>rptPrestamo.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Planilla\ReportesGenerales\I.N.S.vb">
+      <DependentUpon>I.N.S.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Planilla\ReportesGenerales\Reporte Empleados\EmpleadosporDepartamento1.vb">
+      <DependentUpon>EmpleadosporDepartamento.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Planilla\ReportesGenerales\Reporte Empleados\FrmReporteEmpleado.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Planilla\ReportesGenerales\Reporte Empleados\TodosEmpleados1.vb">
+      <DependentUpon>TodosEmpleados.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Planilla\ReportesGenerales\ReporteporAccion.vb">
+      <DependentUpon>ReporteporAccion.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Planilla\ReportesGenerales\ReporteVacaciones.vb">
+      <DependentUpon>ReporteVacaciones.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Planilla\ReportesGenerales\ReporteVacacionesPorEmpleado.vb">
+      <DependentUpon>ReporteVacacionesPorEmpleado.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Planilla\ReportesGenerales\ReporteVacacionesPorFecha.vb">
+      <DependentUpon>ReporteVacacionesPorFecha.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Planilla\ReportesGenerales\ReporteVacacionesSt.vb">
+      <DependentUpon>ReporteVacacionesSt.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Planilla\ReportesGenerales\RepSaldosAdelantos.vb">
+      <DependentUpon>RepSaldosAdelantos.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Planilla\ReportesGenerales\VacacionesGeneral.vb">
+      <DependentUpon>VacacionesGeneral.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Planilla\Reporte_Horas\dsReporteProyecto.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsReporteProyecto.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Planilla\Reporte_Horas\frmReporte_Horas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Planilla\Reporte_Horas\GeneralXFechas.vb">
+      <DependentUpon>GeneralXFechas.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Planilla\Reporte_Horas\HorasXEmpleado.vb">
+      <DependentUpon>HorasXEmpleado.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Plantilla\Plantilla.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Usuarios\DataSetUsuario.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetUsuario.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Usuarios\DataSetUsuario_logging.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetUsuario_logging.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Usuarios\FrmUsuarios.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Usuarios\Frm_login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Usuarios\Usuario_Logeado.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <None Include="Configuraciones\DsConfiguracion.xsc">
+      <DependentUpon>DsConfiguracion.xsd</DependentUpon>
+    </None>
+    <None Include="Configuraciones\DsConfiguracion.xsx">
+      <DependentUpon>DsConfiguracion.xsd</DependentUpon>
+    </None>
+    <None Include="General\DsReportes.xsc">
+      <DependentUpon>DsReportes.xsd</DependentUpon>
+    </None>
+    <None Include="General\DsReportes.xsx">
+      <DependentUpon>DsReportes.xsd</DependentUpon>
+    </None>
+    <None Include="Planilla\AccionPersonal\DataSetAccionPersonal.xsc">
+      <DependentUpon>DataSetAccionPersonal.xsd</DependentUpon>
+    </None>
+    <None Include="Planilla\AccionPersonal\DataSetAccionPersonal.xsx">
+      <DependentUpon>DataSetAccionPersonal.xsd</DependentUpon>
+    </None>
+    <None Include="Planilla\AccionPersonal\DataSetBuscaAccionPersonal.xsc">
+      <DependentUpon>DataSetBuscaAccionPersonal.xsd</DependentUpon>
+    </None>
+    <None Include="Planilla\AccionPersonal\DataSetBuscaAccionPersonal.xsx">
+      <DependentUpon>DataSetBuscaAccionPersonal.xsd</DependentUpon>
+    </None>
+    <None Include="Planilla\AccionPersonal\DSEstado.xsx">
+      <DependentUpon>DSEstado.xsd</DependentUpon>
+    </None>
+    <None Include="Planilla\AccionPersonal\DsUsuario.xsc">
+      <DependentUpon>DsUsuario.xsd</DependentUpon>
+    </None>
+    <None Include="Planilla\Accion\DataSetAccion.xsc">
+      <DependentUpon>DataSetAccion.xsd</DependentUpon>
+    </None>
+    <None Include="Planilla\Accion\DataSetAccion.xsx">
+      <DependentUpon>DataSetAccion.xsd</DependentUpon>
+    </None>
+    <None Include="Planilla\Accion\DataSetBuscaAccion.xsc">
+      <DependentUpon>DataSetBuscaAccion.xsd</DependentUpon>
+    </None>
+    <None Include="Planilla\AdelantosPrestamos\dsAdelantos.xsc">
+      <DependentUpon>dsAdelantos.xsd</DependentUpon>
+    </None>
+    <None Include="Planilla\AdelantosPrestamos\dsAdelantos.xsx">
+      <DependentUpon>dsAdelantos.xsd</DependentUpon>
+    </None>
+    <None Include="Planilla\Aumento\dsAumentos.xsc">
+      <DependentUpon>dsAumentos.xsd</DependentUpon>
+    </None>
+    <None Include="Planilla\Aumento\dsAumentos.xsx">
+      <DependentUpon>dsAumentos.xsd</DependentUpon>
+    </None>
+    <None Include="Planilla\Configuarcion Horas_Ordinarias\DataSet_HorasOrdinarias.xsc">
+      <DependentUpon>DataSet_HorasOrdinarias.xsd</DependentUpon>
+    </None>
+    <None Include="Planilla\Configuarcion Horas_Ordinarias\DataSet_HorasOrdinarias.xsx">
+      <DependentUpon>DataSet_HorasOrdinarias.xsd</DependentUpon>
+    </None>
+    <None Include="Planilla\ControlTiempo\ControlTiempo2\DatasetFormaPago.xsc">
+      <DependentUpon>DatasetFormaPago.xsd</DependentUpon>
+    </None>
+    <None Include="Planilla\ControlTiempo\ControlTiempo2\DatasetFormaPago.xsx">
+      <DependentUpon>DatasetFormaPago.xsd</DependentUpon>
+    </None>
+    <None Include="Planilla\ControlTiempo\ControlTiempo2\DsModificaPlanilla.xsc">
+      <DependentUpon>DsModificaPlanilla.xsd</DependentUpon>
+    </None>
+    <None Include="Planilla\ControlTiempo\ControlTiempo2\DsModificaPlanilla.xsx">
+      <DependentUpon>DsModificaPlanilla.xsd</DependentUpon>
+    </None>
+    <None Include="Planilla\ControlTiempo\ControlTiempo2\DsPagoAutomatico.xsc">
+      <DependentUpon>DsPagoAutomatico.xsd</DependentUpon>
+    </None>
+    <None Include="Planilla\ControlTiempo\ControlTiempo2\DsPagoAutomatico.xsx">
+      <DependentUpon>DsPagoAutomatico.xsd</DependentUpon>
+    </None>
+    <None Include="Planilla\ControlTiempo\ControlTiempo2\RMARCAS\DsEmplead.xsc">
+      <DependentUpon>DsEmplead.xsd</DependentUpon>
+    </None>
+    <None Include="Planilla\ControlTiempo\ControlTiempo2\RMARCAS\DsEmplead.xsx">
+      <DependentUpon>DsEmplead.xsd</DependentUpon>
+    </None>
+    <None Include="Planilla\ControlTiempo\ControlTiempo2\RMARCAS\DsMarcas.xsc">
+      <DependentUpon>DsMarcas.xsd</DependentUpon>
+    </None>
+    <None Include="Planilla\ControlTiempo\ControlTiempo2\RMARCAS\DsMarcas.xsx">
+      <DependentUpon>DsMarcas.xsd</DependentUpon>
+    </None>
+    <None Include="Planilla\ControlTiempo\DsControl.xsc">
+      <DependentUpon>DsControl.xsd</DependentUpon>
+    </None>
+    <None Include="Planilla\ControlTiempo\DsControl.xsx">
+      <DependentUpon>DsControl.xsd</DependentUpon>
+    </None>
+    <None Include="Planilla\ControlTiempo\DsEmpleadoHoras.xsc">
+      <DependentUpon>DsEmpleadoHoras.xsd</DependentUpon>
+    </None>
+    <None Include="Planilla\ControlTiempo\DsEmpleadoHoras.xsx">
+      <DependentUpon>DsEmpleadoHoras.xsd</DependentUpon>
+    </None>
+    <None Include="Planilla\ControlTiempo\dsPlanilla.xsc">
+      <DependentUpon>dsPlanilla.xsd</DependentUpon>
+    </None>
+    <None Include="Planilla\ControlTiempo\dsPlanilla.xsx">
+      <DependentUpon>dsPlanilla.xsd</DependentUpon>
+    </None>
+    <None Include="Planilla\ControlTiempo\dsPlanilla2.xsc">
+      <DependentUpon>dsPlanilla2.xsd</DependentUpon>
+    </None>
+    <None Include="Planilla\ControlTiempo\dsPlanilla2.xsx">
+      <DependentUpon>dsPlanilla2.xsd</DependentUpon>
+    </None>
+    <None Include="Planilla\ControlTiempo\DsProyecto.xsc">
+      <DependentUpon>DsProyecto.xsd</DependentUpon>
+    </None>
+    <None Include="Planilla\ControlTiempo\DsProyecto.xsx">
+      <DependentUpon>DsProyecto.xsd</DependentUpon>
+    </None>
+    <None Include="Planilla\ControlTiempo\DsProyectoHoras.xsc">
+      <DependentUpon>DsProyectoHoras.xsd</DependentUpon>
+    </None>
+    <None Include="Planilla\ControlTiempo\DsProyectoHoras.xsx">
+      <DependentUpon>DsProyectoHoras.xsd</DependentUpon>
+    </None>
+    <None Include="Planilla\ControlTiempo\DsReporte.xsc">
+      <DependentUpon>DsReporte.xsd</DependentUpon>
+    </None>
+    <None Include="Planilla\ControlTiempo\DsReportePlanilla.xsc">
+      <DependentUpon>DsReportePlanilla.xsd</DependentUpon>
+    </None>
+    <None Include="Planilla\Deducciones\Deduccion.xsc">
+      <DependentUpon>Deduccion.xsd</DependentUpon>
+    </None>
+    <None Include="Planilla\Deducciones\Deduccion.xsx">
+      <DependentUpon>Deduccion.xsd</DependentUpon>
+    </None>
+    <None Include="Planilla\Departamento\dsDepartamento.xsc">
+      <DependentUpon>dsDepartamento.xsd</DependentUpon>
+    </None>
+    <None Include="Planilla\Departamento\dsDepartamento.xsx">
+      <DependentUpon>dsDepartamento.xsd</DependentUpon>
+    </None>
+    <None Include="Planilla\Empleado\DsEmpleado.xsc">
+      <DependentUpon>DsEmpleado.xsd</DependentUpon>
+    </None>
+    <None Include="Planilla\Empleado\DsEmpleado.xsx">
+      <DependentUpon>DsEmpleado.xsd</DependentUpon>
+    </None>
+    <None Include="Planilla\Empleado\DSReporEmpleado.xsc">
+      <DependentUpon>DSReporEmpleado.xsd</DependentUpon>
+    </None>
+    <None Include="Planilla\EstadoEmpleado\dsEstadoEmpleado.xsc">
+      <DependentUpon>dsEstadoEmpleado.xsd</DependentUpon>
+    </None>
+    <None Include="Planilla\ImpuestoRenta\DataSetParametro.xsc">
+      <DependentUpon>DataSetParametro.xsd</DependentUpon>
+    </None>
+    <None Include="Planilla\LiquidaciónLaboral\DsBancos.xsx">
+      <DependentUpon>DsBancos.xsd</DependentUpon>
+    </None>
+    <None Include="Planilla\LiquidaciónLaboral\DsLiquidacion.xsc">
+      <DependentUpon>DsLiquidacion.xsd</DependentUpon>
+    </None>
+    <None Include="Planilla\LiquidaciónLaboral\DsLiquidacion.xsx">
+      <DependentUpon>DsLiquidacion.xsd</DependentUpon>
+    </None>
+    <None Include="Planilla\Nacionalidad\DsNacionalidad1.xsc">
+      <DependentUpon>DsNacionalidad1.xsd</DependentUpon>
+    </None>
+    <None Include="Planilla\Reporte_Horas\dsReporteProyecto.xsc">
+      <DependentUpon>dsReporteProyecto.xsd</DependentUpon>
+    </None>
+    <None Include="Usuarios\DataSetUsuario.xsc">
+      <DependentUpon>DataSetUsuario.xsd</DependentUpon>
+    </None>
+    <None Include="Usuarios\DataSetUsuario.xsx">
+      <DependentUpon>DataSetUsuario.xsd</DependentUpon>
+    </None>
+    <None Include="Usuarios\DataSetUsuario_logging.xsc">
+      <DependentUpon>DataSetUsuario_logging.xsd</DependentUpon>
+    </None>
+    <None Include="Usuarios\DataSetUsuario_logging.xsx">
+      <DependentUpon>DataSetUsuario_logging.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,224 @@
+<?xml version="1.0" standalone="yes" ?>
+<xs:schema id="DsEmpleado" targetNamespace="http://www.tempuri.org/DsEmpleado.xsd" xmlns:mstns="http://www.tempuri.org/DsEmpleado.xsd"
+	xmlns="http://www.tempuri.org/DsEmpleado.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+	<xs:element name="DsEmpleado" msdata:IsDataSet="true" msdata:Locale="es-CR">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="Nacionalidad">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="codigo" type="xs:int" />
+							<xs:element name="descripcion" type="xs:string" />
+							<xs:element name="ABREV" type="xs:string" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Departamento">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Departamento" type="xs:string" />
+							<xs:element name="Id" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:int" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Moneda">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="CodMoneda" type="xs:int" />
+							<xs:element name="MonedaNombre" type="xs:string" />
+							<xs:element name="ValorCompra" type="xs:double" />
+							<xs:element name="ValorVenta" type="xs:double" />
+							<xs:element name="Simbolo" type="xs:string" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Moneda2">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="CodMoneda" type="xs:int" />
+							<xs:element name="MonedaNombre" type="xs:string" />
+							<xs:element name="ValorCompra" type="xs:double" />
+							<xs:element name="ValorVenta" type="xs:double" />
+							<xs:element name="Simbolo" type="xs:string" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Empleado_Academico">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Id" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:long" />
+							<xs:element name="Identificacion" type="xs:string" />
+							<xs:element name="Titulo" type="xs:string" />
+							<xs:element name="Nivel" type="xs:string" />
+							<xs:element name="Institucion" type="xs:string" />
+							<xs:element name="Año" type="xs:int" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Empleado_Licencias">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Id" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:long" />
+							<xs:element name="Identificacion" type="xs:string" />
+							<xs:element name="Numero" type="xs:string" />
+							<xs:element name="Tipo" type="xs:string" />
+							<xs:element name="Emision" type="xs:dateTime" />
+							<xs:element name="Vencimiento" type="xs:dateTime" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="DistribucionContable">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="EmpleadoIdentificacion" type="xs:string" minOccurs="0" />
+							<xs:element name="IdDepartamento" type="xs:int" minOccurs="0" />
+							<xs:element name="Departamento" type="xs:string" minOccurs="0" />
+							<xs:element name="Porcentaje" type="xs:float" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="EmpleadoDistribucionContable">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="EmpleadoIdentificacion" type="xs:string" />
+							<xs:element name="IdDepartamento" type="xs:int" />
+							<xs:element name="Porcentaje" type="xs:double" />
+							<xs:element name="Departamento" type="xs:string" />
+							<xs:element name="Id" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:int" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Estado_Empleado">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Codigo" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:int" />
+							<xs:element name="Descripcion" type="xs:string" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Empleado_Deducciones">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Id" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:long" />
+							<xs:element name="Identificacion" type="xs:string" />
+							<xs:element name="Codigo" type="xs:int" />
+							<xs:element name="Descripcion" type="xs:string" />
+							<xs:element name="Monto" type="xs:double" />
+							<xs:element name="Tipo" type="xs:string" />
+							<xs:element name="Cod_Moneda" type="xs:int" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Empleado">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Identificacion" type="xs:string" />
+							<xs:element name="Nombre" type="xs:string" />
+							<xs:element name="Estado_Civil" type="xs:string" />
+							<xs:element name="Hijos" type="xs:int" />
+							<xs:element name="Cod_Nacionalidad" type="xs:int" />
+							<xs:element name="Fecha_Nacimiento" type="xs:dateTime" />
+							<xs:element name="Edad" type="xs:int" />
+							<xs:element name="Telefono1" type="xs:string" />
+							<xs:element name="Telefono2" type="xs:string" />
+							<xs:element name="Email" type="xs:string" />
+							<xs:element name="Direccion" type="xs:string" />
+							<xs:element name="Puesto" type="xs:string" />
+							<xs:element name="Fecha_Ingreso" type="xs:dateTime" />
+							<xs:element name="Fecha_Salida" type="xs:dateTime" />
+							<xs:element name="Salario" type="xs:double" />
+							<xs:element name="Cod_Departamento" type="xs:int" />
+							<xs:element name="Masculino" type="xs:boolean" />
+							<xs:element name="Femenino" type="xs:boolean" />
+							<xs:element name="Cod_Moneda" type="xs:int" />
+							<xs:element name="Hora" type="xs:boolean" />
+							<xs:element name="Diario" type="xs:boolean" />
+							<xs:element name="Semana" type="xs:boolean" />
+							<xs:element name="Quincena" type="xs:boolean" />
+							<xs:element name="Mensual" type="xs:boolean" />
+							<xs:element name="Cod_Estado" type="xs:int" />
+							<xs:element name="CuentaBancaria" type="xs:string" minOccurs="0" />
+							<xs:element name="id_usuario" type="xs:string" minOccurs="0" />
+							<xs:element name="HorasOrdinarias" type="xs:int" />
+							<xs:element name="ServiciosProf" type="xs:boolean" />
+							<xs:element name="CambioCedula" type="xs:boolean" />
+							<xs:element name="NuevaCedula" type="xs:string" />
+							<xs:element name="Pin_Huella" type="xs:string" />
+							<xs:element name="Pin_tarjeta" type="xs:string" />
+							<xs:element name="SRD" type="xs:double" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+		<xs:unique name="Constraint1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Nacionalidad" />
+			<xs:field xpath="mstns:codigo" />
+		</xs:unique>
+		<xs:unique name="Departamento_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Departamento" />
+			<xs:field xpath="mstns:Id" />
+		</xs:unique>
+		<xs:unique name="Moneda_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Moneda" />
+			<xs:field xpath="mstns:CodMoneda" />
+		</xs:unique>
+		<xs:unique name="Moneda2_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Moneda2" />
+			<xs:field xpath="mstns:CodMoneda" />
+		</xs:unique>
+		<xs:unique name="Empleado_Academico_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Empleado_Academico" />
+			<xs:field xpath="mstns:Id" />
+		</xs:unique>
+		<xs:unique name="Empleado_Licencias_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Empleado_Licencias" />
+			<xs:field xpath="mstns:Id" />
+		</xs:unique>
+		<xs:unique name="Estado_Empleado_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Estado_Empleado" />
+			<xs:field xpath="mstns:Codigo" />
+		</xs:unique>
+		<xs:unique name="Empleado_Deducciones_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Empleado_Deducciones" />
+			<xs:field xpath="mstns:Id" />
+		</xs:unique>
+		<xs:unique name="Empleado_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Empleado" />
+			<xs:field xpath="mstns:Identificacion" />
+		</xs:unique>
+		<xs:keyref name="Estado_EmpleadoEmpleado" refer="Estado_Empleado_Constraint1">
+			<xs:selector xpath=".//mstns:Empleado" />
+			<xs:field xpath="mstns:Cod_Estado" />
+		</xs:keyref>
+		<xs:keyref name="MonedaEmpleado" refer="Moneda_Constraint1">
+			<xs:selector xpath=".//mstns:Empleado" />
+			<xs:field xpath="mstns:Cod_Moneda" />
+		</xs:keyref>
+		<xs:keyref name="DepartamentoEmpleado" refer="Departamento_Constraint1">
+			<xs:selector xpath=".//mstns:Empleado" />
+			<xs:field xpath="mstns:Cod_Departamento" />
+		</xs:keyref>
+		<xs:keyref name="NacionalidadEmpleado" refer="Constraint1">
+			<xs:selector xpath=".//mstns:Empleado" />
+			<xs:field xpath="mstns:Cod_Nacionalidad" />
+		</xs:keyref>
+		<xs:keyref name="EmpleadoEmpleado_Deducciones" refer="Empleado_Constraint1">
+			<xs:selector xpath=".//mstns:Empleado_Deducciones" />
+			<xs:field xpath="mstns:Identificacion" />
+		</xs:keyref>
+		<xs:keyref name="EmpleadoDistribucionContable" refer="Empleado_Constraint1">
+			<xs:selector xpath=".//mstns:DistribucionContable" />
+			<xs:field xpath="mstns:EmpleadoIdentificacion" />
+		</xs:keyref>
+		<xs:keyref name="EmpleadoEmpleado_Licencias" refer="Empleado_Constraint1">
+			<xs:selector xpath=".//mstns:Empleado_Licencias" />
+			<xs:field xpath="mstns:Identificacion" />
+		</xs:keyref>
+		<xs:keyref name="EmpleadoEmpleado_Academico" refer="Empleado_Constraint1">
+			<xs:selector xpath=".//mstns:Empleado_Academico" />
+			<xs:field xpath="mstns:Identificacion" />
+		</xs:keyref>
+	</xs:element>
+</xs:schema>

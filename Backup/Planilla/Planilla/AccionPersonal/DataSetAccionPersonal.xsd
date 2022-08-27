@@ -1,0 +1,95 @@
+<?xml version="1.0" standalone="yes" ?>
+<xs:schema id="DataSetAccionPersonal" targetNamespace="http://www.tempuri.org/DataSetAccionPersonal.xsd"
+	xmlns:mstns="http://www.tempuri.org/DataSetAccionPersonal.xsd" xmlns="http://www.tempuri.org/DataSetAccionPersonal.xsd"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
+	attributeFormDefault="qualified" elementFormDefault="qualified">
+	<xs:element name="DataSetAccionPersonal" msdata:IsDataSet="true" msdata:Locale="es-ES">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="Empleado">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Identificacion" type="xs:string" />
+							<xs:element name="Nombre" type="xs:string" />
+							<xs:element name="Estado_Civil" type="xs:string" />
+							<xs:element name="Hijos" type="xs:int" />
+							<xs:element name="Cod_Nacionalidad" type="xs:int" />
+							<xs:element name="Fecha_Nacimiento" type="xs:dateTime" />
+							<xs:element name="Edad" type="xs:int" />
+							<xs:element name="Telefono1" type="xs:string" />
+							<xs:element name="Telefono2" type="xs:string" />
+							<xs:element name="Email" type="xs:string" />
+							<xs:element name="Direccion" type="xs:string" />
+							<xs:element name="Puesto" type="xs:string" />
+							<xs:element name="Fecha_Ingreso" type="xs:dateTime" />
+							<xs:element name="Fecha_Salida" type="xs:dateTime" />
+							<xs:element name="Salario" type="xs:double" />
+							<xs:element name="Cod_Departamento" type="xs:int" />
+							<xs:element name="Masculino" type="xs:boolean" />
+							<xs:element name="Femenino" type="xs:boolean" />
+							<xs:element name="Cod_Moneda" type="xs:int" />
+							<xs:element name="Hora" type="xs:boolean" />
+							<xs:element name="Diario" type="xs:boolean" />
+							<xs:element name="Semana" type="xs:boolean" />
+							<xs:element name="Quincena" type="xs:boolean" />
+							<xs:element name="Mensual" type="xs:boolean" />
+							<xs:element name="Cod_Estado" type="xs:int" />
+							<xs:element name="Foto" type="xs:base64Binary" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Accion">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Codigo" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:int" />
+							<xs:element name="Descripcion" type="xs:string" />
+							<xs:element name="RangoFecha" type="xs:boolean" />
+							<xs:element name="Nombre" type="xs:string" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="AccionPersonal">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Num_Accion" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:long" />
+							<xs:element name="Id_Empleado" type="xs:string" />
+							<xs:element name="Nombre_Empleado" type="xs:string" />
+							<xs:element name="Puesto" type="xs:string" />
+							<xs:element name="Id_Accion" type="xs:int" />
+							<xs:element name="Fecha" type="xs:dateTime" />
+							<xs:element name="Observaciones" type="xs:string" />
+							<xs:element name="RigeDesde" type="xs:dateTime" />
+							<xs:element name="RigeHasta" type="xs:dateTime" />
+							<xs:element name="DiasaDescontar" type="xs:double" />
+							<xs:element name="HechoPor" type="xs:string" />
+							<xs:element name="NombreUsuario" type="xs:string" />
+							<xs:element name="Anula" type="xs:boolean" />
+							<xs:element name="EstadoCambio" type="xs:boolean" />
+							<xs:element name="Cod_Estado" type="xs:int" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+		<xs:unique name="Constraint1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Empleado" />
+			<xs:field xpath="mstns:Identificacion" />
+		</xs:unique>
+		<xs:unique name="Accion_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Accion" />
+			<xs:field xpath="mstns:Codigo" />
+		</xs:unique>
+		<xs:unique name="AccionPersonal_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:AccionPersonal" />
+			<xs:field xpath="mstns:Num_Accion" />
+		</xs:unique>
+		<xs:keyref name="EmpleadoAccionPersonal" refer="Constraint1">
+			<xs:selector xpath=".//mstns:AccionPersonal" />
+			<xs:field xpath="mstns:Id_Empleado" />
+		</xs:keyref>
+		<xs:keyref name="AccionAccionPersonal" refer="mstns:Accion_Constraint1">
+			<xs:selector xpath=".//mstns:AccionPersonal" />
+			<xs:field xpath="mstns:Id_Accion" />
+		</xs:keyref>
+	</xs:element>
+</xs:schema>

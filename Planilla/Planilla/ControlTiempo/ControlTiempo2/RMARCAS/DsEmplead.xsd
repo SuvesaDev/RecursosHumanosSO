@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="DsEmplead" targetNamespace="http://tempuri.org/DsEmplead.xsd" elementFormDefault="qualified"
+	attributeFormDefault="qualified" xmlns="http://tempuri.org/DsEmplead.xsd" xmlns:mstns="http://tempuri.org/DsEmplead.xsd"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="DsEmplead" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="Empleado">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Identificacion" type="xs:string" minOccurs="0" />
+							<xs:element name="Nombre" type="xs:string" minOccurs="0" />
+							<xs:element name="Pin_Huella" type="xs:string" minOccurs="0" />
+							<xs:element name="Pin_tarjeta" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+		<xs:key name="DsEmpleadKey1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Empleado" />
+			<xs:field xpath="mstns:Identificacion" />
+		</xs:key>
+	</xs:element>
+</xs:schema>

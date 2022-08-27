@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Este archivo lo genera de forma automática el diseñador de esquemas XML. Contiene información de diseño para componentes de la superficie de diseño.-->
+<XSDDesignerLayout layoutVersion="2" viewPortLeft="0" viewPortTop="0" zoom="100">
+    <Moneda_XmlElement left="317" top="254" width="5292" height="2963" selected="0" zOrder="7" index="0" expanded="1" />
+    <Empleado_Deducciones_XmlElement left="12912" top="1535" width="5715" height="4233" selected="0" zOrder="8" index="1" expanded="1" />
+    <Empleado_XmlElement left="5290" top="5181" width="5292" height="2963" selected="0" zOrder="9" index="2" expanded="1" />
+    <Deducciones1_XmlElement left="19182" top="5027" width="5292" height="4234" selected="0" zOrder="11" index="3" expanded="1" />
+    <Deducciones_XmlElement left="6244" top="265" width="5292" height="4233" selected="0" zOrder="10" index="4" expanded="1" />
+    <EmpleadoEmpleado_Deducciones_XmlKeyref left="11416" top="6665" width="503" height="503" selected="0" zOrder="15" />
+    <Deducciones1Empleado_Deducciones_XmlKeyref left="18574" top="10069" width="503" height="503" selected="0" zOrder="12" />
+</XSDDesignerLayout>

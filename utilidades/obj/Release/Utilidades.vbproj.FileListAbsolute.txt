@@ -1,0 +1,87 @@
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\utilidades\obj\Release\ResolveAssemblyReference.cache
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\utilidades\obj\Release\Utilidades.Buscar.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\utilidades\obj\Release\Utilidades.FrmBuscarArticulo.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\utilidades\obj\Release\Utilidades.FrmBuscador.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\utilidades\obj\Release\Utilidades.FrmBuscador5C.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\utilidades\obj\Release\Utilidades.FrmBuscadorN.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\utilidades\obj\Release\Utilidades.FrmPlantilla.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\utilidades\obj\Release\Utilidades.FrmRespaldo.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\utilidades\obj\Release\Utilidades.frmCambioContrasena.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\utilidades\obj\Release\Utilidades.Frm_login.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\utilidades\obj\Release\Utilidades.frmVisorReportes.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\utilidades\obj\Release\Utilidades.vbproj.GenerateResource.Cache
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\utilidades\obj\Release\Utilidades.dll.licenses
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\utilidades\obj\Release\Utilidades.dll
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\utilidades\bin\Utilidades.dll
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\utilidades\bin\Utilidades.xml
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\utilidades\obj\Release\Utilidades.xml
+E:\sistema de planilla\RRHH - ULTIMO\utilidades\bin\Utilidades.dll
+E:\sistema de planilla\RRHH - ULTIMO\utilidades\bin\Utilidades.xml
+E:\sistema de planilla\RRHH - ULTIMO\utilidades\obj\Release\ResolveAssemblyReference.cache
+E:\sistema de planilla\RRHH - ULTIMO\utilidades\obj\Release\Utilidades.Buscar.resources
+E:\sistema de planilla\RRHH - ULTIMO\utilidades\obj\Release\Utilidades.FrmBuscarArticulo.resources
+E:\sistema de planilla\RRHH - ULTIMO\utilidades\obj\Release\Utilidades.FrmBuscador.resources
+E:\sistema de planilla\RRHH - ULTIMO\utilidades\obj\Release\Utilidades.FrmBuscador5C.resources
+E:\sistema de planilla\RRHH - ULTIMO\utilidades\obj\Release\Utilidades.FrmBuscadorN.resources
+E:\sistema de planilla\RRHH - ULTIMO\utilidades\obj\Release\Utilidades.FrmPlantilla.resources
+E:\sistema de planilla\RRHH - ULTIMO\utilidades\obj\Release\Utilidades.FrmRespaldo.resources
+E:\sistema de planilla\RRHH - ULTIMO\utilidades\obj\Release\Utilidades.frmCambioContrasena.resources
+E:\sistema de planilla\RRHH - ULTIMO\utilidades\obj\Release\Utilidades.Frm_login.resources
+E:\sistema de planilla\RRHH - ULTIMO\utilidades\obj\Release\Utilidades.frmVisorReportes.resources
+E:\sistema de planilla\RRHH - ULTIMO\utilidades\obj\Release\Utilidades.vbproj.GenerateResource.Cache
+E:\sistema de planilla\RRHH - ULTIMO\utilidades\obj\Release\Utilidades.dll.licenses
+E:\sistema de planilla\RRHH - ULTIMO\utilidades\obj\Release\Utilidades.dll
+E:\sistema de planilla\RRHH - ULTIMO\utilidades\obj\Release\Utilidades.xml
+E:\sistema de planilla\RRHH - ULTIMO - 2015\utilidades\bin\Utilidades.dll
+E:\sistema de planilla\RRHH - ULTIMO - 2015\utilidades\bin\Utilidades.xml
+E:\sistema de planilla\RRHH - ULTIMO - 2015\utilidades\bin\CrystalDecisions.CrystalReports.Design.dll
+E:\sistema de planilla\RRHH - ULTIMO - 2015\utilidades\bin\CrystalDecisions.CrystalReports.Engine.dll
+E:\sistema de planilla\RRHH - ULTIMO - 2015\utilidades\bin\CrystalDecisions.Shared.dll
+E:\sistema de planilla\RRHH - ULTIMO - 2015\utilidades\bin\CrystalDecisions.Web.dll
+E:\sistema de planilla\RRHH - ULTIMO - 2015\utilidades\bin\CrystalDecisions.Windows.Forms.dll
+E:\sistema de planilla\RRHH - ULTIMO - 2015\utilidades\bin\DevExpress.Data.dll
+E:\sistema de planilla\RRHH - ULTIMO - 2015\utilidades\bin\DevExpress.Utils.dll
+E:\sistema de planilla\RRHH - ULTIMO - 2015\utilidades\bin\DevExpress.XtraBars.Design.dll
+E:\sistema de planilla\RRHH - ULTIMO - 2015\utilidades\bin\DevExpress.XtraBars.dll
+E:\sistema de planilla\RRHH - ULTIMO - 2015\utilidades\bin\DevExpress.XtraEditors.Design.dll
+E:\sistema de planilla\RRHH - ULTIMO - 2015\utilidades\bin\DevExpress.XtraEditors.dll
+E:\sistema de planilla\RRHH - ULTIMO - 2015\utilidades\bin\DevExpress.XtraGrid.Design.dll
+E:\sistema de planilla\RRHH - ULTIMO - 2015\utilidades\bin\DevExpress.XtraGrid.dll
+E:\sistema de planilla\RRHH - ULTIMO - 2015\utilidades\bin\DevExpress.XtraGridMenus.dll
+E:\sistema de planilla\RRHH - ULTIMO - 2015\utilidades\bin\DevExpress.XtraNavBar.dll
+E:\sistema de planilla\RRHH - ULTIMO - 2015\utilidades\bin\stdole.dll
+E:\sistema de planilla\RRHH - ULTIMO - 2015\utilidades\bin\CrystalDecisions.ReportSource.dll
+E:\sistema de planilla\RRHH - ULTIMO - 2015\utilidades\bin\CrystalDecisions.ReportAppServer.DataDefModel.dll
+E:\sistema de planilla\RRHH - ULTIMO - 2015\utilidades\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
+E:\sistema de planilla\RRHH - ULTIMO - 2015\utilidades\bin\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+E:\sistema de planilla\RRHH - ULTIMO - 2015\utilidades\bin\CrystalDecisions.ReportAppServer.Controllers.dll
+E:\sistema de planilla\RRHH - ULTIMO - 2015\utilidades\bin\CrystalDecisions.ReportAppServer.CommLayer.dll
+E:\sistema de planilla\RRHH - ULTIMO - 2015\utilidades\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+E:\sistema de planilla\RRHH - ULTIMO - 2015\utilidades\bin\CrystalDecisions.ReportAppServer.Prompting.dll
+E:\sistema de planilla\RRHH - ULTIMO - 2015\utilidades\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+E:\sistema de planilla\RRHH - ULTIMO - 2015\utilidades\bin\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+E:\sistema de planilla\RRHH - ULTIMO - 2015\utilidades\bin\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+E:\sistema de planilla\RRHH - ULTIMO - 2015\utilidades\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+E:\sistema de planilla\RRHH - ULTIMO - 2015\utilidades\bin\FlashControlV71.dll
+E:\sistema de planilla\RRHH - ULTIMO - 2015\utilidades\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
+E:\sistema de planilla\RRHH - ULTIMO - 2015\utilidades\bin\ShockwaveFlashObjects.dll
+E:\sistema de planilla\RRHH - ULTIMO - 2015\utilidades\bin\DevExpress.Data.xml
+E:\sistema de planilla\RRHH - ULTIMO - 2015\utilidades\bin\DevExpress.Utils.xml
+E:\sistema de planilla\RRHH - ULTIMO - 2015\utilidades\bin\DevExpress.XtraBars.xml
+E:\sistema de planilla\RRHH - ULTIMO - 2015\utilidades\bin\DevExpress.XtraEditors.xml
+E:\sistema de planilla\RRHH - ULTIMO - 2015\utilidades\bin\DevExpress.XtraGrid.xml
+E:\sistema de planilla\RRHH - ULTIMO - 2015\utilidades\bin\DevExpress.XtraNavBar.xml
+E:\sistema de planilla\RRHH - ULTIMO - 2015\utilidades\obj\Release\Utilidades.Buscar.resources
+E:\sistema de planilla\RRHH - ULTIMO - 2015\utilidades\obj\Release\Utilidades.FrmBuscarArticulo.resources
+E:\sistema de planilla\RRHH - ULTIMO - 2015\utilidades\obj\Release\Utilidades.FrmBuscador.resources
+E:\sistema de planilla\RRHH - ULTIMO - 2015\utilidades\obj\Release\Utilidades.FrmBuscador5C.resources
+E:\sistema de planilla\RRHH - ULTIMO - 2015\utilidades\obj\Release\Utilidades.FrmBuscadorN.resources
+E:\sistema de planilla\RRHH - ULTIMO - 2015\utilidades\obj\Release\Utilidades.FrmPlantilla.resources
+E:\sistema de planilla\RRHH - ULTIMO - 2015\utilidades\obj\Release\Utilidades.FrmRespaldo.resources
+E:\sistema de planilla\RRHH - ULTIMO - 2015\utilidades\obj\Release\Utilidades.frmCambioContrasena.resources
+E:\sistema de planilla\RRHH - ULTIMO - 2015\utilidades\obj\Release\Utilidades.Frm_login.resources
+E:\sistema de planilla\RRHH - ULTIMO - 2015\utilidades\obj\Release\Utilidades.frmVisorReportes.resources
+E:\sistema de planilla\RRHH - ULTIMO - 2015\utilidades\obj\Release\Utilidades.vbproj.GenerateResource.Cache
+E:\sistema de planilla\RRHH - ULTIMO - 2015\utilidades\obj\Release\Utilidades.dll.licenses
+E:\sistema de planilla\RRHH - ULTIMO - 2015\utilidades\obj\Release\Utilidades.dll
+E:\sistema de planilla\RRHH - ULTIMO - 2015\utilidades\obj\Release\Utilidades.xml

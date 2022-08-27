@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Este archivo lo genera de forma automática el diseñador de esquemas XML. Contiene información de diseño para componentes de la superficie de diseño.-->
+<XSDDesignerLayout layoutVersion="2" viewPortLeft="-1500" viewPortTop="0" zoom="100">
+    <AccionPersonal_XmlElement left="9631" top="1693" width="5767" height="6774" selected="0" zOrder="1" index="0" expanded="1" />
+    <Empleado_XmlElement left="615" top="889" width="5292" height="2963" selected="0" zOrder="2" index="1" expanded="1" />
+    <Accion_XmlElement left="18441" top="9832" width="5292" height="2963" selected="0" zOrder="4" index="2" expanded="1" />
+    <Usuarios_XmlElement left="24367" top="1000" width="5292" height="2963" selected="0" zOrder="14" index="3" expanded="1" />
+    <EmpleadoAccionPersonal_XmlKeyref left="7517" top="3156" width="503" height="503" selected="0" zOrder="10" />
+    <AccionAccionPersonal_XmlKeyref left="16668" top="7628" width="503" height="503" selected="0" zOrder="6" />
+</XSDDesignerLayout>

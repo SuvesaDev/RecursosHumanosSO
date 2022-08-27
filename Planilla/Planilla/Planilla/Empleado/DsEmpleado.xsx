@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Este archivo lo genera de forma automática el diseñador de esquemas XML. Contiene información de diseño para componentes de la superficie de diseño.-->
+<XSDDesignerLayout layoutVersion="2" viewPortLeft="-1353" viewPortTop="-8438" zoom="100">
+    <Nacionalidad_XmlElement left="588" top="-7438" width="5292" height="2969" selected="0" zOrder="1" index="0" expanded="1" />
+    <Departamento_XmlElement left="-353" top="-3381" width="5292" height="2969" selected="0" zOrder="2" index="1" expanded="1" />
+    <Moneda_XmlElement left="-238" top="609" width="5291" height="2963" selected="0" zOrder="4" index="2" expanded="1" />
+    <Estado_Empleado_XmlElement left="21484" top="-1932" width="5291" height="3387" selected="0" zOrder="6" index="3" expanded="1" />
+    <Moneda2_XmlElement left="21669" top="1667" width="5291" height="2963" selected="0" zOrder="8" index="4" expanded="1" />
+    <Empleado_Deducciones_XmlElement left="21460" top="-5321" width="7820" height="2969" selected="0" zOrder="10" index="5" expanded="1" />
+    <Empleado_Academico_XmlElement left="12670" top="2058" width="5292" height="2969" selected="0" zOrder="36" index="6" expanded="1" />
+    <Empleado_Licencias_XmlElement left="1382" top="5086" width="5291" height="2969" selected="0" zOrder="31" index="7" expanded="1" />
+    <Empleado_XmlElement left="10877" top="-3939" width="5321" height="2969" selected="0" zOrder="12" index="8" expanded="1" />
+    <DistribucionContable_XmlElement left="8943" top="-7805" width="8731" height="3809" selected="0" zOrder="14" index="9" expanded="1" />
+    <DepartamentoEmpleado_XmlKeyref left="7940" top="-2196" width="503" height="503" selected="0" zOrder="19" />
+    <EmpleadoEmpleado_Deducciones_XmlKeyref left="18930" top="-3874" width="503" height="503" selected="0" zOrder="41" />
+    <EmpleadoEmpleado_Licencias_XmlKeyref left="9001" top="2149" width="503" height="503" selected="0" zOrder="32" />
+    <NacionalidadEmpleado_XmlKeyref left="8101" top="-4085" width="503" height="503" selected="0" zOrder="15" />
+    <Estado_EmpleadoEmpleado_XmlKeyref left="18624" top="-1046" width="503" height="503" selected="0" zOrder="27" />
+    <EmpleadoEmpleado_Academico_XmlKeyref left="11746" top="1056" width="503" height="503" selected="0" zOrder="37" />
+    <MonedaEmpleado_XmlKeyref left="7531" top="1240" width="503" height="503" selected="0" zOrder="23" />
+</XSDDesignerLayout>

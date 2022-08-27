@@ -1,0 +1,35 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="dsReporteProyecto" targetNamespace="http://www.tempuri.org/dsReporteProyecto.xsd" xmlns:mstns="http://www.tempuri.org/dsReporteProyecto.xsd" xmlns="http://www.tempuri.org/dsReporteProyecto.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:element name="dsReporteProyecto" msdata:IsDataSet="true" msdata:Locale="es-CR">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element name="Proyecto">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NombreProyecto" type="xs:string" />
+              <xs:element name="CodCliente" type="xs:int" />
+              <xs:element name="NombreCliente" type="xs:string" />
+              <xs:element name="Num_Proyecto" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Empleado">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Identificacion" type="xs:string" />
+              <xs:element name="Nombre" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Proyecto" />
+      <xs:field xpath="mstns:Num_Proyecto" />
+    </xs:unique>
+    <xs:unique name="Empleado_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Empleado" />
+      <xs:field xpath="mstns:Identificacion" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

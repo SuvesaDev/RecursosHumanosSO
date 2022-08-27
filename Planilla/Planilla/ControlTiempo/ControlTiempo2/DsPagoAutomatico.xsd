@@ -1,0 +1,53 @@
+<?xml version="1.0" standalone="yes" ?>
+<xs:schema id="DsPagoAutomatico" targetNamespace="http://www.tempuri.org/DsPagoAutomatico.xsd"
+	xmlns:mstns="http://www.tempuri.org/DsPagoAutomatico.xsd" xmlns="http://www.tempuri.org/DsPagoAutomatico.xsd"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
+	attributeFormDefault="qualified" elementFormDefault="qualified">
+	<xs:element name="DsPagoAutomatico" msdata:IsDataSet="true" msdata:Locale="es-CR">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="Bancos">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Codigo_banco" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:long" />
+							<xs:element name="Descripcion" type="xs:string" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Cuentas_bancarias">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Cuenta" type="xs:string" />
+							<xs:element name="Codigo_banco" type="xs:long" />
+							<xs:element name="tipoCuenta" type="xs:string" />
+							<xs:element name="NombreCuenta" type="xs:string" />
+							<xs:element name="Id_CuentaBancaria" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:int" />
+							<xs:element name="Cod_Moneda" type="xs:int" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="TestKey">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Oficina" type="xs:string" minOccurs="0" />
+							<xs:element name="Cuenta" type="xs:string" minOccurs="0" />
+							<xs:element name="Monto" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+		<xs:unique name="Constraint1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Bancos" />
+			<xs:field xpath="mstns:Codigo_banco" />
+		</xs:unique>
+		<xs:unique name="Cuentas_bancarias_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Cuentas_bancarias" />
+			<xs:field xpath="mstns:Id_CuentaBancaria" />
+		</xs:unique>
+		<xs:keyref name="BancosCuentas_bancarias" refer="mstns:Constraint1">
+			<xs:selector xpath=".//mstns:Cuentas_bancarias" />
+			<xs:field xpath="mstns:Codigo_banco" />
+		</xs:keyref>
+	</xs:element>
+</xs:schema>

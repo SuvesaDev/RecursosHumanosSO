@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Este archivo lo genera de forma automática el diseñador de esquemas XML. Contiene información de diseño para componentes de la superficie de diseño.-->
+<XSDDesignerLayout layoutVersion="2" viewPortLeft="40391" viewPortTop="554" zoom="100">
+    <AdelantoPrueba_XmlElement left="53" top="4180" width="7726" height="2963" selected="0" zOrder="30" index="0" expanded="1" />
+    <ConsultaSaldos_XmlElement left="1931" top="7938" width="9102" height="5080" selected="0" zOrder="31" index="1" expanded="1" />
+    <Facturas_Cobrar_XmlElement left="11563" top="5980" width="9101" height="7620" selected="0" zOrder="32" index="2" expanded="1" />
+    <abonoccobrar_XmlElement left="77391" top="1005" width="5292" height="5081" selected="0" zOrder="24" index="3" expanded="1" />
+    <AccionPersonal_XmlElement left="317" top="69" width="5292" height="2963" selected="0" zOrder="33" index="4" expanded="1" />
+    <Adelantos_XmlElement left="6243" top="254" width="5292" height="2963" selected="0" zOrder="34" index="5" expanded="1" />
+    <Adelantos_Detalle_XmlElement left="62519" top="6667" width="6826" height="3810" selected="0" zOrder="2" index="6" expanded="1" />
+    <Deducciones_XmlElement left="18097" top="265" width="5292" height="4233" selected="0" zOrder="35" index="7" expanded="1" />
+    <detalle_abonoccobrar_XmlElement left="86757" top="1984" width="5292" height="4657" selected="0" zOrder="25" index="8" expanded="1" />
+    <Empleado_XmlElement left="24024" top="265" width="5291" height="11852" selected="0" zOrder="36" index="9" expanded="1" />
+    <Empleado_Deducciones_XmlElement left="29950" top="265" width="5292" height="5080" selected="0" zOrder="37" index="10" expanded="1" />
+    <Horas_Ordinarias_XmlElement left="71463" top="1000" width="5292" height="2963" selected="0" zOrder="38" index="11" expanded="1" />
+    <HorasTrabajadas_XmlElement left="35873" top="254" width="5292" height="2963" selected="0" zOrder="3" index="12" expanded="1" />
+    <Moneda_XmlElement left="41799" top="254" width="5292" height="2963" selected="0" zOrder="5" index="13" expanded="1" />
+    <ParametroRenta_XmlElement left="47725" top="254" width="5292" height="2963" selected="0" zOrder="7" index="14" expanded="1" />
+    <Planilla_XmlElement left="53656" top="265" width="5292" height="4657" selected="0" zOrder="9" index="15" expanded="1" />
+    <Planilla_Deducciones_XmlElement left="63368" top="688" width="7461" height="3810" selected="0" zOrder="11" index="16" expanded="1" />
+    <Planilla_Detalle_XmlElement left="46011" top="5265" width="8255" height="8467" selected="0" zOrder="13" index="17" expanded="1" />
+    <Deduccion_Empleado_XmlElement left="56858" top="8757" width="5292" height="5504" selected="0" zOrder="15" index="18" expanded="1" />
+    <abonoccobrardetalle_abonoccobrar_XmlKeyref left="82748" top="6444" width="503" height="503" selected="0" zOrder="26" />
+    <PlanillaPlanilla_Detalle_XmlKeyref left="59775" top="3205" width="503" height="503" selected="0" zOrder="16" />
+    <Planilla_DetalleDeduccion_Empleado_XmlKeyref left="55311" top="10252" width="503" height="503" selected="0" zOrder="40" />
+    <Planilla_DetallePlanilla_Deducciones_XmlKeyref left="61488" top="4342" width="503" height="503" selected="0" zOrder="20" />
+</XSDDesignerLayout>

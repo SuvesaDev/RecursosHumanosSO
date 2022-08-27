@@ -1,0 +1,42 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="DsProyecto" targetNamespace="http://www.tempuri.org/DsProyecto.xsd" xmlns:mstns="http://www.tempuri.org/DsProyecto.xsd" xmlns="http://www.tempuri.org/DsProyecto.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:element name="DsProyecto" msdata:IsDataSet="true" msdata:Locale="es-MX">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element name="Proyecto">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Num_Proyecto" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:int" />
+              <xs:element name="NombreProyecto" type="xs:string" />
+              <xs:element name="CodCliente" type="xs:int" />
+              <xs:element name="NombreCliente" type="xs:string" />
+              <xs:element name="Terreno" type="xs:double" />
+              <xs:element name="Construccion" type="xs:double" />
+              <xs:element name="PlanoCatastrado" type="xs:string" />
+              <xs:element name="PlanoObra" type="xs:string" />
+              <xs:element name="Direccion" type="xs:string" />
+              <xs:element name="FechaInicio" type="xs:dateTime" />
+              <xs:element name="FechaFinal" type="xs:dateTime" />
+              <xs:element name="MontoProyecto" type="xs:double" />
+              <xs:element name="CodMoneda" type="xs:int" />
+              <xs:element name="Observaciones" type="xs:string" />
+              <xs:element name="Foto" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="Cod_Estado" type="xs:int" />
+              <xs:element name="Porcentaje" type="xs:double" />
+              <xs:element name="Ced_Usuario" type="xs:string" />
+              <xs:element name="NombreUsuario" type="xs:string" />
+              <xs:element name="PiesTerreno" type="xs:double" />
+              <xs:element name="PiesConstruccion" type="xs:double" />
+              <xs:element name="ValorMetro" type="xs:double" />
+              <xs:element name="Longitud" type="xs:double" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Proyecto" />
+      <xs:field xpath="mstns:Num_Proyecto" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

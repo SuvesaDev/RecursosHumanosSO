@@ -1,0 +1,163 @@
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\bin\Planilla.exe
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\bin\Planilla.xml
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\bin\Utilidades.dll
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\bin\Utilidades.pdb
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\bin\Utilidades.xml
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Release\ResolveAssemblyReference.cache
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Release\Planilla.FrmConfiguración.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Release\Planilla.Buscar.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Release\Planilla.FrmBuscador.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Release\Planilla.FrmPlantilla.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Release\Planilla.FrmReportes.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Release\Planilla.frmVisorReportes.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Release\Planilla.Reportes.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Release\Planilla.ReportesAccion.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Release\Planilla.ReportesVacaciones1.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Release\Planilla.Resources.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Release\Planilla.AccionPersonal.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Release\Planilla.BuscaAccionPersonal.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Release\Planilla.Accion.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Release\Planilla.BuscaAccion.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Release\Planilla.frmAdelantos.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Release\Planilla.frmAumentos.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Release\Planilla.ConfiguracionHorasOrdinarias.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Release\Planilla.Comprobante.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Release\Planilla.frmBuscaModificaPlanilla.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Release\Planilla.frmControlTiempo2.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Release\Planilla.frmFormaPago.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Release\Planilla.frmModificaPlanilla.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Release\Planilla.frmPagoAutomaticoBN.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Release\Planilla.PagoAguinaldos.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Release\Planilla.Fmarcas.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Release\Planilla.FrmMarcas1.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Release\Planilla.FrmPin.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Release\Planilla.frmControl3.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Release\Planilla.frmControlTiempo.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Release\Planilla.frmReportePlanilla2.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Release\Planilla.HorasTrabajadas.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Release\Planilla.ReportePlanilla.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Release\Planilla.Deducciones.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Release\Planilla.Departamento.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Release\Planilla.Departamento1.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Release\Planilla.fmrBuscarMayorizacionAsiento.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Release\Planilla.frmBuscaEmpleado.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Release\Planilla.FrmEmpleado.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Release\Planilla.FrmVisorpago.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Release\Planilla.Visor_Reportes.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Release\Planilla.frmEstadoEmpleado.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Release\Planilla.ImpuestoRenta.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Release\Planilla.LiquidacionLaboral.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Release\Planilla.MenuPlanilla.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Release\Planilla.FrmNacionalidad.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Release\Planilla.AccionPorFecha.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Release\Planilla.FrmIngresosEmpleados.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Release\Planilla.FrmCertificacion.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Release\Planilla.FrmHistoricoPrestamo.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Release\Planilla.FrmReporteEmpleado.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Release\Planilla.frmReporte_Horas.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Release\Planilla.Plantilla.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Release\Planilla.Frmusuario.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Release\Planilla.Frm_login.resources
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Release\Planilla.vbproj.GenerateResource.Cache
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Release\Planilla.exe.licenses
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Release\Planilla.exe
+C:\Users\mmaic\Documents\SeeSoft\RRHH - ULTIMO\Planilla\obj\Release\Planilla.xml
+E:\sistema de planilla\RRHH - ULTIMO - 2015\Planilla\obj\Release\Planilla.vbprojResolveAssemblyReference.cache
+E:\sistema de planilla\RRHH - ULTIMO - 2015\Planilla\obj\Release\Planilla.FrmConfiguración.resources
+E:\sistema de planilla\RRHH - ULTIMO - 2015\Planilla\obj\Release\Planilla.Buscar.resources
+E:\sistema de planilla\RRHH - ULTIMO - 2015\Planilla\obj\Release\Planilla.FrmBuscador.resources
+E:\sistema de planilla\RRHH - ULTIMO - 2015\Planilla\obj\Release\Planilla.FrmPlantilla.resources
+E:\sistema de planilla\RRHH - ULTIMO - 2015\Planilla\obj\Release\Planilla.FrmReportes.resources
+E:\sistema de planilla\RRHH - ULTIMO - 2015\Planilla\obj\Release\Planilla.frmVisorReportes.resources
+E:\sistema de planilla\RRHH - ULTIMO - 2015\Planilla\obj\Release\Planilla.Reportes.resources
+E:\sistema de planilla\RRHH - ULTIMO - 2015\Planilla\obj\Release\Planilla.ReportesAccion.resources
+E:\sistema de planilla\RRHH - ULTIMO - 2015\Planilla\obj\Release\Planilla.ReportesVacaciones1.resources
+E:\sistema de planilla\RRHH - ULTIMO - 2015\Planilla\obj\Release\Planilla.Resources.resources
+E:\sistema de planilla\RRHH - ULTIMO - 2015\Planilla\obj\Release\Planilla.AccionPersonal.resources
+E:\sistema de planilla\RRHH - ULTIMO - 2015\Planilla\obj\Release\Planilla.BuscaAccionPersonal.resources
+E:\sistema de planilla\RRHH - ULTIMO - 2015\Planilla\obj\Release\Planilla.Accion.resources
+E:\sistema de planilla\RRHH - ULTIMO - 2015\Planilla\obj\Release\Planilla.BuscaAccion.resources
+E:\sistema de planilla\RRHH - ULTIMO - 2015\Planilla\obj\Release\Planilla.frmAdelantos.resources
+E:\sistema de planilla\RRHH - ULTIMO - 2015\Planilla\obj\Release\Planilla.frmAumentos.resources
+E:\sistema de planilla\RRHH - ULTIMO - 2015\Planilla\obj\Release\Planilla.ConfiguracionHorasOrdinarias.resources
+E:\sistema de planilla\RRHH - ULTIMO - 2015\Planilla\obj\Release\Planilla.Comprobante.resources
+E:\sistema de planilla\RRHH - ULTIMO - 2015\Planilla\obj\Release\Planilla.frmBuscaModificaPlanilla.resources
+E:\sistema de planilla\RRHH - ULTIMO - 2015\Planilla\obj\Release\Planilla.frmControlTiempo2.resources
+E:\sistema de planilla\RRHH - ULTIMO - 2015\Planilla\obj\Release\Planilla.frmFormaPago.resources
+E:\sistema de planilla\RRHH - ULTIMO - 2015\Planilla\obj\Release\Planilla.frmModificaPlanilla.resources
+E:\sistema de planilla\RRHH - ULTIMO - 2015\Planilla\obj\Release\Planilla.frmPagoAutomaticoBN.resources
+E:\sistema de planilla\RRHH - ULTIMO - 2015\Planilla\obj\Release\Planilla.PagoAguinaldos.resources
+E:\sistema de planilla\RRHH - ULTIMO - 2015\Planilla\obj\Release\Planilla.Fmarcas.resources
+E:\sistema de planilla\RRHH - ULTIMO - 2015\Planilla\obj\Release\Planilla.FrmMarcas1.resources
+E:\sistema de planilla\RRHH - ULTIMO - 2015\Planilla\obj\Release\Planilla.FrmPin.resources
+E:\sistema de planilla\RRHH - ULTIMO - 2015\Planilla\obj\Release\Planilla.frmControl3.resources
+E:\sistema de planilla\RRHH - ULTIMO - 2015\Planilla\obj\Release\Planilla.frmControlTiempo.resources
+E:\sistema de planilla\RRHH - ULTIMO - 2015\Planilla\obj\Release\Planilla.frmReportePlanilla2.resources
+E:\sistema de planilla\RRHH - ULTIMO - 2015\Planilla\obj\Release\Planilla.HorasTrabajadas.resources
+E:\sistema de planilla\RRHH - ULTIMO - 2015\Planilla\obj\Release\Planilla.ReportePlanilla.resources
+E:\sistema de planilla\RRHH - ULTIMO - 2015\Planilla\obj\Release\Planilla.Deducciones.resources
+E:\sistema de planilla\RRHH - ULTIMO - 2015\Planilla\obj\Release\Planilla.Departamento.resources
+E:\sistema de planilla\RRHH - ULTIMO - 2015\Planilla\obj\Release\Planilla.Departamento1.resources
+E:\sistema de planilla\RRHH - ULTIMO - 2015\Planilla\obj\Release\Planilla.fmrBuscarMayorizacionAsiento.resources
+E:\sistema de planilla\RRHH - ULTIMO - 2015\Planilla\obj\Release\Planilla.frmBuscaEmpleado.resources
+E:\sistema de planilla\RRHH - ULTIMO - 2015\Planilla\obj\Release\Planilla.FrmEmpleado.resources
+E:\sistema de planilla\RRHH - ULTIMO - 2015\Planilla\obj\Release\Planilla.FrmVisorpago.resources
+E:\sistema de planilla\RRHH - ULTIMO - 2015\Planilla\obj\Release\Planilla.Visor_Reportes.resources
+E:\sistema de planilla\RRHH - ULTIMO - 2015\Planilla\obj\Release\Planilla.frmEstadoEmpleado.resources
+E:\sistema de planilla\RRHH - ULTIMO - 2015\Planilla\obj\Release\Planilla.ImpuestoRenta.resources
+E:\sistema de planilla\RRHH - ULTIMO - 2015\Planilla\obj\Release\Planilla.LiquidacionLaboral.resources
+E:\sistema de planilla\RRHH - ULTIMO - 2015\Planilla\obj\Release\Planilla.MenuPlanilla.resources
+E:\sistema de planilla\RRHH - ULTIMO - 2015\Planilla\obj\Release\Planilla.FrmNacionalidad.resources
+E:\sistema de planilla\RRHH - ULTIMO - 2015\Planilla\obj\Release\Planilla.AccionPorFecha.resources
+E:\sistema de planilla\RRHH - ULTIMO - 2015\Planilla\obj\Release\Planilla.FrmIngresosEmpleados.resources
+E:\sistema de planilla\RRHH - ULTIMO - 2015\Planilla\obj\Release\Planilla.FrmCertificacion.resources
+E:\sistema de planilla\RRHH - ULTIMO - 2015\Planilla\obj\Release\Planilla.FrmHistoricoPrestamo.resources
+E:\sistema de planilla\RRHH - ULTIMO - 2015\Planilla\obj\Release\Planilla.FrmReporteEmpleado.resources
+E:\sistema de planilla\RRHH - ULTIMO - 2015\Planilla\obj\Release\Planilla.frmReporte_Horas.resources
+E:\sistema de planilla\RRHH - ULTIMO - 2015\Planilla\obj\Release\Planilla.Plantilla.resources
+E:\sistema de planilla\RRHH - ULTIMO - 2015\Planilla\obj\Release\Planilla.Frmusuario.resources
+E:\sistema de planilla\RRHH - ULTIMO - 2015\Planilla\obj\Release\Planilla.Frm_login.resources
+E:\sistema de planilla\RRHH - ULTIMO - 2015\Planilla\obj\Release\Planilla.vbproj.GenerateResource.Cache
+E:\sistema de planilla\RRHH - ULTIMO - 2015\Planilla\obj\Release\Planilla.exe.licenses
+E:\sistema de planilla\RRHH - ULTIMO - 2015\Planilla\bin\Planilla.exe
+E:\sistema de planilla\RRHH - ULTIMO - 2015\Planilla\bin\Planilla.xml
+E:\sistema de planilla\RRHH - ULTIMO - 2015\Planilla\bin\CrystalDecisions.CrystalReports.Design.dll
+E:\sistema de planilla\RRHH - ULTIMO - 2015\Planilla\bin\CrystalDecisions.CrystalReports.Engine.dll
+E:\sistema de planilla\RRHH - ULTIMO - 2015\Planilla\bin\CrystalDecisions.ReportSource.dll
+E:\sistema de planilla\RRHH - ULTIMO - 2015\Planilla\bin\CrystalDecisions.Shared.dll
+E:\sistema de planilla\RRHH - ULTIMO - 2015\Planilla\bin\CrystalDecisions.Web.dll
+E:\sistema de planilla\RRHH - ULTIMO - 2015\Planilla\bin\CrystalDecisions.Windows.Forms.dll
+E:\sistema de planilla\RRHH - ULTIMO - 2015\Planilla\bin\DevExpress.Data.dll
+E:\sistema de planilla\RRHH - ULTIMO - 2015\Planilla\bin\DevExpress.Utils.dll
+E:\sistema de planilla\RRHH - ULTIMO - 2015\Planilla\bin\DevExpress.XtraBars.dll
+E:\sistema de planilla\RRHH - ULTIMO - 2015\Planilla\bin\DevExpress.XtraEditors.dll
+E:\sistema de planilla\RRHH - ULTIMO - 2015\Planilla\bin\DevExpress.XtraGrid.Design.dll
+E:\sistema de planilla\RRHH - ULTIMO - 2015\Planilla\bin\DevExpress.XtraGrid.dll
+E:\sistema de planilla\RRHH - ULTIMO - 2015\Planilla\bin\Utilidades.dll
+E:\sistema de planilla\RRHH - ULTIMO - 2015\Planilla\bin\CrystalDecisions.ReportAppServer.DataDefModel.dll
+E:\sistema de planilla\RRHH - ULTIMO - 2015\Planilla\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
+E:\sistema de planilla\RRHH - ULTIMO - 2015\Planilla\bin\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+E:\sistema de planilla\RRHH - ULTIMO - 2015\Planilla\bin\CrystalDecisions.ReportAppServer.Controllers.dll
+E:\sistema de planilla\RRHH - ULTIMO - 2015\Planilla\bin\CrystalDecisions.ReportAppServer.CommLayer.dll
+E:\sistema de planilla\RRHH - ULTIMO - 2015\Planilla\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+E:\sistema de planilla\RRHH - ULTIMO - 2015\Planilla\bin\CrystalDecisions.ReportAppServer.Prompting.dll
+E:\sistema de planilla\RRHH - ULTIMO - 2015\Planilla\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+E:\sistema de planilla\RRHH - ULTIMO - 2015\Planilla\bin\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+E:\sistema de planilla\RRHH - ULTIMO - 2015\Planilla\bin\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+E:\sistema de planilla\RRHH - ULTIMO - 2015\Planilla\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+E:\sistema de planilla\RRHH - ULTIMO - 2015\Planilla\bin\FlashControlV71.dll
+E:\sistema de planilla\RRHH - ULTIMO - 2015\Planilla\bin\DevExpress.XtraEditors.Design.dll
+E:\sistema de planilla\RRHH - ULTIMO - 2015\Planilla\bin\DevExpress.XtraNavBar.dll
+E:\sistema de planilla\RRHH - ULTIMO - 2015\Planilla\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
+E:\sistema de planilla\RRHH - ULTIMO - 2015\Planilla\bin\stdole.dll
+E:\sistema de planilla\RRHH - ULTIMO - 2015\Planilla\bin\ShockwaveFlashObjects.dll
+E:\sistema de planilla\RRHH - ULTIMO - 2015\Planilla\bin\Utilidades.pdb
+E:\sistema de planilla\RRHH - ULTIMO - 2015\Planilla\bin\Utilidades.xml
+E:\sistema de planilla\RRHH - ULTIMO - 2015\Planilla\bin\DevExpress.Data.xml
+E:\sistema de planilla\RRHH - ULTIMO - 2015\Planilla\bin\DevExpress.Utils.xml
+E:\sistema de planilla\RRHH - ULTIMO - 2015\Planilla\bin\DevExpress.XtraBars.xml
+E:\sistema de planilla\RRHH - ULTIMO - 2015\Planilla\bin\DevExpress.XtraEditors.xml
+E:\sistema de planilla\RRHH - ULTIMO - 2015\Planilla\bin\DevExpress.XtraGrid.xml
+E:\sistema de planilla\RRHH - ULTIMO - 2015\Planilla\bin\DevExpress.XtraNavBar.xml
+E:\sistema de planilla\RRHH - ULTIMO - 2015\Planilla\obj\Release\Planilla.exe
+E:\sistema de planilla\RRHH - ULTIMO - 2015\Planilla\obj\Release\Planilla.xml

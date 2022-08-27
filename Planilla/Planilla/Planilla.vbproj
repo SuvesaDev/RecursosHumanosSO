@@ -1,0 +1,1496 @@
+<VisualStudioProject>
+    <VisualBasic
+        ProjectType = "Local"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{826DDD51-D74C-401D-B970-11637EFB7942}"
+        SccProjectName = "SAK"
+        SccLocalPath = "SAK"
+        SccAuxPath = "SAK"
+        SccProvider = "SAK"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "Planilla"
+                AssemblyOriginatorKeyFile = ""
+                AssemblyOriginatorKeyMode = "None"
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "WinExe"
+                OptionCompare = "Binary"
+                OptionExplicit = "On"
+                OptionStrict = "Off"
+                RootNamespace = "Planilla"
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "true"
+                    DefineTrace = "true"
+                    DebugSymbols = "true"
+                    IncrementalBuild = "true"
+                    Optimize = "false"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+                <Config
+                    Name = "Release"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "false"
+                    DefineTrace = "true"
+                    DebugSymbols = "false"
+                    IncrementalBuild = "false"
+                    Optimize = "true"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                />
+                <Reference
+                    Name = "System.Windows.Forms"
+                    AssemblyName = "System.Windows.Forms"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                />
+                <Reference
+                    Name = "devexpress.xtragrid"
+                    AssemblyName = "DevExpress.XtraGrid"
+                    HintPath = "..\..\..\..\..\..\archivos de programa\archivos comunes\devexpress\.net\devexpress.xtragrid.dll"
+                    AssemblyFolderKey = "hklm\devexpress.net"
+                />
+                <Reference
+                    Name = "DevExpress.Utils"
+                    AssemblyName = "DevExpress.Utils"
+                    HintPath = "..\..\..\..\..\..\Archivos de programa\Archivos comunes\DevExpress\.NET\DevExpress.Utils.dll"
+                    AssemblyFolderKey = "hklm\devexpress.net"
+                />
+                <Reference
+                    Name = "DevExpress.XtraEditors"
+                    AssemblyName = "DevExpress.XtraEditors"
+                    HintPath = "..\..\..\..\..\..\Archivos de programa\Archivos comunes\DevExpress\.NET\DevExpress.XtraEditors.dll"
+                    AssemblyFolderKey = "hklm\devexpress.net"
+                />
+                <Reference
+                    Name = "DevExpress.Data"
+                    AssemblyName = "DevExpress.Data"
+                    HintPath = "..\..\..\..\..\..\Archivos de programa\Archivos comunes\DevExpress\.NET\DevExpress.Data.dll"
+                    AssemblyFolderKey = "hklm\devexpress.net"
+                />
+                <Reference
+                    Name = "System.Design"
+                    AssemblyName = "System.Design"
+                    HintPath = "..\..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Design.dll"
+                />
+                <Reference
+                    Name = "System.Web"
+                    AssemblyName = "System.Web"
+                    HintPath = "..\..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Web.dll"
+                />
+                <Reference
+                    Name = "validtext"
+                    AssemblyName = "ValidText"
+                    HintPath = "f:\bancos y sucursales\bancosysucursales\bin\validtext.dll"
+                />
+                <Reference
+                    Name = "Microsoft.VisualBasic"
+                    AssemblyName = "Microsoft.VisualBasic"
+                    HintPath = "..\..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\Microsoft.VisualBasic.dll"
+                />
+                <Reference
+                    Name = "System.Web.Services"
+                    AssemblyName = "System.Web.Services"
+                    HintPath = "..\..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Web.Services.dll"
+                />
+                <Reference
+                    Name = "Microsoft.VisualBasic.Compatibility"
+                    AssemblyName = "Microsoft.VisualBasic.Compatibility"
+                    HintPath = "..\..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\Microsoft.VisualBasic.Compatibility.dll"
+                />
+                <Reference
+                    Name = "DevExpress.XtraBars"
+                    AssemblyName = "DevExpress.XtraBars"
+                    HintPath = "..\..\..\..\..\..\Archivos de programa\Archivos comunes\DevExpress\.NET\DevExpress.XtraBars.dll"
+                    AssemblyFolderKey = "hklm\devexpress.net"
+                />
+                <Reference
+                    Name = "CrystalDecisions.CrystalReports.Design"
+                    AssemblyName = "CrystalDecisions.CrystalReports.Design"
+                    HintPath = "..\..\..\..\Archivos de programa\Archivos comunes\Crystal Decisions\2.5\managed\CrystalDecisions.CrystalReports.Design.dll"
+                    AssemblyFolderKey = "hklm\crystal.net"
+                />
+                <Reference
+                    Name = "EnlaceServidor"
+                    AssemblyName = "EnlaceServidor"
+                    HintPath = "..\..\Construccion\Proyecto\Proyecto\bin\EnlaceServidor.dll"
+                />
+                <Reference
+                    Name = "CrystalDecisions.CrystalReports.Engine"
+                    AssemblyName = "CrystalDecisions.CrystalReports.Engine"
+                    HintPath = "C:\Archivos de programa\Archivos comunes\Crystal Decisions\2.5\managed\CrystalDecisions.CrystalReports.Engine.dll"
+                    AssemblyFolderKey = "hklm\crystal enterprise 10 .net"
+                />
+                <Reference
+                    Name = "CrystalDecisions.ReportSource"
+                    AssemblyName = "CrystalDecisions.ReportSource"
+                    HintPath = "C:\Archivos de programa\Archivos comunes\Crystal Decisions\2.5\managed\CrystalDecisions.ReportSource.dll"
+                    AssemblyFolderKey = "hklm\crystal enterprise 10 .net"
+                />
+                <Reference
+                    Name = "CrystalDecisions.Shared"
+                    AssemblyName = "CrystalDecisions.Shared"
+                    HintPath = "C:\Archivos de programa\Archivos comunes\Crystal Decisions\2.5\managed\CrystalDecisions.Shared.dll"
+                    AssemblyFolderKey = "hklm\crystal enterprise 10 .net"
+                />
+                <Reference
+                    Name = "CrystalDecisions.Windows.Forms"
+                    AssemblyName = "CrystalDecisions.Windows.Forms"
+                    HintPath = "C:\Archivos de programa\Archivos comunes\Crystal Decisions\2.5\managed\CrystalDecisions.Windows.Forms.dll"
+                    AssemblyFolderKey = "hklm\crystal enterprise 10 .net"
+                />
+                <Reference
+                    Name = "Utilidades"
+                    Project = "{E8E9E5F1-0B91-40BE-923B-909405EA40BE}"
+                    Package = "{F184B08F-C81C-45F6-A57F-5ABD9991F28F}"
+                />
+            </References>
+            <Imports>
+                <Import Namespace = "Microsoft.VisualBasic" />
+                <Import Namespace = "System" />
+                <Import Namespace = "System.Collections" />
+                <Import Namespace = "System.Data" />
+                <Import Namespace = "System.Drawing" />
+                <Import Namespace = "System.Diagnostics" />
+                <Import Namespace = "System.Windows.Forms" />
+            </Imports>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "licenses.licx"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "bin\EnlaceServidor.dll"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "bin\ValidText.dll"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Configuraciones\DsConfiguracion.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "DsConfiguracion.vb"
+                />
+                <File
+                    RelPath = "Configuraciones\DsConfiguracion.vb"
+                    DependentUpon = "DsConfiguracion.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Configuraciones\DsConfiguracion.xsx"
+                    DependentUpon = "DsConfiguracion.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Configuraciones\FrmConfiguración.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Configuraciones\FrmConfiguración.resx"
+                    DependentUpon = "FrmConfiguración.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "General\Buscar.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "General\Buscar.resx"
+                    DependentUpon = "Buscar.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "General\DsReportes.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "DsReportes.vb"
+                />
+                <File
+                    RelPath = "General\DsReportes.vb"
+                    DependentUpon = "DsReportes.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "General\DsReportes.xsx"
+                    DependentUpon = "DsReportes.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "General\FrmBuscador.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "General\FrmBuscador.resx"
+                    DependentUpon = "FrmBuscador.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "General\FrmPlantilla.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "General\FrmPlantilla.resx"
+                    DependentUpon = "FrmPlantilla.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "General\FrmReportes.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "General\FrmReportes.resx"
+                    DependentUpon = "FrmReportes.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "General\frmVisorReportes.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "General\frmVisorReportes.resx"
+                    DependentUpon = "frmVisorReportes.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "General\Reportes.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "General\Reportes.resx"
+                    DependentUpon = "Reportes.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "General\ReportesAccion.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "General\ReportesAccion.resx"
+                    DependentUpon = "ReportesAccion.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "General\ReportesVacaciones.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "General\ReportesVacaciones.resx"
+                    DependentUpon = "ReportesVacaciones.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Planilla\AssemblyInfo.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Planilla\Menu.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Planilla\Menu.resx"
+                    DependentUpon = "Menu.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Planilla\Principal.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Planilla\Accion\Accion.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Planilla\Accion\Accion.resx"
+                    DependentUpon = "Accion.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Planilla\Accion\Acciones.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "Acciones.vb"
+                />
+                <File
+                    RelPath = "Planilla\Accion\Acciones.vb"
+                    DependentUpon = "Acciones.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Planilla\Accion\BuscaAccion.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Planilla\Accion\BuscaAccion.resx"
+                    DependentUpon = "BuscaAccion.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Planilla\Accion\DataSetAccion.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "DataSetAccion.vb"
+                />
+                <File
+                    RelPath = "Planilla\Accion\DataSetAccion.vb"
+                    DependentUpon = "DataSetAccion.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Planilla\Accion\DataSetAccion.xsx"
+                    DependentUpon = "DataSetAccion.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Planilla\Accion\DataSetBuscaAccion.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "DataSetBuscaAccion.vb"
+                />
+                <File
+                    RelPath = "Planilla\Accion\DataSetBuscaAccion.vb"
+                    DependentUpon = "DataSetBuscaAccion.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Planilla\AccionPersonal\AccionPersona.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "AccionPersona.vb"
+                />
+                <File
+                    RelPath = "Planilla\AccionPersonal\AccionPersona.vb"
+                    DependentUpon = "AccionPersona.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Planilla\AccionPersonal\AccionPersonal.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Planilla\AccionPersonal\AccionPersonal.resx"
+                    DependentUpon = "AccionPersonal.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Planilla\AccionPersonal\BuscaAccionPersonal.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Planilla\AccionPersonal\BuscaAccionPersonal.resx"
+                    DependentUpon = "BuscaAccionPersonal.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Planilla\AccionPersonal\DataSetAccionPersonal.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "DataSetAccionPersonal.vb"
+                />
+                <File
+                    RelPath = "Planilla\AccionPersonal\DataSetAccionPersonal.vb"
+                    DependentUpon = "DataSetAccionPersonal.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Planilla\AccionPersonal\DataSetAccionPersonal.xsx"
+                    DependentUpon = "DataSetAccionPersonal.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Planilla\AccionPersonal\DataSetBuscaAccionPersonal.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "DataSetBuscaAccionPersonal.vb"
+                />
+                <File
+                    RelPath = "Planilla\AccionPersonal\DataSetBuscaAccionPersonal.vb"
+                    DependentUpon = "DataSetBuscaAccionPersonal.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Planilla\AccionPersonal\DataSetBuscaAccionPersonal.xsx"
+                    DependentUpon = "DataSetBuscaAccionPersonal.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Planilla\AccionPersonal\DsUsuario.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "DsUsuario.vb"
+                />
+                <File
+                    RelPath = "Planilla\AccionPersonal\DsUsuario.vb"
+                    DependentUpon = "DsUsuario.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Planilla\AdelantosPrestamos\dsAdelantos.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "dsAdelantos.vb"
+                />
+                <File
+                    RelPath = "Planilla\AdelantosPrestamos\dsAdelantos.vb"
+                    DependentUpon = "dsAdelantos.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Planilla\AdelantosPrestamos\dsAdelantos.xsx"
+                    DependentUpon = "dsAdelantos.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Planilla\AdelantosPrestamos\frmAdelantos.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Planilla\AdelantosPrestamos\frmAdelantos.resx"
+                    DependentUpon = "frmAdelantos.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Planilla\AdelantosPrestamos\ReporteAdelantos.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "ReporteAdelantos.vb"
+                />
+                <File
+                    RelPath = "Planilla\AdelantosPrestamos\ReporteAdelantos.vb"
+                    DependentUpon = "ReporteAdelantos.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Planilla\Aumento\dsAumentos.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "dsAumentos.vb"
+                />
+                <File
+                    RelPath = "Planilla\Aumento\dsAumentos.vb"
+                    DependentUpon = "dsAumentos.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Planilla\Aumento\dsAumentos.xsx"
+                    DependentUpon = "dsAumentos.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Planilla\Aumento\frmAumentos.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Planilla\Aumento\frmAumentos.resx"
+                    DependentUpon = "frmAumentos.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Planilla\Configuarcion Horas_Ordinarias\ConfiguracionHorasOrdinarias.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Planilla\Configuarcion Horas_Ordinarias\ConfiguracionHorasOrdinarias.resx"
+                    DependentUpon = "ConfiguracionHorasOrdinarias.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Planilla\Configuarcion Horas_Ordinarias\DataSet_HorasOrdinarias.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "DataSet_HorasOrdinarias.vb"
+                />
+                <File
+                    RelPath = "Planilla\Configuarcion Horas_Ordinarias\DataSet_HorasOrdinarias.vb"
+                    DependentUpon = "DataSet_HorasOrdinarias.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Planilla\ControlTiempo\Comprobante.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "Comprobante.vb"
+                />
+                <File
+                    RelPath = "Planilla\ControlTiempo\Comprobante.vb"
+                    DependentUpon = "Comprobante.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Planilla\ControlTiempo\Comprobante.resx"
+                    DependentUpon = "Comprobante.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Planilla\ControlTiempo\Comprobante2.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "Comprobante2.vb"
+                />
+                <File
+                    RelPath = "Planilla\ControlTiempo\Comprobante2.vb"
+                    DependentUpon = "Comprobante2.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Planilla\ControlTiempo\DsControl.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "DsControl.vb"
+                />
+                <File
+                    RelPath = "Planilla\ControlTiempo\DsControl.vb"
+                    DependentUpon = "DsControl.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Planilla\ControlTiempo\DsControl.xsx"
+                    DependentUpon = "DsControl.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Planilla\ControlTiempo\DsEmpleadoHoras.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "DsEmpleadoHoras.vb"
+                />
+                <File
+                    RelPath = "Planilla\ControlTiempo\DsEmpleadoHoras.vb"
+                    DependentUpon = "DsEmpleadoHoras.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Planilla\ControlTiempo\DsEmpleadoHoras.xsx"
+                    DependentUpon = "DsEmpleadoHoras.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Planilla\ControlTiempo\dsPlanilla.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "dsPlanilla.vb"
+                />
+                <File
+                    RelPath = "Planilla\ControlTiempo\dsPlanilla.vb"
+                    DependentUpon = "dsPlanilla.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Planilla\ControlTiempo\dsPlanilla.xsx"
+                    DependentUpon = "dsPlanilla.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Planilla\ControlTiempo\dsPlanilla2.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "dsPlanilla2.vb"
+                />
+                <File
+                    RelPath = "Planilla\ControlTiempo\dsPlanilla2.vb"
+                    DependentUpon = "dsPlanilla2.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Planilla\ControlTiempo\dsPlanilla2.xsx"
+                    DependentUpon = "dsPlanilla2.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Planilla\ControlTiempo\DsProyecto.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "DsProyecto.vb"
+                />
+                <File
+                    RelPath = "Planilla\ControlTiempo\DsProyecto.vb"
+                    DependentUpon = "DsProyecto.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Planilla\ControlTiempo\DsProyecto.xsx"
+                    DependentUpon = "DsProyecto.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Planilla\ControlTiempo\DsProyectoHoras.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "DsProyectoHoras.vb"
+                />
+                <File
+                    RelPath = "Planilla\ControlTiempo\DsProyectoHoras.vb"
+                    DependentUpon = "DsProyectoHoras.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Planilla\ControlTiempo\DsProyectoHoras.xsx"
+                    DependentUpon = "DsProyectoHoras.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Planilla\ControlTiempo\DsReporte.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "DsReporte.vb"
+                />
+                <File
+                    RelPath = "Planilla\ControlTiempo\DsReporte.vb"
+                    DependentUpon = "DsReporte.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Planilla\ControlTiempo\frmControl3.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Planilla\ControlTiempo\frmControl3.resx"
+                    DependentUpon = "frmControl3.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Planilla\ControlTiempo\frmControlTiempo.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Planilla\ControlTiempo\frmControlTiempo.resx"
+                    DependentUpon = "frmControlTiempo.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Planilla\ControlTiempo\frmReportePlanilla2.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Planilla\ControlTiempo\frmReportePlanilla2.resx"
+                    DependentUpon = "frmReportePlanilla2.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Planilla\ControlTiempo\HorasTrabajadas.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Planilla\ControlTiempo\HorasTrabajadas.resx"
+                    DependentUpon = "HorasTrabajadas.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Planilla\ControlTiempo\ReportePlanilla.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "ReportePlanilla.vb"
+                />
+                <File
+                    RelPath = "Planilla\ControlTiempo\ReportePlanilla.vb"
+                    DependentUpon = "ReportePlanilla.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Planilla\ControlTiempo\ReportePlanilla.resx"
+                    DependentUpon = "ReportePlanilla.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Planilla\ControlTiempo\ReportePlanilla2.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "ReportePlanilla2.vb"
+                />
+                <File
+                    RelPath = "Planilla\ControlTiempo\ReportePlanilla2.vb"
+                    DependentUpon = "ReportePlanilla2.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Planilla\ControlTiempo\ControlTiempo2\DatasetFormaPago.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "DatasetFormaPago.vb"
+                />
+                <File
+                    RelPath = "Planilla\ControlTiempo\ControlTiempo2\DatasetFormaPago.vb"
+                    DependentUpon = "DatasetFormaPago.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Planilla\ControlTiempo\ControlTiempo2\DatasetFormaPago.xsx"
+                    DependentUpon = "DatasetFormaPago.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Planilla\ControlTiempo\ControlTiempo2\DsModificaPlanilla.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "DsModificaPlanilla.vb"
+                />
+                <File
+                    RelPath = "Planilla\ControlTiempo\ControlTiempo2\DsModificaPlanilla.vb"
+                    DependentUpon = "DsModificaPlanilla.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Planilla\ControlTiempo\ControlTiempo2\DsModificaPlanilla.xsx"
+                    DependentUpon = "DsModificaPlanilla.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Planilla\ControlTiempo\ControlTiempo2\frmControlTiempo2.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Planilla\ControlTiempo\ControlTiempo2\frmControlTiempo2.resx"
+                    DependentUpon = "frmControlTiempo2.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Planilla\ControlTiempo\ControlTiempo2\frmFormaPago.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Planilla\ControlTiempo\ControlTiempo2\frmFormaPago.resx"
+                    DependentUpon = "frmFormaPago.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Planilla\ControlTiempo\ControlTiempo2\frmModificaPlanilla.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Planilla\ControlTiempo\ControlTiempo2\frmModificaPlanilla.resx"
+                    DependentUpon = "frmModificaPlanilla.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Planilla\Deducciones\Deduccion.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "Deduccion.vb"
+                />
+                <File
+                    RelPath = "Planilla\Deducciones\Deduccion.vb"
+                    DependentUpon = "Deduccion.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Planilla\Deducciones\Deduccion.xsx"
+                    DependentUpon = "Deduccion.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Planilla\Deducciones\Deducciones.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Planilla\Deducciones\Deducciones.resx"
+                    DependentUpon = "Deducciones.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Planilla\Deducciones\ListDeducciones.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "ListDeducciones.vb"
+                />
+                <File
+                    RelPath = "Planilla\Deducciones\ListDeducciones.vb"
+                    DependentUpon = "ListDeducciones.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Planilla\Departamento\Departamento.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Planilla\Departamento\Departamento.resx"
+                    DependentUpon = "Departamento.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Planilla\Departamento\dsDepartamento.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "dsDepartamento.vb"
+                />
+                <File
+                    RelPath = "Planilla\Departamento\dsDepartamento.vb"
+                    DependentUpon = "dsDepartamento.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Planilla\Departamento\ListadoDepartamento.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "ListadoDepartamento.vb"
+                />
+                <File
+                    RelPath = "Planilla\Departamento\ListadoDepartamento.vb"
+                    DependentUpon = "ListadoDepartamento.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Planilla\Empleado\DsEmpleado.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "DsEmpleado.vb"
+                />
+                <File
+                    RelPath = "Planilla\Empleado\DsEmpleado.vb"
+                    DependentUpon = "DsEmpleado.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Planilla\Empleado\DsEmpleado.xsx"
+                    DependentUpon = "DsEmpleado.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Planilla\Empleado\DSReporEmpleado.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "DSReporEmpleado.vb"
+                />
+                <File
+                    RelPath = "Planilla\Empleado\DSReporEmpleado.vb"
+                    DependentUpon = "DSReporEmpleado.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Planilla\Empleado\EmpleadoGeneral.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "EmpleadoGeneral.vb"
+                />
+                <File
+                    RelPath = "Planilla\Empleado\EmpleadoGeneral.vb"
+                    DependentUpon = "EmpleadoGeneral.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Planilla\Empleado\EmpleadoXProyecto.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "EmpleadoXProyecto.vb"
+                />
+                <File
+                    RelPath = "Planilla\Empleado\EmpleadoXProyecto.vb"
+                    DependentUpon = "EmpleadoXProyecto.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Planilla\Empleado\fmrBuscarMayorizacionAsiento.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Planilla\Empleado\fmrBuscarMayorizacionAsiento.resx"
+                    DependentUpon = "fmrBuscarMayorizacionAsiento.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Planilla\Empleado\FrmEmpleado.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Planilla\Empleado\FrmEmpleado.resx"
+                    DependentUpon = "FrmEmpleado.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Planilla\Empleado\ReporteEmpleado.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "ReporteEmpleado.vb"
+                />
+                <File
+                    RelPath = "Planilla\Empleado\ReporteEmpleado.vb"
+                    DependentUpon = "ReporteEmpleado.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Planilla\Empleado\Visor Reportes.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Planilla\Empleado\Visor Reportes.resx"
+                    DependentUpon = "Visor Reportes.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Planilla\EstadoEmpleado\dsEstadoEmpleado.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "dsEstadoEmpleado.vb"
+                />
+                <File
+                    RelPath = "Planilla\EstadoEmpleado\dsEstadoEmpleado.vb"
+                    DependentUpon = "dsEstadoEmpleado.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Planilla\EstadoEmpleado\frmEstadoEmpleado.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Planilla\EstadoEmpleado\frmEstadoEmpleado.resx"
+                    DependentUpon = "frmEstadoEmpleado.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Planilla\EstadoEmpleado\RepEstadoEmpleado.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "RepEstadoEmpleado.vb"
+                />
+                <File
+                    RelPath = "Planilla\EstadoEmpleado\RepEstadoEmpleado.vb"
+                    DependentUpon = "RepEstadoEmpleado.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Planilla\ImpuestoRenta\DataSetParametro.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "DataSetParametro.vb"
+                />
+                <File
+                    RelPath = "Planilla\ImpuestoRenta\DataSetParametro.vb"
+                    DependentUpon = "DataSetParametro.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Planilla\ImpuestoRenta\ImpuestoRenta.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Planilla\ImpuestoRenta\ImpuestoRenta.resx"
+                    DependentUpon = "ImpuestoRenta.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Planilla\LiquidaciónLaboral\DsLiquidacion.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "DsLiquidacion.vb"
+                />
+                <File
+                    RelPath = "Planilla\LiquidaciónLaboral\DsLiquidacion.vb"
+                    DependentUpon = "DsLiquidacion.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Planilla\LiquidaciónLaboral\DsLiquidacion.xsx"
+                    DependentUpon = "DsLiquidacion.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Planilla\LiquidaciónLaboral\Liquidacion.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "Liquidacion.vb"
+                />
+                <File
+                    RelPath = "Planilla\LiquidaciónLaboral\Liquidacion.vb"
+                    DependentUpon = "Liquidacion.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Planilla\LiquidaciónLaboral\LiquidacionLaboral.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Planilla\LiquidaciónLaboral\LiquidacionLaboral.resx"
+                    DependentUpon = "LiquidacionLaboral.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Planilla\Módulos\cFunciones.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Planilla\Módulos\cNum2Text.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Planilla\Módulos\Conexion.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Planilla\Módulos\CrystalReports.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Planilla\Reporte_Horas\dsReporteProyecto.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "dsReporteProyecto.vb"
+                />
+                <File
+                    RelPath = "Planilla\Reporte_Horas\dsReporteProyecto.vb"
+                    DependentUpon = "dsReporteProyecto.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Planilla\Reporte_Horas\frmReporte_Horas.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Planilla\Reporte_Horas\frmReporte_Horas.resx"
+                    DependentUpon = "frmReporte_Horas.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Planilla\Reporte_Horas\GeneralXFechas.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "GeneralXFechas.vb"
+                />
+                <File
+                    RelPath = "Planilla\Reporte_Horas\GeneralXFechas.vb"
+                    DependentUpon = "GeneralXFechas.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Planilla\Reporte_Horas\HorasXEmpleado.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "HorasXEmpleado.vb"
+                />
+                <File
+                    RelPath = "Planilla\Reporte_Horas\HorasXEmpleado.vb"
+                    DependentUpon = "HorasXEmpleado.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Planilla\ReportesGenerales\AccionPersonales.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "AccionPersonales.vb"
+                />
+                <File
+                    RelPath = "Planilla\ReportesGenerales\AccionPersonales.vb"
+                    DependentUpon = "AccionPersonales.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Planilla\ReportesGenerales\AccionPorFecha.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "AccionPorFecha.vb"
+                />
+                <File
+                    RelPath = "Planilla\ReportesGenerales\AccionPorFecha.vb"
+                    DependentUpon = "AccionPorFecha.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Planilla\ReportesGenerales\AccionPorFecha.resx"
+                    DependentUpon = "AccionPorFecha.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Planilla\ReportesGenerales\Adelantos.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "Adelantos.vb"
+                />
+                <File
+                    RelPath = "Planilla\ReportesGenerales\Adelantos.vb"
+                    DependentUpon = "Adelantos.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Planilla\ReportesGenerales\Aguinaldos.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "Aguinaldos1.vb"
+                />
+                <File
+                    RelPath = "Planilla\ReportesGenerales\Aguinaldos1.vb"
+                    DependentUpon = "Aguinaldos.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Planilla\ReportesGenerales\C.C.S.S.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "C.C.S.S.vb"
+                />
+                <File
+                    RelPath = "Planilla\ReportesGenerales\C.C.S.S.vb"
+                    DependentUpon = "C.C.S.S.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Planilla\ReportesGenerales\I.N.S.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "I.N.S.vb"
+                />
+                <File
+                    RelPath = "Planilla\ReportesGenerales\I.N.S.vb"
+                    DependentUpon = "I.N.S.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Planilla\ReportesGenerales\ReporteporAccion.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "ReporteporAccion.vb"
+                />
+                <File
+                    RelPath = "Planilla\ReportesGenerales\ReporteporAccion.vb"
+                    DependentUpon = "ReporteporAccion.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Planilla\ReportesGenerales\ReporteVacaciones.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "ReporteVacaciones.vb"
+                />
+                <File
+                    RelPath = "Planilla\ReportesGenerales\ReporteVacaciones.vb"
+                    DependentUpon = "ReporteVacaciones.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Planilla\ReportesGenerales\ReporteVacacionesPorEmpleado.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "ReporteVacacionesPorEmpleado.vb"
+                />
+                <File
+                    RelPath = "Planilla\ReportesGenerales\ReporteVacacionesPorEmpleado.vb"
+                    DependentUpon = "ReporteVacacionesPorEmpleado.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Planilla\ReportesGenerales\ReporteVacacionesPorFecha.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "ReporteVacacionesPorFecha.vb"
+                />
+                <File
+                    RelPath = "Planilla\ReportesGenerales\ReporteVacacionesPorFecha.vb"
+                    DependentUpon = "ReporteVacacionesPorFecha.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Plantilla\Plantilla.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Plantilla\Plantilla.resx"
+                    DependentUpon = "Plantilla.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Usuarios\DataSetUsuario.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "DataSetUsuario.vb"
+                />
+                <File
+                    RelPath = "Usuarios\DataSetUsuario.vb"
+                    DependentUpon = "DataSetUsuario.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Usuarios\DataSetUsuario.xsx"
+                    DependentUpon = "DataSetUsuario.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Usuarios\DataSetUsuario_logging.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "DataSetUsuario_logging.vb"
+                />
+                <File
+                    RelPath = "Usuarios\DataSetUsuario_logging.vb"
+                    DependentUpon = "DataSetUsuario_logging.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Usuarios\DataSetUsuario_logging.xsx"
+                    DependentUpon = "DataSetUsuario_logging.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Usuarios\Frm_login.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Usuarios\Frm_login.resx"
+                    DependentUpon = "Frm_login.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Usuarios\FrmUsuarios.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Usuarios\FrmUsuarios.resx"
+                    DependentUpon = "FrmUsuarios.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Usuarios\Usuario_Logeado.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+            </Include>
+        </Files>
+        <StartupServices>
+            <Service ID = "{CF845C55-C321-4742-B673-E6212D061ED9}" />
+        </StartupServices>
+    </VisualBasic>
+</VisualStudioProject>
+
