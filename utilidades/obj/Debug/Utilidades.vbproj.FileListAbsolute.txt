@@ -55,3 +55,20 @@ C:\Users\TIOBSoluciones\Desktop\Planilla SUVESA\RRHH - ULTIMO - 2015\utilidades\
 C:\Users\TIOBSoluciones\Desktop\Planilla SUVESA\RRHH - ULTIMO - 2015\utilidades\obj\Debug\Utilidades.xml
 C:\Users\TIOBSoluciones\Desktop\Planilla SUVESA\RRHH - ULTIMO - 2015\utilidades\obj\Debug\Utilidades.pdb
 C:\Users\TIOBSoluciones\Desktop\Planilla SUVESA\RRHH - ULTIMO - 2015\utilidades\obj\Debug\Utilidades.vbprojResolveAssemblyReference.cache
+C:\Users\Juan Diego\Documents\GitHub\RecursosHumanosSO\utilidades\bin\Utilidades.dll
+C:\Users\Juan Diego\Documents\GitHub\RecursosHumanosSO\utilidades\bin\Utilidades.pdb
+C:\Users\Juan Diego\Documents\GitHub\RecursosHumanosSO\utilidades\bin\Utilidades.xml
+C:\Users\Juan Diego\Documents\GitHub\RecursosHumanosSO\utilidades\obj\Debug\Utilidades.Buscar.resources
+C:\Users\Juan Diego\Documents\GitHub\RecursosHumanosSO\utilidades\obj\Debug\Utilidades.FrmBuscarArticulo.resources
+C:\Users\Juan Diego\Documents\GitHub\RecursosHumanosSO\utilidades\obj\Debug\Utilidades.FrmBuscador.resources
+C:\Users\Juan Diego\Documents\GitHub\RecursosHumanosSO\utilidades\obj\Debug\Utilidades.FrmBuscador5C.resources
+C:\Users\Juan Diego\Documents\GitHub\RecursosHumanosSO\utilidades\obj\Debug\Utilidades.FrmBuscadorN.resources
+C:\Users\Juan Diego\Documents\GitHub\RecursosHumanosSO\utilidades\obj\Debug\Utilidades.FrmPlantilla.resources
+C:\Users\Juan Diego\Documents\GitHub\RecursosHumanosSO\utilidades\obj\Debug\Utilidades.FrmRespaldo.resources
+C:\Users\Juan Diego\Documents\GitHub\RecursosHumanosSO\utilidades\obj\Debug\Utilidades.frmCambioContrasena.resources
+C:\Users\Juan Diego\Documents\GitHub\RecursosHumanosSO\utilidades\obj\Debug\Utilidades.Frm_login.resources
+C:\Users\Juan Diego\Documents\GitHub\RecursosHumanosSO\utilidades\obj\Debug\Utilidades.frmVisorReportes.resources
+C:\Users\Juan Diego\Documents\GitHub\RecursosHumanosSO\utilidades\obj\Debug\Utilidades.vbproj.GenerateResource.Cache
+C:\Users\Juan Diego\Documents\GitHub\RecursosHumanosSO\utilidades\obj\Debug\Utilidades.dll
+C:\Users\Juan Diego\Documents\GitHub\RecursosHumanosSO\utilidades\obj\Debug\Utilidades.xml
+C:\Users\Juan Diego\Documents\GitHub\RecursosHumanosSO\utilidades\obj\Debug\Utilidades.pdb

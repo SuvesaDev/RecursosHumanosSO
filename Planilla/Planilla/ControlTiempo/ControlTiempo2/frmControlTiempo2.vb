@@ -2390,7 +2390,7 @@ Public Class frmControlTiempo2
                     DiasDescontados1 = DiasDescontados + INS + (Embarazo / 2) + dif
                 Else
                     DiasDescontados1 = DiasDescontados + INS + (Embarazo / 2)
-                End If                
+                End If
             Else
                 DiasDescontados1 = DiasDescontados + INS + (Embarazo / 2)
             End If
@@ -2453,22 +2453,26 @@ Public Class frmControlTiempo2
                     Tipo = DsPlanilla1.Empleado_Deducciones.Rows(J).Item("Tipo")
                     Select Case Tipo
                         Case "V"
-                            Total = DsPlanilla1.Empleado_Deducciones.Rows(J).Item("Monto") 'original
-                            Dim ee As Integer = DsPlanilla1.Empleado_Deducciones.Rows.Count
-                            Dim ii As Integer = TablaPlanilla.Rows.Count
-                            If TablaPlanilla.Rows(x).Item("Moneda") = "DOLAR" Then
-                                If DsPlanilla1.Empleado_Deducciones.Rows(J).Item("Cod_Moneda") = 1 Then
-                                    Total = Total / DsPlanilla1.Moneda.Rows(1).Item("ValorCompra")
+                            If Me.BanderaDeduccion = False Then
+                                Total = DsPlanilla1.Empleado_Deducciones.Rows(J).Item("Monto") 'original
+                                Dim ee As Integer = DsPlanilla1.Empleado_Deducciones.Rows.Count
+                                Dim ii As Integer = TablaPlanilla.Rows.Count
+                                If TablaPlanilla.Rows(x).Item("Moneda") = "DOLAR" Then
+                                    If DsPlanilla1.Empleado_Deducciones.Rows(J).Item("Cod_Moneda") = 1 Then
+                                        Total = Total / DsPlanilla1.Moneda.Rows(1).Item("ValorCompra")
+                                    End If
+                                Else
+                                    If DsPlanilla1.Empleado_Deducciones.Rows(J).Item("Cod_Moneda") = 2 Then
+                                        Total = Total * DsPlanilla1.Moneda.Rows(1).Item("ValorCompra")
+                                    End If
                                 End If
-                            Else
-                                If DsPlanilla1.Empleado_Deducciones.Rows(J).Item("Cod_Moneda") = 2 Then
-                                    Total = Total * DsPlanilla1.Moneda.Rows(1).Item("ValorCompra")
-                                End If
-                            End If
 
-                            TablaPlanilla.Rows(x).Item(DsPlanilla1.Empleado_Deducciones.Rows(J).Item("Descripcion").ToString) = Total
-                            DsPlanilla1.Empleado_Deducciones.Rows(J).Item("Monto") = Total  'psv
-                            TotalDeducciones = TotalDeducciones + Total
+                                TablaPlanilla.Rows(x).Item(DsPlanilla1.Empleado_Deducciones.Rows(J).Item("Descripcion").ToString) = Total
+                                DsPlanilla1.Empleado_Deducciones.Rows(J).Item("Monto") = Total  'psv
+                                TotalDeducciones = TotalDeducciones + Total
+                            Else
+                                TotalDeducciones = TotalDeducciones + DsPlanilla1.Empleado_Deducciones.Rows(J).Item("Monto")
+                            End If
                         Case "%"
                             Monto = DsPlanilla1.Empleado_Deducciones.Rows(J).Item("Monto") 'original
                             'Monto = TablaPlanilla.Rows(x).Item("Monto")'psv
@@ -2779,6 +2783,8 @@ Public Class frmControlTiempo2
         Return True
     End Function
 
+    Private BanderaDeduccion As Boolean = False
+
     Private Sub Recalcular_Fila_Saldo(ByVal x As Integer)
 
         Dim Ordinarias, Extras, Feriadas, Dobles, Ord_Noct, Ext_Noct, Salario, Salarios, Monto, Deduccion, SalarioBruto, SalarioBruto2, Total, TotalDeducciones, Porcentaje1, Porcentaje2, Hijos As Double
@@ -2823,7 +2829,7 @@ Public Class frmControlTiempo2
                 '-----------------------------------------------------------------------
                 ' ACCIONES DE PERSONAL
                 For J = 0 To DsPlanilla1.AccionPersonal.Rows.Count - 1
-                   
+
                     If DsPlanilla1.AccionPersonal.Rows(J).Item("Id_Empleado") = TablaPlanilla.Rows(x).Item("Cedula") Then
 
                         Select Case DsPlanilla1.AccionPersonal.Rows(J).Item("Id_Accion").ToString
@@ -3049,20 +3055,24 @@ Public Class frmControlTiempo2
                         Tipo = DsPlanilla1.Empleado_Deducciones.Rows(J).Item("Tipo")
                         Select Case Tipo
                             Case "V"
-                                Dim ii As Double = TablaPlanilla.Rows(x).Item(DsPlanilla1.Empleado_Deducciones.Rows(J).Item("Descripcion"))
-                                Total = TablaPlanilla.Rows(x).Item(DsPlanilla1.Empleado_Deducciones.Rows(J).Item("Descripcion")) 'psv
-                                If TablaPlanilla.Rows(x).Item("Moneda") = "DOLAR" Then
-                                    If DsPlanilla1.Empleado_Deducciones.Rows(J).Item("Cod_Moneda") = 1 Then
-                                        Total = Total / DsPlanilla1.Moneda.Rows(1).Item("ValorCompra")
+                                If Me.BanderaDeduccion = False Then
+                                    Dim ii As Double = TablaPlanilla.Rows(x).Item(DsPlanilla1.Empleado_Deducciones.Rows(J).Item("Descripcion"))
+                                    Total = TablaPlanilla.Rows(x).Item(DsPlanilla1.Empleado_Deducciones.Rows(J).Item("Descripcion")) 'psv
+                                    If TablaPlanilla.Rows(x).Item("Moneda") = "DOLAR" Then
+                                        If DsPlanilla1.Empleado_Deducciones.Rows(J).Item("Cod_Moneda") = 1 Then
+                                            Total = Total / DsPlanilla1.Moneda.Rows(1).Item("ValorCompra")
+                                        End If
+                                    Else
+                                        If DsPlanilla1.Empleado_Deducciones.Rows(J).Item("Cod_Moneda") = 2 Then
+                                            Total = Total * DsPlanilla1.Moneda.Rows(1).Item("ValorCompra")
+                                        End If
                                     End If
-                                Else
-                                    If DsPlanilla1.Empleado_Deducciones.Rows(J).Item("Cod_Moneda") = 2 Then
-                                        Total = Total * DsPlanilla1.Moneda.Rows(1).Item("ValorCompra")
-                                    End If
-                                End If
 
-                                TablaPlanilla.Rows(x).Item(DsPlanilla1.Empleado_Deducciones.Rows(J).Item("Descripcion").ToString) = Total
-                                TotalDeducciones = TotalDeducciones + Total
+                                    TablaPlanilla.Rows(x).Item(DsPlanilla1.Empleado_Deducciones.Rows(J).Item("Descripcion").ToString) = Total
+                                    TotalDeducciones = TotalDeducciones + Total
+                                Else
+                                    TotalDeducciones = TotalDeducciones + TablaPlanilla.Rows(x).Item(DsPlanilla1.Empleado_Deducciones.Rows(J).Item("Descripcion").ToString)
+                                End If
                             Case "%"
                                 sqlconexion1 = cconexion1.Conectar("Planilla")
                                 CedulaJuridica = CStr(cconexion1.SlqExecuteScalar(sqlconexion1, "SELECT Cedula FROM Configuraciones"))
@@ -5102,6 +5112,7 @@ Public Class frmControlTiempo2
         End Try
     End Sub
     Private Sub ActualizarDatosEmpleado()
+        Me.BanderaDeduccion = True
         Dim Salario As Decimal = 0
         Dim ActualizaDatos As Boolean = False
         '*************************************************************************************************************************
@@ -5132,6 +5143,7 @@ Public Class frmControlTiempo2
             Me.Recalcular_Fila_Saldo(i)
         Next
         dlg.Close()
+        Me.BanderaDeduccion = False
     End Sub
 
     Private Sub btnBloquear_Click(sender As Object, e As EventArgs) Handles btnBloquear.Click
@@ -5141,21 +5153,11 @@ Public Class frmControlTiempo2
     End Sub
 
     Private Sub btnActualizarDatosEmpleado_Click(sender As Object, e As EventArgs) Handles btnActualizarDatosEmpleado.Click
-        'If IsNumeric(Me.txtPlanillaNumero.Text) Then
-        '    If CDec(Me.txtPlanillaNumero.Text) > 0 Then
-        '        If Me.PuedeEditar(Me.txtPlanillaNumero.Text) = False Then
-        '            Exit Sub
-        '        End If
-        '        Me.ActualizarDatosEmpleado()
-        '    Else
-        '        Me.ActualizarDatosEmpleado()
-        '    End If
-        'End If
         Me.ActualizarDatosEmpleado()
-
     End Sub
 
     Private Sub btnLimpiarCxC_Click(sender As Object, e As EventArgs) Handles btnLimpiarCxC.Click
+        Me.BanderaDeduccion = True
         Try
             If MsgBox("Desea limpiar las Cuentas por Cobrar", MsgBoxStyle.Question + MsgBoxStyle.YesNo, "Confirmar Accion") = MsgBoxResult.Yes Then
                 dlg = New WaitDialogForm("Limpiando Cuentas por Cobrar")
@@ -5163,6 +5165,7 @@ Public Class frmControlTiempo2
                     Me.DsPlanilla1.ConsultaSaldos(i).Cobrar = False
                     Me.DsPlanilla1.ConsultaSaldos(i).Abono = 0
                 Next
+
                 For i As Integer = 0 To Me.TablaPlanilla.Rows.Count - 1
                     Me.Recalcular_Fila_Planilla(i)
                     Me.Recalcular_Fila_Saldo(i)
@@ -5171,6 +5174,7 @@ Public Class frmControlTiempo2
             End If
         Catch ex As Exception
         End Try
+        Me.BanderaDeduccion = False        
     End Sub
 
 End Class

@@ -6,19 +6,43 @@ Planilla
 </name>
 </assembly>
 <members>
-<member name="T:Planilla.DsReporte.PlanillaDataTable">
+<member name="T:Planilla.DsConfiguracion.configuracionesDataTable">
 	<summary>
 Represents the strongly named DataTable class.
 </summary>
-</member><member name="T:Planilla.DsReporte.PlanillaRow">
+</member><member name="T:Planilla.DsConfiguracion.DepartamentoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Planilla.DsConfiguracion.Planilla_DetalleDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Planilla.DsConfiguracion.configuracionesRow">
 	<summary>
 Represents strongly named DataRow class.
 </summary>
-</member><member name="T:Planilla.DsReporte.PlanillaRowChangeEvent">
+</member><member name="T:Planilla.DsConfiguracion.DepartamentoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Planilla.DsConfiguracion.Planilla_DetalleRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Planilla.DsConfiguracion.configuracionesRowChangeEvent">
 	<summary>
 Row event argument class
 </summary>
-</member><member name="T:Planilla.DsReporte">
+</member><member name="T:Planilla.DsConfiguracion.DepartamentoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Planilla.DsConfiguracion.Planilla_DetalleRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Planilla.DsConfiguracion">
 	<summary>
 Represents a strongly typed in-memory cache of data.
 </summary>
@@ -122,47 +146,35 @@ Row event argument class
 	<summary>
 Represents a strongly typed in-memory cache of data.
 </summary>
-</member><member name="T:Planilla.DsNacionalidad1.NacionalidadDataTable">
+</member><member name="T:Planilla.DSReporEmpleado.ProyectoDataTable">
 	<summary>
 Represents the strongly named DataTable class.
 </summary>
-</member><member name="T:Planilla.DsNacionalidad1.NacionalidadRow">
+</member><member name="T:Planilla.DSReporEmpleado.ProyectoRow">
 	<summary>
 Represents strongly named DataRow class.
 </summary>
-</member><member name="T:Planilla.DsNacionalidad1.NacionalidadRowChangeEvent">
+</member><member name="T:Planilla.DSReporEmpleado.ProyectoRowChangeEvent">
 	<summary>
 Row event argument class
 </summary>
-</member><member name="T:Planilla.DsNacionalidad1">
+</member><member name="T:Planilla.DSReporEmpleado">
 	<summary>
 Represents a strongly typed in-memory cache of data.
 </summary>
-</member><member name="T:Planilla.DataSetUsuario.MonedaDataTable">
+</member><member name="T:Planilla.dsEstadoEmpleado.Estado_EmpleadoDataTable">
 	<summary>
 Represents the strongly named DataTable class.
 </summary>
-</member><member name="T:Planilla.DataSetUsuario.UsuariosDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Planilla.DataSetUsuario.MonedaRow">
+</member><member name="T:Planilla.dsEstadoEmpleado.Estado_EmpleadoRow">
 	<summary>
 Represents strongly named DataRow class.
 </summary>
-</member><member name="T:Planilla.DataSetUsuario.UsuariosRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Planilla.DataSetUsuario.MonedaRowChangeEvent">
+</member><member name="T:Planilla.dsEstadoEmpleado.Estado_EmpleadoRowChangeEvent">
 	<summary>
 Row event argument class
 </summary>
-</member><member name="T:Planilla.DataSetUsuario.UsuariosRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Planilla.DataSetUsuario">
+</member><member name="T:Planilla.dsEstadoEmpleado">
 	<summary>
 Represents a strongly typed in-memory cache of data.
 </summary>
@@ -206,38 +218,6 @@ Row event argument class
 	<summary>
 Represents a strongly typed in-memory cache of data.
 </summary>
-</member><member name="T:Planilla.DsMarcas.CHECKINOUTDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Planilla.DsMarcas.CHECKINOUTRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Planilla.DsMarcas.CHECKINOUTRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Planilla.DsMarcas">
-	<summary>
-Represents a strongly typed in-memory cache of data.
-</summary>
-</member><member name="T:Planilla.DsProyecto.ProyectoDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Planilla.DsProyecto.ProyectoRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Planilla.DsProyecto.ProyectoRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Planilla.DsProyecto">
-	<summary>
-Represents a strongly typed in-memory cache of data.
-</summary>
 </member><member name="T:Planilla.dsAdelantos.MonedaDataTable">
 	<summary>
 Represents the strongly named DataTable class.
@@ -266,59 +246,359 @@ Row event argument class
 	<summary>
 Represents a strongly typed in-memory cache of data.
 </summary>
-</member><member name="T:Planilla.DatasetFormaPago.FormaPagoDataTable">
+</member><member name="T:Planilla.DsReporte.PlanillaDataTable">
 	<summary>
 Represents the strongly named DataTable class.
 </summary>
-</member><member name="T:Planilla.DatasetFormaPago.FormaPagoRow">
+</member><member name="T:Planilla.DsReporte.PlanillaRow">
 	<summary>
 Represents strongly named DataRow class.
 </summary>
-</member><member name="T:Planilla.DatasetFormaPago.FormaPagoRowChangeEvent">
+</member><member name="T:Planilla.DsReporte.PlanillaRowChangeEvent">
 	<summary>
 Row event argument class
 </summary>
-</member><member name="T:Planilla.DatasetFormaPago">
+</member><member name="T:Planilla.DsReporte">
 	<summary>
 Represents a strongly typed in-memory cache of data.
 </summary>
-</member><member name="T:Planilla.DataSetBuscaAccionPersonal.AccionPersonalDataTable">
+</member><member name="T:Planilla.DsNacionalidad1.NacionalidadDataTable">
 	<summary>
 Represents the strongly named DataTable class.
 </summary>
-</member><member name="T:Planilla.DataSetBuscaAccionPersonal.AccionDataTable">
+</member><member name="T:Planilla.DsNacionalidad1.NacionalidadRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Planilla.DsNacionalidad1.NacionalidadRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Planilla.DsNacionalidad1">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Planilla.DataSetUsuario_logging.UsuariosDataTable">
 	<summary>
 Represents the strongly named DataTable class.
 </summary>
-</member><member name="T:Planilla.DataSetBuscaAccionPersonal.EmpleadoDataTable">
+</member><member name="T:Planilla.DataSetUsuario_logging.UsuariosRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Planilla.DataSetUsuario_logging.UsuariosRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Planilla.DataSetUsuario_logging">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Planilla.DsProyecto.ProyectoDataTable">
 	<summary>
 Represents the strongly named DataTable class.
 </summary>
-</member><member name="T:Planilla.DataSetBuscaAccionPersonal.AccionPersonalRow">
+</member><member name="T:Planilla.DsProyecto.ProyectoRow">
 	<summary>
 Represents strongly named DataRow class.
 </summary>
-</member><member name="T:Planilla.DataSetBuscaAccionPersonal.AccionRow">
+</member><member name="T:Planilla.DsProyecto.ProyectoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Planilla.DsProyecto">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Planilla.DataSetBuscaAccion.AccionDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Planilla.DataSetBuscaAccion.AccionRow">
 	<summary>
 Represents strongly named DataRow class.
 </summary>
-</member><member name="T:Planilla.DataSetBuscaAccionPersonal.EmpleadoRow">
+</member><member name="T:Planilla.DataSetBuscaAccion.AccionRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Planilla.DataSetBuscaAccion">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Planilla.dsAumentos.AumentosDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Planilla.dsAumentos.EmpleadoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Planilla.dsAumentos.AumentosRow">
 	<summary>
 Represents strongly named DataRow class.
 </summary>
-</member><member name="T:Planilla.DataSetBuscaAccionPersonal.AccionPersonalRowChangeEvent">
+</member><member name="T:Planilla.dsAumentos.EmpleadoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Planilla.dsAumentos.AumentosRowChangeEvent">
 	<summary>
 Row event argument class
 </summary>
-</member><member name="T:Planilla.DataSetBuscaAccionPersonal.AccionRowChangeEvent">
+</member><member name="T:Planilla.dsAumentos.EmpleadoRowChangeEvent">
 	<summary>
 Row event argument class
 </summary>
-</member><member name="T:Planilla.DataSetBuscaAccionPersonal.EmpleadoRowChangeEvent">
+</member><member name="T:Planilla.dsAumentos">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Planilla.DsEmplead.EmpleadoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Planilla.DsEmplead.EmpleadoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Planilla.DsEmplead.EmpleadoRowChangeEvent">
 	<summary>
 Row event argument class
 </summary>
-</member><member name="T:Planilla.DataSetBuscaAccionPersonal">
+</member><member name="T:Planilla.DsEmplead">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Planilla.DsEmpleadoHoras.EmpleadoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Planilla.DsEmpleadoHoras.Empleado_ProyectoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Planilla.DsEmpleadoHoras.HorasTrabajadasDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Planilla.DsEmpleadoHoras.EmpleadoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Planilla.DsEmpleadoHoras.Empleado_ProyectoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Planilla.DsEmpleadoHoras.HorasTrabajadasRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Planilla.DsEmpleadoHoras.EmpleadoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Planilla.DsEmpleadoHoras.Empleado_ProyectoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Planilla.DsEmpleadoHoras.HorasTrabajadasRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Planilla.DsEmpleadoHoras">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Planilla.DataSetParametro.ParametroRentaDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Planilla.DataSetParametro.ParametroRentaRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Planilla.DataSetParametro.ParametroRentaRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Planilla.DataSetParametro">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Planilla.DsReportes.AdelantosDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Planilla.DsReportes.DeduccionesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Planilla.DsReportes.EmpleadoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Planilla.DsReportes.Empleado_DeduccionesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Planilla.DsReportes.HorasTrabajadasDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Planilla.DsReportes.ParametroRentaDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Planilla.DsReportes.PlanillaDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Planilla.DsReportes.Planilla_DeduccionesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Planilla.DsReportes.Planilla_DetalleDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Planilla.DsReportes.AccionDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Planilla.DsReportes.MonedaDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Planilla.DsReportes.AdelantosRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Planilla.DsReportes.DeduccionesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Planilla.DsReportes.EmpleadoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Planilla.DsReportes.Empleado_DeduccionesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Planilla.DsReportes.HorasTrabajadasRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Planilla.DsReportes.ParametroRentaRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Planilla.DsReportes.PlanillaRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Planilla.DsReportes.Planilla_DeduccionesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Planilla.DsReportes.Planilla_DetalleRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Planilla.DsReportes.AccionRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Planilla.DsReportes.MonedaRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Planilla.DsReportes.AdelantosRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Planilla.DsReportes.DeduccionesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Planilla.DsReportes.EmpleadoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Planilla.DsReportes.Empleado_DeduccionesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Planilla.DsReportes.HorasTrabajadasRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Planilla.DsReportes.ParametroRentaRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Planilla.DsReportes.PlanillaRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Planilla.DsReportes.Planilla_DeduccionesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Planilla.DsReportes.Planilla_DetalleRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Planilla.DsReportes.AccionRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Planilla.DsReportes.MonedaRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Planilla.DsReportes">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Planilla.DsPagoAutomatico.BancosDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Planilla.DsPagoAutomatico.Cuentas_bancariasDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Planilla.DsPagoAutomatico.TestKeyDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Planilla.DsPagoAutomatico.BancosRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Planilla.DsPagoAutomatico.Cuentas_bancariasRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Planilla.DsPagoAutomatico.TestKeyRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Planilla.DsPagoAutomatico.BancosRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Planilla.DsPagoAutomatico.Cuentas_bancariasRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Planilla.DsPagoAutomatico.TestKeyRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Planilla.DsPagoAutomatico">
 	<summary>
 Represents a strongly typed in-memory cache of data.
 </summary>
@@ -386,123 +666,291 @@ Row event argument class
 	<summary>
 Represents a strongly typed in-memory cache of data.
 </summary>
-</member><member name="T:Planilla.DataSet_HorasOrdinarias.Horas_OrdinariasDataTable">
+</member><member name="T:Planilla.dsReporteProyecto.ProyectoDataTable">
 	<summary>
 Represents the strongly named DataTable class.
 </summary>
-</member><member name="T:Planilla.DataSet_HorasOrdinarias.Horas_OrdinariasRow">
+</member><member name="T:Planilla.dsReporteProyecto.EmpleadoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Planilla.dsReporteProyecto.ProyectoRow">
 	<summary>
 Represents strongly named DataRow class.
 </summary>
-</member><member name="T:Planilla.DataSet_HorasOrdinarias.Horas_OrdinariasRowChangeEvent">
+</member><member name="T:Planilla.dsReporteProyecto.EmpleadoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Planilla.dsReporteProyecto.ProyectoRowChangeEvent">
 	<summary>
 Row event argument class
 </summary>
-</member><member name="T:Planilla.DataSet_HorasOrdinarias">
+</member><member name="T:Planilla.dsReporteProyecto.EmpleadoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Planilla.dsReporteProyecto">
 	<summary>
 Represents a strongly typed in-memory cache of data.
 </summary>
-</member><member name="T:Planilla.DsEmpleadoHoras.EmpleadoDataTable">
+</member><member name="T:Planilla.dsPlanilla2.Adelantos_DetalleDataTable">
 	<summary>
 Represents the strongly named DataTable class.
 </summary>
-</member><member name="T:Planilla.DsEmpleadoHoras.Empleado_ProyectoDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Planilla.DsEmpleadoHoras.HorasTrabajadasDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Planilla.DsEmpleadoHoras.EmpleadoRow">
+</member><member name="T:Planilla.dsPlanilla2.Adelantos_DetalleRow">
 	<summary>
 Represents strongly named DataRow class.
 </summary>
-</member><member name="T:Planilla.DsEmpleadoHoras.Empleado_ProyectoRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Planilla.DsEmpleadoHoras.HorasTrabajadasRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Planilla.DsEmpleadoHoras.EmpleadoRowChangeEvent">
+</member><member name="T:Planilla.dsPlanilla2.Adelantos_DetalleRowChangeEvent">
 	<summary>
 Row event argument class
 </summary>
-</member><member name="T:Planilla.DsEmpleadoHoras.Empleado_ProyectoRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Planilla.DsEmpleadoHoras.HorasTrabajadasRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Planilla.DsEmpleadoHoras">
+</member><member name="T:Planilla.dsPlanilla2">
 	<summary>
 Represents a strongly typed in-memory cache of data.
 </summary>
-</member><member name="T:Planilla.DsReportePlanilla.MonedaDataTable">
+</member><member name="T:Planilla.DsProyectoHoras.ProyectoDataTable">
 	<summary>
 Represents the strongly named DataTable class.
 </summary>
-</member><member name="T:Planilla.DsReportePlanilla.MonedaRow">
+</member><member name="T:Planilla.DsProyectoHoras.ProyectoRow">
 	<summary>
 Represents strongly named DataRow class.
 </summary>
-</member><member name="T:Planilla.DsReportePlanilla.MonedaRowChangeEvent">
+</member><member name="T:Planilla.DsProyectoHoras.ProyectoRowChangeEvent">
 	<summary>
 Row event argument class
 </summary>
-</member><member name="T:Planilla.DsReportePlanilla">
+</member><member name="T:Planilla.DsProyectoHoras">
 	<summary>
 Represents a strongly typed in-memory cache of data.
 </summary>
-</member><member name="T:Planilla.DsEmplead.EmpleadoDataTable">
+</member><member name="T:Planilla.DataSetAccionPersonal.EmpleadoDataTable">
 	<summary>
 Represents the strongly named DataTable class.
 </summary>
-</member><member name="T:Planilla.DsEmplead.EmpleadoRow">
+</member><member name="T:Planilla.DataSetAccionPersonal.AccionDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Planilla.DataSetAccionPersonal.AccionPersonalDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Planilla.DataSetAccionPersonal.EmpleadoRow">
 	<summary>
 Represents strongly named DataRow class.
 </summary>
-</member><member name="T:Planilla.DsEmplead.EmpleadoRowChangeEvent">
+</member><member name="T:Planilla.DataSetAccionPersonal.AccionRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Planilla.DataSetAccionPersonal.AccionPersonalRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Planilla.DataSetAccionPersonal.EmpleadoRowChangeEvent">
 	<summary>
 Row event argument class
 </summary>
-</member><member name="T:Planilla.DsEmplead">
+</member><member name="T:Planilla.DataSetAccionPersonal.AccionRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Planilla.DataSetAccionPersonal.AccionPersonalRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Planilla.DataSetAccionPersonal">
 	<summary>
 Represents a strongly typed in-memory cache of data.
 </summary>
-</member><member name="T:Planilla.dsEstadoEmpleado.Estado_EmpleadoDataTable">
+</member><member name="T:Planilla.DsEmpleado.NacionalidadDataTable">
 	<summary>
 Represents the strongly named DataTable class.
 </summary>
-</member><member name="T:Planilla.dsEstadoEmpleado.Estado_EmpleadoRow">
+</member><member name="T:Planilla.DsEmpleado.DepartamentoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Planilla.DsEmpleado.MonedaDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Planilla.DsEmpleado.Moneda2DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Planilla.DsEmpleado.Empleado_AcademicoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Planilla.DsEmpleado.Empleado_LicenciasDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Planilla.DsEmpleado.DistribucionContableDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Planilla.DsEmpleado.EmpleadoDistribucionContableDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Planilla.DsEmpleado.Estado_EmpleadoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Planilla.DsEmpleado.Empleado_DeduccionesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Planilla.DsEmpleado.EmpleadoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Planilla.DsEmpleado.Empleado_HorarioDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Planilla.DsEmpleado.NacionalidadRow">
 	<summary>
 Represents strongly named DataRow class.
 </summary>
-</member><member name="T:Planilla.dsEstadoEmpleado.Estado_EmpleadoRowChangeEvent">
+</member><member name="T:Planilla.DsEmpleado.DepartamentoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Planilla.DsEmpleado.MonedaRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Planilla.DsEmpleado.Moneda2Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Planilla.DsEmpleado.Empleado_AcademicoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Planilla.DsEmpleado.Empleado_LicenciasRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Planilla.DsEmpleado.DistribucionContableRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Planilla.DsEmpleado.EmpleadoDistribucionContableRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Planilla.DsEmpleado.Estado_EmpleadoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Planilla.DsEmpleado.Empleado_DeduccionesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Planilla.DsEmpleado.EmpleadoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Planilla.DsEmpleado.Empleado_HorarioRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Planilla.DsEmpleado.NacionalidadRowChangeEvent">
 	<summary>
 Row event argument class
 </summary>
-</member><member name="T:Planilla.dsEstadoEmpleado">
+</member><member name="T:Planilla.DsEmpleado.DepartamentoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Planilla.DsEmpleado.MonedaRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Planilla.DsEmpleado.Moneda2RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Planilla.DsEmpleado.Empleado_AcademicoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Planilla.DsEmpleado.Empleado_LicenciasRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Planilla.DsEmpleado.DistribucionContableRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Planilla.DsEmpleado.EmpleadoDistribucionContableRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Planilla.DsEmpleado.Estado_EmpleadoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Planilla.DsEmpleado.Empleado_DeduccionesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Planilla.DsEmpleado.EmpleadoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Planilla.DsEmpleado.Empleado_HorarioRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Planilla.DsEmpleado">
 	<summary>
 Represents a strongly typed in-memory cache of data.
 </summary>
-</member><member name="T:Planilla.DataSetParametro.ParametroRentaDataTable">
+</member><member name="T:Planilla.DataSetBuscaAccionPersonal.AccionPersonalDataTable">
 	<summary>
 Represents the strongly named DataTable class.
 </summary>
-</member><member name="T:Planilla.DataSetParametro.ParametroRentaRow">
+</member><member name="T:Planilla.DataSetBuscaAccionPersonal.AccionDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Planilla.DataSetBuscaAccionPersonal.EmpleadoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Planilla.DataSetBuscaAccionPersonal.AccionPersonalRow">
 	<summary>
 Represents strongly named DataRow class.
 </summary>
-</member><member name="T:Planilla.DataSetParametro.ParametroRentaRowChangeEvent">
+</member><member name="T:Planilla.DataSetBuscaAccionPersonal.AccionRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Planilla.DataSetBuscaAccionPersonal.EmpleadoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Planilla.DataSetBuscaAccionPersonal.AccionPersonalRowChangeEvent">
 	<summary>
 Row event argument class
 </summary>
-</member><member name="T:Planilla.DataSetParametro">
+</member><member name="T:Planilla.DataSetBuscaAccionPersonal.AccionRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Planilla.DataSetBuscaAccionPersonal.EmpleadoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Planilla.DataSetBuscaAccionPersonal">
 	<summary>
 Represents a strongly typed in-memory cache of data.
 </summary>
@@ -738,22 +1186,6 @@ Row event argument class
 	<summary>
 Represents a strongly typed in-memory cache of data.
 </summary>
-</member><member name="T:Planilla.DsProyectoHoras.ProyectoDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Planilla.DsProyectoHoras.ProyectoRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Planilla.DsProyectoHoras.ProyectoRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Planilla.DsProyectoHoras">
-	<summary>
-Represents a strongly typed in-memory cache of data.
-</summary>
 </member><member name="T:Planilla.DsUsuario.UsuariosDataTable">
 	<summary>
 Represents the strongly named DataTable class.
@@ -770,400 +1202,171 @@ Row event argument class
 	<summary>
 Represents a strongly typed in-memory cache of data.
 </summary>
-</member><member name="T:Planilla.DsConfiguracion.configuracionesDataTable">
+</member><member name="T:Planilla.DataSet_HorasOrdinarias.Horas_OrdinariasDataTable">
 	<summary>
 Represents the strongly named DataTable class.
 </summary>
-</member><member name="T:Planilla.DsConfiguracion.DepartamentoDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Planilla.DsConfiguracion.Planilla_DetalleDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Planilla.DsConfiguracion.configuracionesRow">
+</member><member name="T:Planilla.DataSet_HorasOrdinarias.Horas_OrdinariasRow">
 	<summary>
 Represents strongly named DataRow class.
 </summary>
-</member><member name="T:Planilla.DsConfiguracion.DepartamentoRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Planilla.DsConfiguracion.Planilla_DetalleRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Planilla.DsConfiguracion.configuracionesRowChangeEvent">
+</member><member name="T:Planilla.DataSet_HorasOrdinarias.Horas_OrdinariasRowChangeEvent">
 	<summary>
 Row event argument class
 </summary>
-</member><member name="T:Planilla.DsConfiguracion.DepartamentoRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Planilla.DsConfiguracion.Planilla_DetalleRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Planilla.DsConfiguracion">
+</member><member name="T:Planilla.DataSet_HorasOrdinarias">
 	<summary>
 Represents a strongly typed in-memory cache of data.
 </summary>
-</member><member name="P:Planilla.My.Resources.Resources.ResourceManager">
-	<summary>
-  Returns the cached ResourceManager instance used by this class.
-</summary>
-</member><member name="P:Planilla.My.Resources.Resources.Culture">
-	<summary>
-  Overrides the current thread's CurrentUICulture property for all
-  resource lookups using this strongly typed resource class.
-</summary>
-</member><member name="P:Planilla.My.Resources.Resources.login">
-	<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member><member name="P:Planilla.My.Resources.Resources.Nofoto">
-	<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member><member name="P:Planilla.My.Resources.Resources.suvesa_logo">
-	<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member><member name="P:Planilla.My.Resources.Resources.wallpaper2you_290966">
-	<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member><member name="T:Planilla.My.Resources.Resources">
-	<summary>
-  A strongly-typed resource class, for looking up localized strings, etc.
-</summary>
-</member><member name="T:Planilla.DataSetBuscaAccion.AccionDataTable">
+</member><member name="T:Planilla.DsModificaPlanilla.PlanillaDataTable">
 	<summary>
 Represents the strongly named DataTable class.
 </summary>
-</member><member name="T:Planilla.DataSetBuscaAccion.AccionRow">
+</member><member name="T:Planilla.DsModificaPlanilla.Planilla_DetalleDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Planilla.DsModificaPlanilla.DeduccionesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Planilla.DsModificaPlanilla.Planilla_DeduccionesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Planilla.DsModificaPlanilla.AdelantosDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Planilla.DsModificaPlanilla.AccionPersonalDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Planilla.DsModificaPlanilla.MonedaDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Planilla.DsModificaPlanilla.Empleado_DeduccionesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Planilla.DsModificaPlanilla.ParametroRentaDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Planilla.DsModificaPlanilla.Adelantos_DetalleDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Planilla.DsModificaPlanilla.EmpleadoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Planilla.DsModificaPlanilla.PlanillaRow">
 	<summary>
 Represents strongly named DataRow class.
 </summary>
-</member><member name="T:Planilla.DataSetBuscaAccion.AccionRowChangeEvent">
+</member><member name="T:Planilla.DsModificaPlanilla.Planilla_DetalleRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Planilla.DsModificaPlanilla.DeduccionesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Planilla.DsModificaPlanilla.Planilla_DeduccionesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Planilla.DsModificaPlanilla.AdelantosRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Planilla.DsModificaPlanilla.AccionPersonalRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Planilla.DsModificaPlanilla.MonedaRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Planilla.DsModificaPlanilla.Empleado_DeduccionesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Planilla.DsModificaPlanilla.ParametroRentaRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Planilla.DsModificaPlanilla.Adelantos_DetalleRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Planilla.DsModificaPlanilla.EmpleadoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Planilla.DsModificaPlanilla.PlanillaRowChangeEvent">
 	<summary>
 Row event argument class
 </summary>
-</member><member name="T:Planilla.DataSetBuscaAccion">
+</member><member name="T:Planilla.DsModificaPlanilla.Planilla_DetalleRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Planilla.DsModificaPlanilla.DeduccionesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Planilla.DsModificaPlanilla.Planilla_DeduccionesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Planilla.DsModificaPlanilla.AdelantosRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Planilla.DsModificaPlanilla.AccionPersonalRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Planilla.DsModificaPlanilla.MonedaRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Planilla.DsModificaPlanilla.Empleado_DeduccionesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Planilla.DsModificaPlanilla.ParametroRentaRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Planilla.DsModificaPlanilla.Adelantos_DetalleRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Planilla.DsModificaPlanilla.EmpleadoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Planilla.DsModificaPlanilla">
 	<summary>
 Represents a strongly typed in-memory cache of data.
 </summary>
-</member><member name="T:Planilla.DsEmpleado.NacionalidadDataTable">
+</member><member name="T:Planilla.DsMarcas.CHECKINOUTDataTable">
 	<summary>
 Represents the strongly named DataTable class.
 </summary>
-</member><member name="T:Planilla.DsEmpleado.DepartamentoDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Planilla.DsEmpleado.MonedaDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Planilla.DsEmpleado.Moneda2DataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Planilla.DsEmpleado.Empleado_AcademicoDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Planilla.DsEmpleado.Empleado_LicenciasDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Planilla.DsEmpleado.DistribucionContableDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Planilla.DsEmpleado.EmpleadoDistribucionContableDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Planilla.DsEmpleado.Estado_EmpleadoDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Planilla.DsEmpleado.Empleado_DeduccionesDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Planilla.DsEmpleado.EmpleadoDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Planilla.DsEmpleado.Empleado_HorarioDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Planilla.DsEmpleado.NacionalidadRow">
+</member><member name="T:Planilla.DsMarcas.CHECKINOUTRow">
 	<summary>
 Represents strongly named DataRow class.
 </summary>
-</member><member name="T:Planilla.DsEmpleado.DepartamentoRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Planilla.DsEmpleado.MonedaRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Planilla.DsEmpleado.Moneda2Row">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Planilla.DsEmpleado.Empleado_AcademicoRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Planilla.DsEmpleado.Empleado_LicenciasRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Planilla.DsEmpleado.DistribucionContableRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Planilla.DsEmpleado.EmpleadoDistribucionContableRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Planilla.DsEmpleado.Estado_EmpleadoRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Planilla.DsEmpleado.Empleado_DeduccionesRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Planilla.DsEmpleado.EmpleadoRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Planilla.DsEmpleado.Empleado_HorarioRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Planilla.DsEmpleado.NacionalidadRowChangeEvent">
+</member><member name="T:Planilla.DsMarcas.CHECKINOUTRowChangeEvent">
 	<summary>
 Row event argument class
 </summary>
-</member><member name="T:Planilla.DsEmpleado.DepartamentoRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Planilla.DsEmpleado.MonedaRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Planilla.DsEmpleado.Moneda2RowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Planilla.DsEmpleado.Empleado_AcademicoRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Planilla.DsEmpleado.Empleado_LicenciasRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Planilla.DsEmpleado.DistribucionContableRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Planilla.DsEmpleado.EmpleadoDistribucionContableRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Planilla.DsEmpleado.Estado_EmpleadoRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Planilla.DsEmpleado.Empleado_DeduccionesRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Planilla.DsEmpleado.EmpleadoRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Planilla.DsEmpleado.Empleado_HorarioRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Planilla.DsEmpleado">
-	<summary>
-Represents a strongly typed in-memory cache of data.
-</summary>
-</member><member name="T:Planilla.DsReportes.AdelantosDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Planilla.DsReportes.DeduccionesDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Planilla.DsReportes.EmpleadoDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Planilla.DsReportes.Empleado_DeduccionesDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Planilla.DsReportes.HorasTrabajadasDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Planilla.DsReportes.ParametroRentaDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Planilla.DsReportes.PlanillaDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Planilla.DsReportes.Planilla_DeduccionesDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Planilla.DsReportes.Planilla_DetalleDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Planilla.DsReportes.AccionDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Planilla.DsReportes.MonedaDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Planilla.DsReportes.AdelantosRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Planilla.DsReportes.DeduccionesRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Planilla.DsReportes.EmpleadoRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Planilla.DsReportes.Empleado_DeduccionesRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Planilla.DsReportes.HorasTrabajadasRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Planilla.DsReportes.ParametroRentaRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Planilla.DsReportes.PlanillaRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Planilla.DsReportes.Planilla_DeduccionesRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Planilla.DsReportes.Planilla_DetalleRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Planilla.DsReportes.AccionRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Planilla.DsReportes.MonedaRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Planilla.DsReportes.AdelantosRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Planilla.DsReportes.DeduccionesRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Planilla.DsReportes.EmpleadoRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Planilla.DsReportes.Empleado_DeduccionesRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Planilla.DsReportes.HorasTrabajadasRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Planilla.DsReportes.ParametroRentaRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Planilla.DsReportes.PlanillaRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Planilla.DsReportes.Planilla_DeduccionesRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Planilla.DsReportes.Planilla_DetalleRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Planilla.DsReportes.AccionRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Planilla.DsReportes.MonedaRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Planilla.DsReportes">
-	<summary>
-Represents a strongly typed in-memory cache of data.
-</summary>
-</member><member name="T:Planilla.dsAumentos.AumentosDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Planilla.dsAumentos.EmpleadoDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Planilla.dsAumentos.AumentosRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Planilla.dsAumentos.EmpleadoRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Planilla.dsAumentos.AumentosRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Planilla.dsAumentos.EmpleadoRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Planilla.dsAumentos">
+</member><member name="T:Planilla.DsMarcas">
 	<summary>
 Represents a strongly typed in-memory cache of data.
 </summary>
@@ -1351,6 +1554,50 @@ Row event argument class
 	<summary>
 Represents a strongly typed in-memory cache of data.
 </summary>
+</member><member name="T:Planilla.DataSetUsuario.MonedaDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Planilla.DataSetUsuario.UsuariosDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Planilla.DataSetUsuario.MonedaRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Planilla.DataSetUsuario.UsuariosRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Planilla.DataSetUsuario.MonedaRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Planilla.DataSetUsuario.UsuariosRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Planilla.DataSetUsuario">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Planilla.DatasetFormaPago.FormaPagoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Planilla.DatasetFormaPago.FormaPagoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Planilla.DatasetFormaPago.FormaPagoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Planilla.DatasetFormaPago">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
 </member><member name="T:Planilla.dsDepartamento.DepartamentoDataTable">
 	<summary>
 Represents the strongly named DataTable class.
@@ -1367,295 +1614,48 @@ Row event argument class
 	<summary>
 Represents a strongly typed in-memory cache of data.
 </summary>
-</member><member name="T:Planilla.DsModificaPlanilla.PlanillaDataTable">
+</member><member name="P:Planilla.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Planilla.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:Planilla.My.Resources.Resources.login">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Planilla.My.Resources.Resources.Nofoto">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Planilla.My.Resources.Resources.suvesa_logo">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Planilla.My.Resources.Resources.wallpaper2you_290966">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:Planilla.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:Planilla.DsReportePlanilla.MonedaDataTable">
 	<summary>
 Represents the strongly named DataTable class.
 </summary>
-</member><member name="T:Planilla.DsModificaPlanilla.Planilla_DetalleDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Planilla.DsModificaPlanilla.DeduccionesDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Planilla.DsModificaPlanilla.Planilla_DeduccionesDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Planilla.DsModificaPlanilla.AdelantosDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Planilla.DsModificaPlanilla.AccionPersonalDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Planilla.DsModificaPlanilla.MonedaDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Planilla.DsModificaPlanilla.Empleado_DeduccionesDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Planilla.DsModificaPlanilla.ParametroRentaDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Planilla.DsModificaPlanilla.Adelantos_DetalleDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Planilla.DsModificaPlanilla.EmpleadoDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Planilla.DsModificaPlanilla.PlanillaRow">
+</member><member name="T:Planilla.DsReportePlanilla.MonedaRow">
 	<summary>
 Represents strongly named DataRow class.
 </summary>
-</member><member name="T:Planilla.DsModificaPlanilla.Planilla_DetalleRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Planilla.DsModificaPlanilla.DeduccionesRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Planilla.DsModificaPlanilla.Planilla_DeduccionesRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Planilla.DsModificaPlanilla.AdelantosRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Planilla.DsModificaPlanilla.AccionPersonalRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Planilla.DsModificaPlanilla.MonedaRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Planilla.DsModificaPlanilla.Empleado_DeduccionesRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Planilla.DsModificaPlanilla.ParametroRentaRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Planilla.DsModificaPlanilla.Adelantos_DetalleRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Planilla.DsModificaPlanilla.EmpleadoRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Planilla.DsModificaPlanilla.PlanillaRowChangeEvent">
+</member><member name="T:Planilla.DsReportePlanilla.MonedaRowChangeEvent">
 	<summary>
 Row event argument class
 </summary>
-</member><member name="T:Planilla.DsModificaPlanilla.Planilla_DetalleRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Planilla.DsModificaPlanilla.DeduccionesRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Planilla.DsModificaPlanilla.Planilla_DeduccionesRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Planilla.DsModificaPlanilla.AdelantosRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Planilla.DsModificaPlanilla.AccionPersonalRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Planilla.DsModificaPlanilla.MonedaRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Planilla.DsModificaPlanilla.Empleado_DeduccionesRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Planilla.DsModificaPlanilla.ParametroRentaRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Planilla.DsModificaPlanilla.Adelantos_DetalleRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Planilla.DsModificaPlanilla.EmpleadoRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Planilla.DsModificaPlanilla">
-	<summary>
-Represents a strongly typed in-memory cache of data.
-</summary>
-</member><member name="T:Planilla.DataSetUsuario_logging.UsuariosDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Planilla.DataSetUsuario_logging.UsuariosRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Planilla.DataSetUsuario_logging.UsuariosRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Planilla.DataSetUsuario_logging">
-	<summary>
-Represents a strongly typed in-memory cache of data.
-</summary>
-</member><member name="T:Planilla.DataSetAccionPersonal.EmpleadoDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Planilla.DataSetAccionPersonal.AccionDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Planilla.DataSetAccionPersonal.AccionPersonalDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Planilla.DataSetAccionPersonal.EmpleadoRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Planilla.DataSetAccionPersonal.AccionRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Planilla.DataSetAccionPersonal.AccionPersonalRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Planilla.DataSetAccionPersonal.EmpleadoRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Planilla.DataSetAccionPersonal.AccionRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Planilla.DataSetAccionPersonal.AccionPersonalRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Planilla.DataSetAccionPersonal">
-	<summary>
-Represents a strongly typed in-memory cache of data.
-</summary>
-</member><member name="T:Planilla.DsPagoAutomatico.BancosDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Planilla.DsPagoAutomatico.Cuentas_bancariasDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Planilla.DsPagoAutomatico.TestKeyDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Planilla.DsPagoAutomatico.BancosRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Planilla.DsPagoAutomatico.Cuentas_bancariasRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Planilla.DsPagoAutomatico.TestKeyRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Planilla.DsPagoAutomatico.BancosRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Planilla.DsPagoAutomatico.Cuentas_bancariasRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Planilla.DsPagoAutomatico.TestKeyRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Planilla.DsPagoAutomatico">
-	<summary>
-Represents a strongly typed in-memory cache of data.
-</summary>
-</member><member name="T:Planilla.DSReporEmpleado.ProyectoDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Planilla.DSReporEmpleado.ProyectoRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Planilla.DSReporEmpleado.ProyectoRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Planilla.DSReporEmpleado">
-	<summary>
-Represents a strongly typed in-memory cache of data.
-</summary>
-</member><member name="T:Planilla.dsPlanilla2.Adelantos_DetalleDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Planilla.dsPlanilla2.Adelantos_DetalleRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Planilla.dsPlanilla2.Adelantos_DetalleRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Planilla.dsPlanilla2">
-	<summary>
-Represents a strongly typed in-memory cache of data.
-</summary>
-</member><member name="T:Planilla.dsReporteProyecto.ProyectoDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Planilla.dsReporteProyecto.EmpleadoDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Planilla.dsReporteProyecto.ProyectoRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Planilla.dsReporteProyecto.EmpleadoRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Planilla.dsReporteProyecto.ProyectoRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Planilla.dsReporteProyecto.EmpleadoRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Planilla.dsReporteProyecto">
+</member><member name="T:Planilla.DsReportePlanilla">
 	<summary>
 Represents a strongly typed in-memory cache of data.
 </summary>

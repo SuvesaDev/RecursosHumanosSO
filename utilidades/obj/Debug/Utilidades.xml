@@ -6,23 +6,7 @@ Utilidades
 </name>
 </assembly>
 <members>
-<member name="T:Utilidades.DataSetUsuario_logging.UsuariosDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Utilidades.DataSetUsuario_logging.UsuariosRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Utilidades.DataSetUsuario_logging.UsuariosRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Utilidades.DataSetUsuario_logging">
-	<summary>
-Represents a strongly typed in-memory cache of data.
-</summary>
-</member><member name="T:Utilidades.DataSetCatalogoInventario.CatalogoInventarioDataTable">
+<member name="T:Utilidades.DataSetCatalogoInventario.CatalogoInventarioDataTable">
 	<summary>
 Represents the strongly named DataTable class.
 </summary>
@@ -35,6 +19,22 @@ Represents strongly named DataRow class.
 Row event argument class
 </summary>
 </member><member name="T:Utilidades.DataSetCatalogoInventario">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Utilidades.DataSetUsuario_logging.UsuariosDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Utilidades.DataSetUsuario_logging.UsuariosRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Utilidades.DataSetUsuario_logging.UsuariosRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Utilidades.DataSetUsuario_logging">
 	<summary>
 Represents a strongly typed in-memory cache of data.
 </summary>
