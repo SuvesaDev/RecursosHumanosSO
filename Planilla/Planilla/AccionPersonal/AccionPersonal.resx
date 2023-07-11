@@ -118,14 +118,14 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <metadata name="ImageList2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>533, 56</value>
+    <value>174, 60</value>
   </metadata>
   <data name="ImageList2.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAuMC4w
         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
         ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAAD6
-        ugAAAk1TRnQBSQFMAgEBCgEAAbwBAAG8AQABIAEAASABAAT/ARkBAAj/AUIBTQE2BwABNgMAASgDAAGA
+        ugAAAk1TRnQBSQFMAgEBCgEAAcwBAAHMAQABIAEAASABAAT/ARkBAAj/AUIBTQE2BwABNgMAASgDAAGA
         AwABYAMAAQEBAAEYBgABkBsAA/0BYwE4AQgBYwE4AQgBYwE4AQgBYwE4AQgBYwE4AQgBYwE4AQgBYwE4
         AQgBYwE4AQgBYwE4AQgBYwE4AQgBYwE4AQgBYwE4AQgBYwE4AQgBYwE4AQgBYwE4AQgBYwE4AQgBYwE4
         AQgBYwE4AQgBYwE4AQgBYwE4AQgBYwE4AQgBYwE4AQgBYwE4AQgBYwE4AQgB2QHRAcgPAAGTAXYBWAFj
@@ -933,7 +933,7 @@
         AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAuMC4w
         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
         ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAADy
-        agAAAk1TRnQBSQFMAgEBCQEAAQ4BAAGsAQABIAEAASABAAT/ARkBEAj/AUIBTQE2BwABNgMAASgDAAGA
+        agAAAk1TRnQBSQFMAgEBCQEAAQ4BAAG8AQABIAEAASABAAT/ARkBEAj/AUIBTQE2BwABNgMAASgDAAGA
         AwABYAMAAQEBAAEYBgABkP8AtwACAQFdAgEBbQIBAXQCAQF0AgEBbQIBAV0CAQFK/wBjAAIBAXQCAAGG
         AgABiQIAAYUCAAGCAgABggIAAYACAAGAAgABgAIAAYICAAGCAgEBbQIBATj/AFQAAgEBeAICAZECAAGL
         AgABhQIAAYUCAAGFAgABhQIAAYYCAAGGAgABhQIAAYICAAGAAgABfwIAAYICAAGFAgEBdAIBATj/AE0A
@@ -1393,16 +1393,13 @@
 </value>
   </data>
   <metadata name="DataSetAccionPersonal1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>121, 17</value>
-  </metadata>
-  <metadata name="DataSetAccionPersonal1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>121, 17</value>
+    <value>139, 17</value>
   </metadata>
   <metadata name="SqlConnection1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>483, 17</value>
+    <value>576, 17</value>
   </metadata>
   <metadata name="AdapterAccionPersonal.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>305, 17</value>
+    <value>361, 17</value>
   </metadata>
   <metadata name="SqlDeleteCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>False</value>
@@ -1454,7 +1451,7 @@ FROM            AccionPersonal</value>
 SELECT Num_Accion, Id_Empleado, Nombre_Empleado, Puesto, Id_Accion, Fecha, Observaciones, RigeDesde, RigeHasta, DiasaDescontar, HechoPor, NombreUsuario, Anula, EstadoCambio, Cod_Estado, Liquidacion, AumentoSalario, SalarioActual, NuevoSalario FROM AccionPersonal WHERE (Num_Accion = @Num_Accion)</value>
   </data>
   <metadata name="AdapterEmpleado.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 56</value>
+    <value>1034, 17</value>
   </metadata>
   <metadata name="SqlDeleteCommand2.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>False</value>
@@ -1505,7 +1502,7 @@ SELECT Num_Accion, Id_Empleado, Nombre_Empleado, Puesto, Id_Accion, Fecha, Obser
     <value>UPDATE Empleado SET Identificacion = @Identificacion, Nombre = @Nombre, Estado_Civil = @Estado_Civil, Hijos = @Hijos, Cod_Nacionalidad = @Cod_Nacionalidad, Fecha_Nacimiento = @Fecha_Nacimiento, Edad = @Edad, Telefono1 = @Telefono1, Telefono2 = @Telefono2, Email = @Email, Direccion = @Direccion, Puesto = @Puesto, Fecha_Ingreso = @Fecha_Ingreso, Fecha_Salida = @Fecha_Salida, Salario = @Salario, Cod_Departamento = @Cod_Departamento, Masculino = @Masculino, Femenino = @Femenino, Cod_Moneda = @Cod_Moneda, Hora = @Hora, Diario = @Diario, Semana = @Semana, Quincena = @Quincena, Mensual = @Mensual, Cod_Estado = @Cod_Estado, Foto = @Foto WHERE (Identificacion = @Original_Identificacion) AND (Cod_Departamento = @Original_Cod_Departamento) AND (Cod_Estado = @Original_Cod_Estado) AND (Cod_Moneda = @Original_Cod_Moneda) AND (Cod_Nacionalidad = @Original_Cod_Nacionalidad) AND (Diario = @Original_Diario) AND (Direccion = @Original_Direccion) AND (Edad = @Original_Edad) AND (Email = @Original_Email) AND (Estado_Civil = @Original_Estado_Civil) AND (Fecha_Ingreso = @Original_Fecha_Ingreso) AND (Fecha_Nacimiento = @Original_Fecha_Nacimiento) AND (Fecha_Salida = @Original_Fecha_Salida) AND (Femenino = @Original_Femenino) AND (Hijos = @Original_Hijos) AND (Hora = @Original_Hora) AND (Masculino = @Original_Masculino) AND (Mensual = @Original_Mensual) AND (Nombre = @Original_Nombre) AND (Puesto = @Original_Puesto) AND (Quincena = @Original_Quincena) AND (Salario = @Original_Salario) AND (Semana = @Original_Semana) AND (Telefono1 = @Original_Telefono1) AND (Telefono2 = @Original_Telefono2); SELECT Identificacion, Nombre, Estado_Civil, Hijos, Cod_Nacionalidad, Fecha_Nacimiento, Edad, Telefono1, Telefono2, Email, Direccion, Puesto, Fecha_Ingreso, Fecha_Salida, Salario, Cod_Departamento, Masculino, Femenino, Cod_Moneda, Hora, Diario, Semana, Quincena, Mensual, Cod_Estado, Foto FROM Empleado WHERE (Identificacion = @Identificacion)</value>
   </data>
   <metadata name="AdapterAccion.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>401, 56</value>
+    <value>17, 60</value>
   </metadata>
   <metadata name="SqlDeleteCommand3.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>False</value>
@@ -1547,23 +1544,20 @@ SELECT Num_Accion, Id_Empleado, Nombre_Empleado, Puesto, Id_Accion, Fecha, Obser
     <value>UPDATE Accion SET Descripcion = @Descripcion, RangoFecha = @RangoFecha, Nombre = @Nombre WHERE (Codigo = @Original_Codigo) AND (Descripcion = @Original_Descripcion) AND (Nombre = @Original_Nombre) AND (RangoFecha = @Original_RangoFecha); SELECT Codigo, Descripcion, RangoFecha, Nombre FROM Accion WHERE (Codigo = @Codigo)</value>
   </data>
   <metadata name="DsEstado.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>299, 56</value>
-  </metadata>
-  <metadata name="DsEstado.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>299, 56</value>
+    <value>1370, 17</value>
   </metadata>
   <metadata name="SqlConnection2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>620, 17</value>
+    <value>740, 17</value>
   </metadata>
   <metadata name="ImageList1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>757, 17</value>
+    <value>904, 17</value>
   </metadata>
   <data name="ImageList1.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAuMC4w
         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
         ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAAAS
-        fgAAAk1TRnQBSQFMAgEBCgEAAawBAAGsAQABIAEAASABAAT/ARkBAAj/AUIBTQE2BwABNgMAASgDAAGA
+        fgAAAk1TRnQBSQFMAgEBCgEAAbwBAAG8AQABIAEAASABAAT/ARkBAAj/AUIBTQE2BwABNgMAASgDAAGA
         AwABYAMAAQEBAAEYBgABkC0AAdECAAHMAgAB0REAAcoCAAG2AgABvgIAAc5HAAMKAwP/AA8AAc8CAAG2
         AgABoAIAAa8CAAHFAgAB0QgAAccCAAHOAa0BpgHPAbMBqwGbARYBFQGoAgABwQIAAc8mAAEKAQcBBQEK
         AQYBBAEDAQIBAQECAwELAAMBAxoDIAMB/wAJAAHOAgABswIJAb0ChQG7AoEBuQJ+AZgCAAGvAgABxQIA
@@ -2104,7 +2098,7 @@ SELECT Num_Accion, Id_Empleado, Nombre_Empleado, Puesto, Id_Accion, Fecha, Obser
 </value>
   </data>
   <metadata name="AdapterEstado.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>167, 56</value>
+    <value>1213, 17</value>
   </metadata>
   <metadata name="SqlDeleteCommand5.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>False</value>

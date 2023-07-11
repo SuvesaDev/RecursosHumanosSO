@@ -1136,6 +1136,7 @@
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
     </Compile>
+    <Compile Include="Planilla\Empleado\Vacaciones\SaldoVacaciones.vb" />
     <Compile Include="Planilla\Empleado\Visor Reportes.vb">
       <SubType>Form</SubType>
     </Compile>

@@ -345,7 +345,7 @@ Public Class MenuPlanilla
         'MenuItem19
         '
         Me.MenuItem19.Index = 2
-        Me.MenuItem19.Text = "Ver. 14/06/2022"
+        Me.MenuItem19.Text = "Ver. 05/06/2023"
         '
         'Timer1
         '
@@ -398,7 +398,7 @@ Public Class MenuPlanilla
         Me.ToolBar1.Location = New System.Drawing.Point(0, 0)
         Me.ToolBar1.Name = "ToolBar1"
         Me.ToolBar1.ShowToolTips = True
-        Me.ToolBar1.Size = New System.Drawing.Size(728, 58)
+        Me.ToolBar1.Size = New System.Drawing.Size(1170, 58)
         Me.ToolBar1.TabIndex = 16
         '
         'ToolBarButton1
@@ -465,7 +465,7 @@ Public Class MenuPlanilla
         '
         Me.AutoScaleBaseSize = New System.Drawing.Size(5, 13)
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
-        Me.ClientSize = New System.Drawing.Size(728, 454)
+        Me.ClientSize = New System.Drawing.Size(1170, 454)
         Me.Controls.Add(Me.ToolBar1)
         Me.Controls.Add(Me.PictureBox1)
         Me.IsMdiContainer = True

@@ -72,3 +72,20 @@ C:\Users\Juan Diego\Documents\GitHub\RecursosHumanosSO\utilidades\obj\Debug\Util
 C:\Users\Juan Diego\Documents\GitHub\RecursosHumanosSO\utilidades\obj\Debug\Utilidades.dll
 C:\Users\Juan Diego\Documents\GitHub\RecursosHumanosSO\utilidades\obj\Debug\Utilidades.xml
 C:\Users\Juan Diego\Documents\GitHub\RecursosHumanosSO\utilidades\obj\Debug\Utilidades.pdb
+C:\Users\LENOVO\Documents\GitHub\RecursosHumanosSO\utilidades\bin\Utilidades.dll
+C:\Users\LENOVO\Documents\GitHub\RecursosHumanosSO\utilidades\bin\Utilidades.pdb
+C:\Users\LENOVO\Documents\GitHub\RecursosHumanosSO\utilidades\bin\Utilidades.xml
+C:\Users\LENOVO\Documents\GitHub\RecursosHumanosSO\utilidades\obj\Debug\Utilidades.Buscar.resources
+C:\Users\LENOVO\Documents\GitHub\RecursosHumanosSO\utilidades\obj\Debug\Utilidades.FrmBuscarArticulo.resources
+C:\Users\LENOVO\Documents\GitHub\RecursosHumanosSO\utilidades\obj\Debug\Utilidades.FrmBuscador.resources
+C:\Users\LENOVO\Documents\GitHub\RecursosHumanosSO\utilidades\obj\Debug\Utilidades.FrmBuscador5C.resources
+C:\Users\LENOVO\Documents\GitHub\RecursosHumanosSO\utilidades\obj\Debug\Utilidades.FrmBuscadorN.resources
+C:\Users\LENOVO\Documents\GitHub\RecursosHumanosSO\utilidades\obj\Debug\Utilidades.FrmPlantilla.resources
+C:\Users\LENOVO\Documents\GitHub\RecursosHumanosSO\utilidades\obj\Debug\Utilidades.FrmRespaldo.resources
+C:\Users\LENOVO\Documents\GitHub\RecursosHumanosSO\utilidades\obj\Debug\Utilidades.frmCambioContrasena.resources
+C:\Users\LENOVO\Documents\GitHub\RecursosHumanosSO\utilidades\obj\Debug\Utilidades.Frm_login.resources
+C:\Users\LENOVO\Documents\GitHub\RecursosHumanosSO\utilidades\obj\Debug\Utilidades.frmVisorReportes.resources
+C:\Users\LENOVO\Documents\GitHub\RecursosHumanosSO\utilidades\obj\Debug\Utilidades.vbproj.GenerateResource.Cache
+C:\Users\LENOVO\Documents\GitHub\RecursosHumanosSO\utilidades\obj\Debug\Utilidades.dll
+C:\Users\LENOVO\Documents\GitHub\RecursosHumanosSO\utilidades\obj\Debug\Utilidades.xml
+C:\Users\LENOVO\Documents\GitHub\RecursosHumanosSO\utilidades\obj\Debug\Utilidades.pdb

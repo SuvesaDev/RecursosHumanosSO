@@ -61,34 +61,34 @@ Public Class ReportesVacaciones1
     Friend WithEvents Label3 As System.Windows.Forms.Label
     Friend WithEvents ComboBox2 As System.Windows.Forms.ComboBox
     <System.Diagnostics.DebuggerStepThrough()> Private Sub InitializeComponent()
-        Me.components = New System.ComponentModel.Container
-        Dim resources As System.Resources.ResourceManager = New System.Resources.ResourceManager(GetType(ReportesVacaciones1))
-        Me.Panel1 = New System.Windows.Forms.Panel
-        Me.ComboBox2 = New System.Windows.Forms.ComboBox
-        Me.DsReportes = New Planilla.DsReportes
-        Me.Label3 = New System.Windows.Forms.Label
-        Me.Label2 = New System.Windows.Forms.Label
-        Me.Label9 = New System.Windows.Forms.Label
-        Me.dtFechaFinal = New System.Windows.Forms.DateTimePicker
-        Me.dtFechaInicio = New System.Windows.Forms.DateTimePicker
-        Me.RadioButton3 = New System.Windows.Forms.RadioButton
-        Me.Label1 = New System.Windows.Forms.Label
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox
-        Me.ButtonMostrar = New DevExpress.XtraEditors.SimpleButton
+        Me.components = New System.ComponentModel.Container()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(ReportesVacaciones1))
+        Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.ComboBox2 = New System.Windows.Forms.ComboBox()
+        Me.DsReportes = New Planilla.DsReportes()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.dtFechaFinal = New System.Windows.Forms.DateTimePicker()
+        Me.dtFechaInicio = New System.Windows.Forms.DateTimePicker()
+        Me.RadioButton3 = New System.Windows.Forms.RadioButton()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
+        Me.ButtonMostrar = New DevExpress.XtraEditors.SimpleButton()
         Me.ImageList1 = New System.Windows.Forms.ImageList(Me.components)
-        Me.RadioButton1 = New System.Windows.Forms.RadioButton
-        Me.CrystalReportViewer2 = New CrystalDecisions.Windows.Forms.CrystalReportViewer
-        Me.SqlConnection1 = New System.Data.SqlClient.SqlConnection
-        Me.adEmpleado = New System.Data.SqlClient.SqlDataAdapter
-        Me.SqlDeleteCommand1 = New System.Data.SqlClient.SqlCommand
-        Me.SqlInsertCommand1 = New System.Data.SqlClient.SqlCommand
-        Me.SqlSelectCommand1 = New System.Data.SqlClient.SqlCommand
-        Me.SqlUpdateCommand1 = New System.Data.SqlClient.SqlCommand
-        Me.adAccion = New System.Data.SqlClient.SqlDataAdapter
-        Me.SqlDeleteCommand2 = New System.Data.SqlClient.SqlCommand
-        Me.SqlInsertCommand2 = New System.Data.SqlClient.SqlCommand
-        Me.SqlSelectCommand2 = New System.Data.SqlClient.SqlCommand
-        Me.SqlUpdateCommand2 = New System.Data.SqlClient.SqlCommand
+        Me.RadioButton1 = New System.Windows.Forms.RadioButton()
+        Me.CrystalReportViewer2 = New CrystalDecisions.Windows.Forms.CrystalReportViewer()
+        Me.SqlConnection1 = New System.Data.SqlClient.SqlConnection()
+        Me.adEmpleado = New System.Data.SqlClient.SqlDataAdapter()
+        Me.SqlDeleteCommand1 = New System.Data.SqlClient.SqlCommand()
+        Me.SqlInsertCommand1 = New System.Data.SqlClient.SqlCommand()
+        Me.SqlSelectCommand1 = New System.Data.SqlClient.SqlCommand()
+        Me.SqlUpdateCommand1 = New System.Data.SqlClient.SqlCommand()
+        Me.adAccion = New System.Data.SqlClient.SqlDataAdapter()
+        Me.SqlDeleteCommand2 = New System.Data.SqlClient.SqlCommand()
+        Me.SqlInsertCommand2 = New System.Data.SqlClient.SqlCommand()
+        Me.SqlSelectCommand2 = New System.Data.SqlClient.SqlCommand()
+        Me.SqlUpdateCommand2 = New System.Data.SqlClient.SqlCommand()
         Me.Panel1.SuspendLayout()
         CType(Me.DsReportes, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -96,7 +96,7 @@ Public Class ReportesVacaciones1
         'Panel1
         '
         Me.Panel1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-                    Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
         Me.Panel1.BackColor = System.Drawing.SystemColors.InactiveCaptionText
         Me.Panel1.Controls.Add(Me.ComboBox2)
         Me.Panel1.Controls.Add(Me.Label3)
@@ -111,7 +111,7 @@ Public Class ReportesVacaciones1
         Me.Panel1.Controls.Add(Me.RadioButton1)
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(200, 664)
+        Me.Panel1.Size = New System.Drawing.Size(200, 663)
         Me.Panel1.TabIndex = 3
         '
         'ComboBox2
@@ -128,6 +128,7 @@ Public Class ReportesVacaciones1
         '
         Me.DsReportes.DataSetName = "DsReportes"
         Me.DsReportes.Locale = New System.Globalization.CultureInfo("es-MX")
+        Me.DsReportes.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
         '
         'Label3
         '
@@ -170,7 +171,7 @@ Public Class ReportesVacaciones1
         '
         Me.dtFechaFinal.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right
         Me.dtFechaFinal.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.dtFechaFinal.Format = System.Windows.Forms.DateTimePickerFormat.Short
+        Me.dtFechaFinal.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
         Me.dtFechaFinal.Location = New System.Drawing.Point(104, 328)
         Me.dtFechaFinal.MaxDate = New Date(2050, 12, 31, 0, 0, 0, 0)
         Me.dtFechaFinal.MinDate = New Date(1995, 1, 1, 0, 0, 0, 0)
@@ -183,7 +184,7 @@ Public Class ReportesVacaciones1
         '
         Me.dtFechaInicio.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right
         Me.dtFechaInicio.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.dtFechaInicio.Format = System.Windows.Forms.DateTimePickerFormat.Short
+        Me.dtFechaInicio.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
         Me.dtFechaInicio.Location = New System.Drawing.Point(104, 288)
         Me.dtFechaInicio.MaxDate = New Date(2050, 12, 31, 0, 0, 0, 0)
         Me.dtFechaInicio.MinDate = New Date(1980, 1, 1, 0, 0, 0, 0)
@@ -227,7 +228,7 @@ Public Class ReportesVacaciones1
         Me.ButtonMostrar.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Style3D
         Me.ButtonMostrar.ImageIndex = 0
         Me.ButtonMostrar.ImageList = Me.ImageList1
-        Me.ButtonMostrar.Location = New System.Drawing.Point(24, 384)
+        Me.ButtonMostrar.Location = New System.Drawing.Point(24, 444)
         Me.ButtonMostrar.Name = "ButtonMostrar"
         Me.ButtonMostrar.Size = New System.Drawing.Size(152, 48)
         Me.ButtonMostrar.Style = New DevExpress.Utils.ViewStyle("ControlStyle", Nothing, New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold), "", DevExpress.Utils.StyleOptions.StyleEnabled, True, False, False, DevExpress.Utils.HorzAlignment.Center, DevExpress.Utils.VertAlignment.Center, Nothing, System.Drawing.SystemColors.InactiveCaptionText, System.Drawing.Color.RoyalBlue)
@@ -236,9 +237,9 @@ Public Class ReportesVacaciones1
         '
         'ImageList1
         '
-        Me.ImageList1.ImageSize = New System.Drawing.Size(48, 48)
         Me.ImageList1.ImageStream = CType(resources.GetObject("ImageList1.ImageStream"), System.Windows.Forms.ImageListStreamer)
         Me.ImageList1.TransparentColor = System.Drawing.Color.Transparent
+        Me.ImageList1.Images.SetKeyName(0, "")
         '
         'RadioButton1
         '
@@ -256,21 +257,22 @@ Public Class ReportesVacaciones1
         '
         Me.CrystalReportViewer2.ActiveViewIndex = -1
         Me.CrystalReportViewer2.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-                    Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.CrystalReportViewer2.DisplayGroupTree = False
-        Me.CrystalReportViewer2.Location = New System.Drawing.Point(216, 24)
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.CrystalReportViewer2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.CrystalReportViewer2.Cursor = System.Windows.Forms.Cursors.Default
+        Me.CrystalReportViewer2.Location = New System.Drawing.Point(199, 0)
         Me.CrystalReportViewer2.Name = "CrystalReportViewer2"
-        Me.CrystalReportViewer2.ReportSource = Nothing
         Me.CrystalReportViewer2.ShowGroupTreeButton = False
         Me.CrystalReportViewer2.ShowRefreshButton = False
-        Me.CrystalReportViewer2.Size = New System.Drawing.Size(768, 656)
+        Me.CrystalReportViewer2.Size = New System.Drawing.Size(1040, 661)
         Me.CrystalReportViewer2.TabIndex = 4
         '
         'SqlConnection1
         '
         Me.SqlConnection1.ConnectionString = "workstation id=MARIANO;packet size=4096;integrated security=SSPI;data source=""(lo" & _
-        "cal)"";persist security info=False;initial catalog=Planilla"
+    "cal)"";persist security info=False;initial catalog=Planilla"
+        Me.SqlConnection1.FireInfoMessageEventOnUserErrors = False
         '
         'adEmpleado
         '
@@ -283,19 +285,17 @@ Public Class ReportesVacaciones1
         'SqlDeleteCommand1
         '
         Me.SqlDeleteCommand1.CommandText = "DELETE FROM Empleado WHERE (Identificacion = @Original_Identificacion) AND (Nombr" & _
-        "e = @Original_Nombre)"
+    "e = @Original_Nombre)"
         Me.SqlDeleteCommand1.Connection = Me.SqlConnection1
-        Me.SqlDeleteCommand1.Parameters.Add(New System.Data.SqlClient.SqlParameter("@Original_Identificacion", System.Data.SqlDbType.VarChar, 75, System.Data.ParameterDirection.Input, False, CType(0, Byte), CType(0, Byte), "Identificacion", System.Data.DataRowVersion.Original, Nothing))
-        Me.SqlDeleteCommand1.Parameters.Add(New System.Data.SqlClient.SqlParameter("@Original_Nombre", System.Data.SqlDbType.VarChar, 100, System.Data.ParameterDirection.Input, False, CType(0, Byte), CType(0, Byte), "Nombre", System.Data.DataRowVersion.Original, Nothing))
+        Me.SqlDeleteCommand1.Parameters.AddRange(New System.Data.SqlClient.SqlParameter() {New System.Data.SqlClient.SqlParameter("@Original_Identificacion", System.Data.SqlDbType.VarChar, 75, System.Data.ParameterDirection.Input, False, CType(0, Byte), CType(0, Byte), "Identificacion", System.Data.DataRowVersion.Original, Nothing), New System.Data.SqlClient.SqlParameter("@Original_Nombre", System.Data.SqlDbType.VarChar, 100, System.Data.ParameterDirection.Input, False, CType(0, Byte), CType(0, Byte), "Nombre", System.Data.DataRowVersion.Original, Nothing)})
         '
         'SqlInsertCommand1
         '
         Me.SqlInsertCommand1.CommandText = "INSERT INTO Empleado(Identificacion, Nombre) VALUES (@Identificacion, @Nombre); S" & _
-        "ELECT Identificacion, Nombre FROM Empleado WHERE (Identificacion = @Identificaci" & _
-        "on)"
+    "ELECT Identificacion, Nombre FROM Empleado WHERE (Identificacion = @Identificaci" & _
+    "on)"
         Me.SqlInsertCommand1.Connection = Me.SqlConnection1
-        Me.SqlInsertCommand1.Parameters.Add(New System.Data.SqlClient.SqlParameter("@Identificacion", System.Data.SqlDbType.VarChar, 75, "Identificacion"))
-        Me.SqlInsertCommand1.Parameters.Add(New System.Data.SqlClient.SqlParameter("@Nombre", System.Data.SqlDbType.VarChar, 100, "Nombre"))
+        Me.SqlInsertCommand1.Parameters.AddRange(New System.Data.SqlClient.SqlParameter() {New System.Data.SqlClient.SqlParameter("@Identificacion", System.Data.SqlDbType.VarChar, 75, "Identificacion"), New System.Data.SqlClient.SqlParameter("@Nombre", System.Data.SqlDbType.VarChar, 100, "Nombre")})
         '
         'SqlSelectCommand1
         '
@@ -304,14 +304,9 @@ Public Class ReportesVacaciones1
         '
         'SqlUpdateCommand1
         '
-        Me.SqlUpdateCommand1.CommandText = "UPDATE Empleado SET Identificacion = @Identificacion, Nombre = @Nombre WHERE (Ide" & _
-        "ntificacion = @Original_Identificacion) AND (Nombre = @Original_Nombre); SELECT " & _
-        "Identificacion, Nombre FROM Empleado WHERE (Identificacion = @Identificacion)"
+        Me.SqlUpdateCommand1.CommandText = resources.GetString("SqlUpdateCommand1.CommandText")
         Me.SqlUpdateCommand1.Connection = Me.SqlConnection1
-        Me.SqlUpdateCommand1.Parameters.Add(New System.Data.SqlClient.SqlParameter("@Identificacion", System.Data.SqlDbType.VarChar, 75, "Identificacion"))
-        Me.SqlUpdateCommand1.Parameters.Add(New System.Data.SqlClient.SqlParameter("@Nombre", System.Data.SqlDbType.VarChar, 100, "Nombre"))
-        Me.SqlUpdateCommand1.Parameters.Add(New System.Data.SqlClient.SqlParameter("@Original_Identificacion", System.Data.SqlDbType.VarChar, 75, System.Data.ParameterDirection.Input, False, CType(0, Byte), CType(0, Byte), "Identificacion", System.Data.DataRowVersion.Original, Nothing))
-        Me.SqlUpdateCommand1.Parameters.Add(New System.Data.SqlClient.SqlParameter("@Original_Nombre", System.Data.SqlDbType.VarChar, 100, System.Data.ParameterDirection.Input, False, CType(0, Byte), CType(0, Byte), "Nombre", System.Data.DataRowVersion.Original, Nothing))
+        Me.SqlUpdateCommand1.Parameters.AddRange(New System.Data.SqlClient.SqlParameter() {New System.Data.SqlClient.SqlParameter("@Identificacion", System.Data.SqlDbType.VarChar, 75, "Identificacion"), New System.Data.SqlClient.SqlParameter("@Nombre", System.Data.SqlDbType.VarChar, 100, "Nombre"), New System.Data.SqlClient.SqlParameter("@Original_Identificacion", System.Data.SqlDbType.VarChar, 75, System.Data.ParameterDirection.Input, False, CType(0, Byte), CType(0, Byte), "Identificacion", System.Data.DataRowVersion.Original, Nothing), New System.Data.SqlClient.SqlParameter("@Original_Nombre", System.Data.SqlDbType.VarChar, 100, System.Data.ParameterDirection.Input, False, CType(0, Byte), CType(0, Byte), "Nombre", System.Data.DataRowVersion.Original, Nothing)})
         '
         'adAccion
         '
@@ -324,23 +319,18 @@ Public Class ReportesVacaciones1
         'SqlDeleteCommand2
         '
         Me.SqlDeleteCommand2.CommandText = "DELETE FROM Accion WHERE (Codigo = @Original_Codigo) AND (Descripcion = @Original" & _
-        "_Descripcion) AND (Nombre = @Original_Nombre) AND (RangoFecha = @Original_RangoF" & _
-        "echa)"
+    "_Descripcion) AND (Nombre = @Original_Nombre) AND (RangoFecha = @Original_RangoF" & _
+    "echa)"
         Me.SqlDeleteCommand2.Connection = Me.SqlConnection1
-        Me.SqlDeleteCommand2.Parameters.Add(New System.Data.SqlClient.SqlParameter("@Original_Codigo", System.Data.SqlDbType.Int, 4, System.Data.ParameterDirection.Input, False, CType(0, Byte), CType(0, Byte), "Codigo", System.Data.DataRowVersion.Original, Nothing))
-        Me.SqlDeleteCommand2.Parameters.Add(New System.Data.SqlClient.SqlParameter("@Original_Descripcion", System.Data.SqlDbType.VarChar, 150, System.Data.ParameterDirection.Input, False, CType(0, Byte), CType(0, Byte), "Descripcion", System.Data.DataRowVersion.Original, Nothing))
-        Me.SqlDeleteCommand2.Parameters.Add(New System.Data.SqlClient.SqlParameter("@Original_Nombre", System.Data.SqlDbType.VarChar, 150, System.Data.ParameterDirection.Input, False, CType(0, Byte), CType(0, Byte), "Nombre", System.Data.DataRowVersion.Original, Nothing))
-        Me.SqlDeleteCommand2.Parameters.Add(New System.Data.SqlClient.SqlParameter("@Original_RangoFecha", System.Data.SqlDbType.Bit, 1, System.Data.ParameterDirection.Input, False, CType(0, Byte), CType(0, Byte), "RangoFecha", System.Data.DataRowVersion.Original, Nothing))
+        Me.SqlDeleteCommand2.Parameters.AddRange(New System.Data.SqlClient.SqlParameter() {New System.Data.SqlClient.SqlParameter("@Original_Codigo", System.Data.SqlDbType.Int, 4, System.Data.ParameterDirection.Input, False, CType(0, Byte), CType(0, Byte), "Codigo", System.Data.DataRowVersion.Original, Nothing), New System.Data.SqlClient.SqlParameter("@Original_Descripcion", System.Data.SqlDbType.VarChar, 150, System.Data.ParameterDirection.Input, False, CType(0, Byte), CType(0, Byte), "Descripcion", System.Data.DataRowVersion.Original, Nothing), New System.Data.SqlClient.SqlParameter("@Original_Nombre", System.Data.SqlDbType.VarChar, 150, System.Data.ParameterDirection.Input, False, CType(0, Byte), CType(0, Byte), "Nombre", System.Data.DataRowVersion.Original, Nothing), New System.Data.SqlClient.SqlParameter("@Original_RangoFecha", System.Data.SqlDbType.Bit, 1, System.Data.ParameterDirection.Input, False, CType(0, Byte), CType(0, Byte), "RangoFecha", System.Data.DataRowVersion.Original, Nothing)})
         '
         'SqlInsertCommand2
         '
         Me.SqlInsertCommand2.CommandText = "INSERT INTO Accion(Descripcion, RangoFecha, Nombre) VALUES (@Descripcion, @RangoF" & _
-        "echa, @Nombre); SELECT Codigo, Descripcion, RangoFecha, Nombre FROM Accion WHERE" & _
-        " (Codigo = @@IDENTITY)"
+    "echa, @Nombre); SELECT Codigo, Descripcion, RangoFecha, Nombre FROM Accion WHERE" & _
+    " (Codigo = @@IDENTITY)"
         Me.SqlInsertCommand2.Connection = Me.SqlConnection1
-        Me.SqlInsertCommand2.Parameters.Add(New System.Data.SqlClient.SqlParameter("@Descripcion", System.Data.SqlDbType.VarChar, 150, "Descripcion"))
-        Me.SqlInsertCommand2.Parameters.Add(New System.Data.SqlClient.SqlParameter("@RangoFecha", System.Data.SqlDbType.Bit, 1, "RangoFecha"))
-        Me.SqlInsertCommand2.Parameters.Add(New System.Data.SqlClient.SqlParameter("@Nombre", System.Data.SqlDbType.VarChar, 150, "Nombre"))
+        Me.SqlInsertCommand2.Parameters.AddRange(New System.Data.SqlClient.SqlParameter() {New System.Data.SqlClient.SqlParameter("@Descripcion", System.Data.SqlDbType.VarChar, 150, "Descripcion"), New System.Data.SqlClient.SqlParameter("@RangoFecha", System.Data.SqlDbType.Bit, 1, "RangoFecha"), New System.Data.SqlClient.SqlParameter("@Nombre", System.Data.SqlDbType.VarChar, 150, "Nombre")})
         '
         'SqlSelectCommand2
         '
@@ -349,30 +339,19 @@ Public Class ReportesVacaciones1
         '
         'SqlUpdateCommand2
         '
-        Me.SqlUpdateCommand2.CommandText = "UPDATE Accion SET Descripcion = @Descripcion, RangoFecha = @RangoFecha, Nombre = " & _
-        "@Nombre WHERE (Codigo = @Original_Codigo) AND (Descripcion = @Original_Descripci" & _
-        "on) AND (Nombre = @Original_Nombre) AND (RangoFecha = @Original_RangoFecha); SEL" & _
-        "ECT Codigo, Descripcion, RangoFecha, Nombre FROM Accion WHERE (Codigo = @Codigo)" & _
-        ""
+        Me.SqlUpdateCommand2.CommandText = resources.GetString("SqlUpdateCommand2.CommandText")
         Me.SqlUpdateCommand2.Connection = Me.SqlConnection1
-        Me.SqlUpdateCommand2.Parameters.Add(New System.Data.SqlClient.SqlParameter("@Descripcion", System.Data.SqlDbType.VarChar, 150, "Descripcion"))
-        Me.SqlUpdateCommand2.Parameters.Add(New System.Data.SqlClient.SqlParameter("@RangoFecha", System.Data.SqlDbType.Bit, 1, "RangoFecha"))
-        Me.SqlUpdateCommand2.Parameters.Add(New System.Data.SqlClient.SqlParameter("@Nombre", System.Data.SqlDbType.VarChar, 150, "Nombre"))
-        Me.SqlUpdateCommand2.Parameters.Add(New System.Data.SqlClient.SqlParameter("@Original_Codigo", System.Data.SqlDbType.Int, 4, System.Data.ParameterDirection.Input, False, CType(0, Byte), CType(0, Byte), "Codigo", System.Data.DataRowVersion.Original, Nothing))
-        Me.SqlUpdateCommand2.Parameters.Add(New System.Data.SqlClient.SqlParameter("@Original_Descripcion", System.Data.SqlDbType.VarChar, 150, System.Data.ParameterDirection.Input, False, CType(0, Byte), CType(0, Byte), "Descripcion", System.Data.DataRowVersion.Original, Nothing))
-        Me.SqlUpdateCommand2.Parameters.Add(New System.Data.SqlClient.SqlParameter("@Original_Nombre", System.Data.SqlDbType.VarChar, 150, System.Data.ParameterDirection.Input, False, CType(0, Byte), CType(0, Byte), "Nombre", System.Data.DataRowVersion.Original, Nothing))
-        Me.SqlUpdateCommand2.Parameters.Add(New System.Data.SqlClient.SqlParameter("@Original_RangoFecha", System.Data.SqlDbType.Bit, 1, System.Data.ParameterDirection.Input, False, CType(0, Byte), CType(0, Byte), "RangoFecha", System.Data.DataRowVersion.Original, Nothing))
-        Me.SqlUpdateCommand2.Parameters.Add(New System.Data.SqlClient.SqlParameter("@Codigo", System.Data.SqlDbType.Int, 4, "Codigo"))
+        Me.SqlUpdateCommand2.Parameters.AddRange(New System.Data.SqlClient.SqlParameter() {New System.Data.SqlClient.SqlParameter("@Descripcion", System.Data.SqlDbType.VarChar, 150, "Descripcion"), New System.Data.SqlClient.SqlParameter("@RangoFecha", System.Data.SqlDbType.Bit, 1, "RangoFecha"), New System.Data.SqlClient.SqlParameter("@Nombre", System.Data.SqlDbType.VarChar, 150, "Nombre"), New System.Data.SqlClient.SqlParameter("@Original_Codigo", System.Data.SqlDbType.Int, 4, System.Data.ParameterDirection.Input, False, CType(0, Byte), CType(0, Byte), "Codigo", System.Data.DataRowVersion.Original, Nothing), New System.Data.SqlClient.SqlParameter("@Original_Descripcion", System.Data.SqlDbType.VarChar, 150, System.Data.ParameterDirection.Input, False, CType(0, Byte), CType(0, Byte), "Descripcion", System.Data.DataRowVersion.Original, Nothing), New System.Data.SqlClient.SqlParameter("@Original_Nombre", System.Data.SqlDbType.VarChar, 150, System.Data.ParameterDirection.Input, False, CType(0, Byte), CType(0, Byte), "Nombre", System.Data.DataRowVersion.Original, Nothing), New System.Data.SqlClient.SqlParameter("@Original_RangoFecha", System.Data.SqlDbType.Bit, 1, System.Data.ParameterDirection.Input, False, CType(0, Byte), CType(0, Byte), "RangoFecha", System.Data.DataRowVersion.Original, Nothing), New System.Data.SqlClient.SqlParameter("@Codigo", System.Data.SqlDbType.Int, 4, "Codigo")})
         '
         'ReportesVacaciones1
         '
         Me.AutoScaleBaseSize = New System.Drawing.Size(5, 13)
-        Me.ClientSize = New System.Drawing.Size(976, 662)
+        Me.ClientSize = New System.Drawing.Size(1239, 662)
         Me.Controls.Add(Me.CrystalReportViewer2)
         Me.Controls.Add(Me.Panel1)
         Me.Name = "ReportesVacaciones1"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Reportes de Vacaciones"
-        Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.Panel1.ResumeLayout(False)
         CType(Me.DsReportes, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
@@ -382,6 +361,7 @@ Public Class ReportesVacaciones1
 #End Region
 
     Private Sub FrmEntradaSalida_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+        Me.WindowState = FormWindowState.Maximized
         Dim cx As New cFunciones
         SqlConnection1.ConnectionString = GetSetting("Seesoft", "Planilla", "CONEXION")
         Me.DsReportes.Clear()
@@ -517,8 +497,6 @@ Public Class ReportesVacaciones1
         End Try
     End Function
 
-
-
     Function ValidarCheck()
         Dim cx As New cFunciones
         If RadioButton3.Checked = True Then
@@ -541,23 +519,27 @@ Public Class ReportesVacaciones1
     End Sub
 
     Private Sub ButtonMostrar_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonMostrar.Click
-
+        Dim cls As New SaldoVacaciones
         If RadioButton1.Checked = True Then
-            Dim ReporteFecha As New VacacionesGeneral
-            ReporteFecha.SetParameterValue(0, dtFechaFinal.Value)
-            CrystalReportsConexion.LoadReportViewer(Me.CrystalReportViewer2, ReporteFecha)
-            Me.CrystalReportViewer2.Show()
+            If cls.GenerarMesesAcumulados(Me.dtFechaFinal.Value) = True Then
+                Dim ReporteFecha As New VacacionesGeneral
+                ReporteFecha.SetParameterValue(0, dtFechaFinal.Value)
+                CrystalReportsConexion.LoadReportViewer(Me.CrystalReportViewer2, ReporteFecha)
+                Me.CrystalReportViewer2.Show()
+            End If
         End If
 
+
         If RadioButton3.Checked = True Then
-            
-            Dim ReporteFecha As New ReporteVacacionesSt
-            ReporteFecha.SetParameterValue(0, Date.Today)
-            Dim ingreso As DateTime = Me.BindingContext(Me.DsReportes, "Empleado").Current("Fecha_Ingreso")
-            ReporteFecha.SetParameterValue(1, ingreso)
-            ReporteFecha.SetParameterValue(2, Me.BindingContext(Me.DsReportes, "Empleado").Current("Identificacion"))
-            CrystalReportsConexion.LoadReportViewer(Me.CrystalReportViewer2, ReporteFecha)
-            Me.CrystalReportViewer2.Show()
+            If cls.GenerarMesesAcumulados(Me.dtFechaFinal.Value) = True Then
+                Dim ReporteFecha As New ReporteVacacionesSt
+                ReporteFecha.SetParameterValue(0, Date.Today)
+                Dim ingreso As DateTime = Me.BindingContext(Me.DsReportes, "Empleado").Current("Fecha_Ingreso")
+                ReporteFecha.SetParameterValue(1, ingreso)
+                ReporteFecha.SetParameterValue(2, Me.BindingContext(Me.DsReportes, "Empleado").Current("Identificacion"))
+                CrystalReportsConexion.LoadReportViewer(Me.CrystalReportViewer2, ReporteFecha)
+                Me.CrystalReportViewer2.Show()
+            End If
         End If
 
     End Sub
